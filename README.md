@@ -5,8 +5,10 @@ coverY: 0
 layout: landing
 ---
 
-# Mainsail
+# Welcome
 
-![Mainsail](.gitbook/assets/logo.png)
+![](.gitbook/assets/logo.png)
+
+## Mainsail
 
 Mainsail makes Klipper more accessible by adding a lightweight, responsive web user interface, centred around an intuitive and consistent design philosophy.
