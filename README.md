@@ -22,6 +22,9 @@ If you already have a Klipper printer with Moonraker, you can even start right a
 
 ## 100% Open Source
 
-Mainsail is a free and open source software released under the GPL3. The complete source code is available in the Github repository and anyone can help improve the project.
+Those who believe that open source software is just software that is free of charge have misunderstood and will never be able to fully use the potentials of free software.
 
-## ****
+Mainsail is a free and open source software released under the GPL3. The complete source code is available in the Github repository and anyone can help improve the project.&#x20;
+
+Anything that contributes to the project to make it bug-free, more comprehensive, more beautiful and simply BETTER is appreciated.
+
