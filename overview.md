@@ -2,7 +2,9 @@
 description: >-
   Mainsail makes Klipper more accessible by adding a lightweight, responsive web
   user interface, centred around an intuitive and consistent design philosophy.
-coverY: -569.4409937888199
+cover: >-
+  https://images.unsplash.com/photo-1506875644286-0fa3dc4df91f?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxkYXJrJTIwd2F2ZXN8ZW58MHx8fHwxNjU3MjAzOTAw&ixlib=rb-1.2.1&q=80
+coverY: 0
 ---
 
 # Getting started

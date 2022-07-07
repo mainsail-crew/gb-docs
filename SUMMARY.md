@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Mainsail](README.md)
-* [Getting started](getting-started/README.md)
-  * [Setup](getting-started/setup/README.md)
-    * [MainsailOS](getting-started/setup/mainsailos/README.md)
-      * [RaspberryPi Imager](getting-started/setup/mainsailos/raspberrypi-imager.md)
+* [Getting started](overview.md)
+  * [Setup](setup/README.md)
+    * [MainsailOS](setup/mainsailos/README.md)
+      * [RaspberryPi Imager](setup/mainsailos/raspberrypi-imager.md)
 * [Credits](credits.md)
