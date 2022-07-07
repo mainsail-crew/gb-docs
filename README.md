@@ -8,11 +8,20 @@ coverY: 0
 layout: landing
 ---
 
-# Mainsail
+# Welcome
 
-## Ready to go in 10 minutes
+## Ready to go in under 10 minutes
 
-{% content-ref url="https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/" %}
-[MainsailOS](https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)
-{% endcontent-ref %}
+![](.gitbook/assets/RASP\_PI\_4\_B\_01\_ANW.png)
 
+Whether you simply flash our ready-made MainsailOS image or use third-party tools such as KIAUH to set it up, Mainsail and the printer firmware Klipper are ready to use in almost no time.
+
+If you already have a Klipper printer with Moonraker, you can even start right away.
+
+## **Full remote control**
+
+## 100% Open Source
+
+Mainsail is a free and open source software released under the GPL3. The complete source code is available in the Github repository and anyone can help improve the project.
+
+## ****

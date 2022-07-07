@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Mainsail](README.md)
+* [Welcome](README.md)
 * [Getting started](overview.md)
   * [Setup](setup/README.md)
     * [MainsailOS](setup/mainsailos/README.md)
