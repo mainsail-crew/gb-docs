@@ -2,10 +2,10 @@
 description: >-
   Mainsail makes Klipper more accessible by adding a lightweight, responsive web
   user interface, centred around an intuitive and consistent design philosophy.
-layout: landing
+layout: editorial
 ---
 
-# Welcome to Mainsail
+# Overview
 
 Mainsail is also available in remote mode on [http://my.mainsail.xyz](http://my.mainsail.xyz). Find out [more](https://docs.mainsail.xyz/setup#mymainsailxyz).
 
