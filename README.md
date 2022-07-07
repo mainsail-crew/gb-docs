@@ -18,6 +18,10 @@ Whether you simply flash our ready-made MainsailOS image or use third-party tool
 
 If you already have a Klipper printer with Moonraker, you can even start right away.
 
+{% content-ref url="overview.md" %}
+[overview.md](overview.md)
+{% endcontent-ref %}
+
 ## **Full remote control**
 
 ## 100% Open Source
