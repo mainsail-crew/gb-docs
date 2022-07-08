@@ -5,7 +5,6 @@ description: >-
 cover: >-
   https://images.unsplash.com/photo-1611505908502-5b67e53e3a76?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw4fHwzZCUyMHByaW50ZXJ8ZW58MHx8fHwxNjU3MjA1MDM2&ixlib=rb-1.2.1&q=80
 coverY: -169.4837997054492
-layout: landing
 ---
 
 # Welcome
