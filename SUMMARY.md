@@ -6,3 +6,4 @@
     * [MainsailOS](setup/mainsailos/README.md)
       * [RaspberryPi Imager](setup/mainsailos/raspberrypi-imager.md)
 * [Credits](credits.md)
+* [Themes](themes.md)
