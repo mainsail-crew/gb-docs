@@ -9,16 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/setup-node@v1
-        with:
-          node-version: v16.x
       - uses: actions/checkout@v2
         with:
           fetch-depth: 1
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.8'
-      - run: python .github/workflows/script.py
+          python-version: '3.10'
+      - run: python3 .github/workflows/script.py
       - name: Git Prep
         run: |
           git config --local user.email "bot@mainsail"
