@@ -9,7 +9,7 @@ adfgadfgadfg
 sdfasdfasg
 
 ## Community Themes
- Dracula
+### Dracula
  
 
  id: `1`  
@@ -18,7 +18,7 @@ sdfasdfasg
 
  ![screenshot](https://raw.githubusercontent.com/steadyjaw/dracula-mainsail-theme/master/screenshot.png)
 
-  Cyberpunk
+ ### Cyberpunk
  
 
  id: `2`  
@@ -27,7 +27,7 @@ sdfasdfasg
 
  ![screenshot](https://raw.githubusercontent.com/Dario-Ciceri/cp2077-mainsail-theme/master/screenshot.png)
 
-  Mainsail x Voron Toolhead
+ ### Mainsail x Voron Toolhead
  Various toolhead images inside the theme folder can be renamed to 'sidebar-background.png'
 
  id: `3`  
@@ -36,7 +36,7 @@ sdfasdfasg
 
  ![screenshot](https://raw.githubusercontent.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/master/screenshot.png)
 
-  Rat Rig (unofficial)
+ ### Rat Rig (unofficial)
   includes various sidebar images which can be renamed to ‘sidebar-background.png’
 
  id: `4`  
@@ -45,7 +45,7 @@ sdfasdfasg
 
  ![screenshot](https://raw.githubusercontent.com/Raabi91/ratrig-mainsail-theme/master/screenshot.png)
 
-  Cryd
+ ### Cryd
  
 
  id: `5`  
@@ -54,7 +54,7 @@ sdfasdfasg
 
  ![screenshot](https://raw.githubusercontent.com/cryd-s/Mainsail-Theme-by-Cryd/master/screenshot.jpg)
 
-  Minesail - a Minecraft theme
+ ### Minesail - a Minecraft theme
   Please check the readme regarding the logos
 
  id: `6`  
@@ -63,7 +63,7 @@ sdfasdfasg
 
  ![screenshot](https://raw.githubusercontent.com/lixxbox/mainsail-theme-minesail/master/screenshot.jpg)
 
-  Rat Rig Minion
+ ### Rat Rig Minion
  
 
  id: `7`  
@@ -72,7 +72,7 @@ sdfasdfasg
 
  ![screenshot](https://raw.githubusercontent.com/eifeldj/ratrig-minion-mainsail-theme/master/screenshot.jpg)
 
-  Eryone Theme
+ ### Eryone Theme
  
 
  id: `8`  
