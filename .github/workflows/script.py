@@ -10,7 +10,7 @@ Repository: [$author/$repo](https://www.github.com/$author/$repo/)  \n\n \
 ![screenshot]($screenshot)\n\n \
 ')
 
-hashtags = ""
+hashtags = 0
 
 def getScreenshotUrl(author, repo):
     #print("-- Generating screenshot url", author, repo)
