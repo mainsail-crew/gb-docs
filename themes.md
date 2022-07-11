@@ -17,7 +17,7 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
 
 ## List of Themes
 ### Dracula
- 
+ 0
 
  id: `1`  
  Author: [steadyjaw](https://www.github.com/steadyjaw/)  
@@ -26,7 +26,7 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
  ![](https://raw.githubusercontent.com/steadyjaw/dracula-mainsail-theme/master/screenshot.png)
 
  ### Cyberpunk
- 
+ 0
 
  id: `2`  
  Author: [Dario-Ciceri](https://www.github.com/Dario-Ciceri/)  
@@ -35,7 +35,7 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
  ![](https://raw.githubusercontent.com/Dario-Ciceri/cp2077-mainsail-theme/master/screenshot.png)
 
  ### Mainsail x Voron Toolhead
- Various toolhead images inside the theme folder can be renamed to 'sidebar-background.png'
+ > Various toolhead images inside the theme folder can be renamed to 'sidebar-background.png'
 
  id: `3`  
  Author: [eriroh](https://www.github.com/eriroh/)  
@@ -44,7 +44,7 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
  ![](https://raw.githubusercontent.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/master/screenshot.png)
 
  ### Rat Rig (unofficial)
-  includes various sidebar images which can be renamed to ‘sidebar-background.png’
+ >  includes various sidebar images which can be renamed to ‘sidebar-background.png’
 
  id: `4`  
  Author: [Raabi91](https://www.github.com/Raabi91/)  
@@ -53,7 +53,7 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
  ![](https://raw.githubusercontent.com/Raabi91/ratrig-mainsail-theme/master/screenshot.png)
 
  ### Cryd
- 
+ 0
 
  id: `5`  
  Author: [cryd-s](https://www.github.com/cryd-s/)  
@@ -62,7 +62,7 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
  ![](https://raw.githubusercontent.com/cryd-s/Mainsail-Theme-by-Cryd/master/screenshot.jpg)
 
  ### Minesail - a Minecraft theme
-  Please check the readme regarding the logos
+ >  Please check the readme regarding the logos
 
  id: `6`  
  Author: [lixxbox](https://www.github.com/lixxbox/)  
@@ -71,7 +71,7 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
  ![](https://raw.githubusercontent.com/lixxbox/mainsail-theme-minesail/master/screenshot.jpg)
 
  ### Rat Rig Minion
- 
+ 0
 
  id: `7`  
  Author: [eifeldj](https://www.github.com/eifeldj/)  
@@ -80,7 +80,7 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
  ![](https://raw.githubusercontent.com/eifeldj/ratrig-minion-mainsail-theme/master/screenshot.jpg)
 
  ### Eryone Theme
- 
+ 0
 
  id: `8`  
  Author: [dapostol73](https://www.github.com/dapostol73/)  
