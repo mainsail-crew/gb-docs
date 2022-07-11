@@ -3,7 +3,7 @@ from string import Template
 import requests
 
 t = Template('$hashtags $name\n \
-> $description\n\n \
+$description\n\n \
 id: `$idx`  \n \
 Author: [$author](https://www.github.com/$author/)  \n \
 Repository: [$author/$repo](https://www.github.com/$author/$repo/)  \n\n \
@@ -32,7 +32,7 @@ def generateThemeList(input_file, output_file):
             f.write(t.substitute(
                 idx=idx,
                 name=row['name'],
-                description=row['short_note'],
+                description="> " + row['short_note'],
                 author=row['author'],
                 repo=row['repo'],
                 screenshot=getScreenshotUrl(row['author'], row['repo']),
