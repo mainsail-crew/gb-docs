@@ -51,7 +51,7 @@ def generateThemesMd(input_file, output_file):
     with open(output_file, 'w') as f:
         for number, line in enumerate(lines):
             f.write(line)
-            if "# Community Themes" in line:
+            if "# List of Themes" in line:
                 global hashtags
                 hashtags = line.count("#")+1
                 break
