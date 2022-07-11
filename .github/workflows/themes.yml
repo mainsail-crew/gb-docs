@@ -18,13 +18,13 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      - run: python script.py
+      - run: python .github/workflows/script.py
       - name: Git Prep
         run: |
-          git config --local user.email "footer-bot@coolproductinc.technology"
-          git config --local user.name "footer-bot[bot]"
+          git config --local user.email "bot@mainsail"
+          git config --local user.name "bot[bot]"
           git diff
           git diff-index HEAD
-          git diff-index --quiet HEAD || git commit -am "docs(footer): ensure footer exists on all docs pages"
+          git diff-index --quiet HEAD || git commit -am "docs(themes): generate community theme list"
       - name: Git Push
         run: "git push origin $(git branch --show-current) || true"
