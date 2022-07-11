@@ -55,4 +55,4 @@ def generateThemesMd(input_file, output_file):
         
     generateThemeList('_data/themes.csv', output_file)
 
-generateThemesMd("input.md", "themes.md")
+generateThemesMd("themes.md", "themes.md")
