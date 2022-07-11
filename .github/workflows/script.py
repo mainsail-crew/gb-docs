@@ -49,7 +49,7 @@ def generateThemesMd(input_file, output_file):
     with open(output_file, 'w') as f:
         for number, line in enumerate(lines):
             f.write(line)
-            if line.startswith("# Community Themes"):
+            if "# Community Themes" in line:
                 break
         f.close()
         
