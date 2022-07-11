@@ -10,8 +10,6 @@ Repository: [$author/$repo](https://www.github.com/$author/$repo/)  \n\n \
 ![screenshot]($screenshot)\n\n \
 ')
 
-global hashtags = 0
-
 def getScreenshotUrl(author, repo):
     #print("-- Generating screenshot url", author, repo)
     extensions = ["png", "jpg"]
@@ -25,6 +23,7 @@ def getScreenshotUrl(author, repo):
             return url
 
 def generateThemeList(input_file, output_file):
+    global hashtags
     with open(input_file, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         f = open(output_file, "a")
@@ -53,7 +52,8 @@ def generateThemesMd(input_file, output_file):
         for number, line in enumerate(lines):
             f.write(line)
             if "# Community Themes" in line:
-                global hashtags = line.count("#")+1
+                global hashtags
+                hashtags = line.count("#")+1
                 break
         f.close()
         
