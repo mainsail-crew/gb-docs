@@ -15,10 +15,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 1
-      - name: npm install
-        run: npm ci
-      - name: Enforce docs footer
-        run: node ./scripts/append-footer.js
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - run: python script.py
       - name: Git Prep
         run: |
           git config --local user.email "footer-bot@coolproductinc.technology"
