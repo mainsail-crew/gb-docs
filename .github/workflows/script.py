@@ -2,13 +2,15 @@ import csv
 from string import Template
 import requests
 
-t = Template('## $name\n \
+t = Template('$hashtags $name\n \
 $description\n\n \
 id: `$idx`  \n \
 Author: [$author](https://www.github.com/$author/)  \n \
 Repository: [$author/$repo](https://www.github.com/$author/$repo/)  \n\n \
 ![screenshot]($screenshot)\n\n \
 ')
+
+hashtags = ""
 
 def getScreenshotUrl(author, repo):
     #print("-- Generating screenshot url", author, repo)
@@ -34,7 +36,8 @@ def generateThemeList(input_file, output_file):
                 description=row['short_note'],
                 author=row['author'],
                 repo=row['repo'],
-                screenshot=getScreenshotUrl(row['author'], row['repo'])
+                screenshot=getScreenshotUrl(row['author'], row['repo']),
+                hashtags="#"*(hashtags+1)
                 ))
 
         f.close()
@@ -50,6 +53,7 @@ def generateThemesMd(input_file, output_file):
         for number, line in enumerate(lines):
             f.write(line)
             if "# Community Themes" in line:
+                hashtags = line.count("#")
                 break
         f.close()
         
