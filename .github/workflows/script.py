@@ -7,7 +7,7 @@ $description\n\n \
 id: `$idx`  \n \
 Author: [$author](https://www.github.com/$author/)  \n \
 Repository: [$author/$repo](https://www.github.com/$author/$repo/)  \n\n \
-![Screenshot of $name]($screenshot)\n\n \
+&#x20;![Screenshot of $name]($screenshot)\n\n \
 ')
 
 def getScreenshotUrl(author, repo):
