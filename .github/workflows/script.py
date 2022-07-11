@@ -32,7 +32,7 @@ def generateThemeList(input_file, output_file):
             f.write(t.substitute(
                 idx=idx,
                 name=row['name'],
-                description="> " + row['short_note'],
+                description=row['short_note'],
                 author=row['author'],
                 repo=row['repo'],
                 screenshot=getScreenshotUrl(row['author'], row['repo']),
