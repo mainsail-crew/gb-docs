@@ -37,7 +37,7 @@ def generateThemeList(input_file, output_file):
                 author=row['author'],
                 repo=row['repo'],
                 screenshot=getScreenshotUrl(row['author'], row['repo']),
-                hashtags="#"*(hashtags+1)
+                hashtags="#" * hashtags
                 ))
 
         f.close()
@@ -53,7 +53,7 @@ def generateThemesMd(input_file, output_file):
         for number, line in enumerate(lines):
             f.write(line)
             if "# Community Themes" in line:
-                hashtags = line.count("#")
+                hashtags = line.count("#")+1
                 break
         f.close()
         
