@@ -13,9 +13,7 @@
 
 sdfalskfg
 
-&#x20;![](.gitbook/assets/RASP\_PI\_4\_B\_01\_ANW.png)
-
-&#x20;
+&#x20;![](.gitbook/assets/RASP\_PI\_4\_B\_01\_ANW.png)&#x20;
 
 ### test2
 
