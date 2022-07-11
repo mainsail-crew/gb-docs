@@ -3,7 +3,7 @@ from string import Template
 import requests
 
 t = Template('$hashtags $name\n \
-$description\n\n \
+> $description\n\n \
 id: `$idx`  \n \
 Author: [$author](https://www.github.com/$author/)  \n \
 Repository: [$author/$repo](https://www.github.com/$author/$repo/)  \n\n \
