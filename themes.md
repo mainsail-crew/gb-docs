@@ -16,73 +16,76 @@ Go to `[Advanced] > [Theme installer]`, enter the desired theme `id` and confirm
 {% endhint %}
 
 ## List of Themes
-
 ### Dracula
+ 
 
-id: `1`\
-Author: [steadyjaw](https://www.github.com/steadyjaw/)\
-Repository: [steadyjaw/dracula-mainsail-theme](https://www.github.com/steadyjaw/dracula-mainsail-theme/)
+ id: `1`  
+ Author: [steadyjaw](https://www.github.com/steadyjaw/)  
+ Repository: [steadyjaw/dracula-mainsail-theme](https://www.github.com/steadyjaw/dracula-mainsail-theme/)  
 
-![](https://raw.githubusercontent.com/steadyjaw/dracula-mainsail-theme/master/screenshot.png)
+ ![](https://raw.githubusercontent.com/steadyjaw/dracula-mainsail-theme/master/screenshot.png)
 
-### Cyberpunk
+ ### Cyberpunk
+ 
 
-id: `2`\
-Author: [Dario-Ciceri](https://www.github.com/Dario-Ciceri/)\
-Repository: [Dario-Ciceri/cp2077-mainsail-theme](https://www.github.com/Dario-Ciceri/cp2077-mainsail-theme/)
+ id: `2`  
+ Author: [Dario-Ciceri](https://www.github.com/Dario-Ciceri/)  
+ Repository: [Dario-Ciceri/cp2077-mainsail-theme](https://www.github.com/Dario-Ciceri/cp2077-mainsail-theme/)  
 
-![](https://raw.githubusercontent.com/Dario-Ciceri/cp2077-mainsail-theme/master/screenshot.png)
+ ![](https://raw.githubusercontent.com/Dario-Ciceri/cp2077-mainsail-theme/master/screenshot.png)
 
-### Mainsail x Voron Toolhead
+ ### Mainsail x Voron Toolhead
+ Various toolhead images inside the theme folder can be renamed to 'sidebar-background.png'
 
-Various toolhead images inside the theme folder can be renamed to 'sidebar-background.png'
+ id: `3`  
+ Author: [eriroh](https://www.github.com/eriroh/)  
+ Repository: [eriroh/Mainsail-x-Voron-Toolhead-Theme](https://www.github.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/)  
 
-id: `3`\
-Author: [eriroh](https://www.github.com/eriroh/)\
-Repository: [eriroh/Mainsail-x-Voron-Toolhead-Theme](https://www.github.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/)
+ ![](https://raw.githubusercontent.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/master/screenshot.png)
 
-![](https://raw.githubusercontent.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/master/screenshot.png)
+ ### Rat Rig (unofficial)
+  includes various sidebar images which can be renamed to ‘sidebar-background.png’
 
-### Rat Rig (unofficial)
+ id: `4`  
+ Author: [Raabi91](https://www.github.com/Raabi91/)  
+ Repository: [Raabi91/ratrig-mainsail-theme](https://www.github.com/Raabi91/ratrig-mainsail-theme/)  
 
-includes various sidebar images which can be renamed to ‘sidebar-background.png’
+ ![](https://raw.githubusercontent.com/Raabi91/ratrig-mainsail-theme/master/screenshot.png)
 
-id: `4`\
-Author: [Raabi91](https://www.github.com/Raabi91/)\
-Repository: [Raabi91/ratrig-mainsail-theme](https://www.github.com/Raabi91/ratrig-mainsail-theme/)
+ ### Cryd
+ 
 
-![](https://raw.githubusercontent.com/Raabi91/ratrig-mainsail-theme/master/screenshot.png)
+ id: `5`  
+ Author: [cryd-s](https://www.github.com/cryd-s/)  
+ Repository: [cryd-s/Mainsail-Theme-by-Cryd](https://www.github.com/cryd-s/Mainsail-Theme-by-Cryd/)  
 
-### Cryd
+ ![](https://raw.githubusercontent.com/cryd-s/Mainsail-Theme-by-Cryd/master/screenshot.jpg)
 
-id: `5`\
-Author: [cryd-s](https://www.github.com/cryd-s/)\
-Repository: [cryd-s/Mainsail-Theme-by-Cryd](https://www.github.com/cryd-s/Mainsail-Theme-by-Cryd/)
+ ### Minesail - a Minecraft theme
+  Please check the readme regarding the logos
 
-![](https://raw.githubusercontent.com/cryd-s/Mainsail-Theme-by-Cryd/master/screenshot.jpg)
+ id: `6`  
+ Author: [lixxbox](https://www.github.com/lixxbox/)  
+ Repository: [lixxbox/mainsail-theme-minesail](https://www.github.com/lixxbox/mainsail-theme-minesail/)  
 
-### Minesail - a Minecraft theme
+ ![](https://raw.githubusercontent.com/lixxbox/mainsail-theme-minesail/master/screenshot.jpg)
 
-Please check the readme regarding the logos
+ ### Rat Rig Minion
+ 
 
-id: `6`\
-Author: [lixxbox](https://www.github.com/lixxbox/)\
-Repository: [lixxbox/mainsail-theme-minesail](https://www.github.com/lixxbox/mainsail-theme-minesail/)
+ id: `7`  
+ Author: [eifeldj](https://www.github.com/eifeldj/)  
+ Repository: [eifeldj/ratrig-minion-mainsail-theme](https://www.github.com/eifeldj/ratrig-minion-mainsail-theme/)  
 
-![](https://raw.githubusercontent.com/lixxbox/mainsail-theme-minesail/master/screenshot.jpg)
+ ![](https://raw.githubusercontent.com/eifeldj/ratrig-minion-mainsail-theme/master/screenshot.jpg)
 
-### Rat Rig Minion
+ ### Eryone Theme
+ 
 
-id: `7`\
-Author: [eifeldj](https://www.github.com/eifeldj/)\
-Repository: [eifeldj/ratrig-minion-mainsail-theme](https://www.github.com/eifeldj/ratrig-minion-mainsail-theme/)
+ id: `8`  
+ Author: [dapostol73](https://www.github.com/dapostol73/)  
+ Repository: [dapostol73/MainsailEryoneTheme](https://www.github.com/dapostol73/MainsailEryoneTheme/)  
 
-![](https://raw.githubusercontent.com/eifeldj/ratrig-minion-mainsail-theme/master/screenshot.jpg)
+ ![](https://raw.githubusercontent.com/dapostol73/MainsailEryoneTheme/master/screenshot.jpg)
 
-### Eryone Theme
-
-id: `8`\
-Author: [dapostol73](https://www.github.com/dapostol73/)\
-Repository: [dapostol73/MainsailEryoneTheme](https://www.github.com/dapostol73/MainsailEryoneTheme/)
-
-![](https://raw.githubusercontent.com/dapostol73/MainsailEryoneTheme/master/screenshot.jpg)
+ 
