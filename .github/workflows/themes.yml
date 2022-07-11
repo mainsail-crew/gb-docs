@@ -1,36 +1,30 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the workflow will run
+name: append-themes
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
-  # push:
-  #   branches: [ "main" ]
-  # pull_request:
-  #   branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
+  #push:
+  #  branches:
+  #    - main
   workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - uses: actions/setup-node@v1
+        with:
+          node-version: v16.x
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: npm install
+        run: npm ci
+      - name: Enforce docs footer
+        run: node ./scripts/append-footer.js
+      - name: Git Prep
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git config --local user.email "footer-bot@coolproductinc.technology"
+          git config --local user.name "footer-bot[bot]"
+          git diff
+          git diff-index HEAD
+          git diff-index --quiet HEAD || git commit -am "docs(footer): ensure footer exists on all docs pages"
+      - name: Git Push
+        run: "git push origin $(git branch --show-current) || true"
