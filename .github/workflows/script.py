@@ -10,7 +10,7 @@ Repository: [$author/$repo](https://www.github.com/$author/$repo/)  \n\n \
 ![screenshot]($screenshot)\n\n \
 ')
 
-hashtags = 0
+global hashtags = 0
 
 def getScreenshotUrl(author, repo):
     #print("-- Generating screenshot url", author, repo)
@@ -53,7 +53,7 @@ def generateThemesMd(input_file, output_file):
         for number, line in enumerate(lines):
             f.write(line)
             if "# Community Themes" in line:
-                hashtags = line.count("#")+1
+                global hashtags = line.count("#")+1
                 break
         f.close()
         
