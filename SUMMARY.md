@@ -1,13 +1,11 @@
 # Table of contents
 
 * [Welcome to Mainsail!](README.md)
-* [Data Privacy](data-privacy.md)
-* [Credits](credits.md)
 
 ## Setup
 
 * [Getting started](setup/getting-started.md)
-  * [Page 1](setup/getting-started/page-1.md)
+  * [KIAUH](setup/getting-started/kiauh.md)
 * [Page 2](setup/page-2.md)
 
 ## Features
@@ -22,10 +20,12 @@
 * [webcam - replace w/ crowsnest](features/webcam-replace-w-crowsnest.md)
 * [Localization](page.title.md)
 * [Themes](features/themes/README.md)
-  * [Community Themes](features/themes/themes.md)
+  * [Community Themes](features/themes.md)
 
 ***
 
+* [Data Privacy](data-privacy.md)
+* [Credits](credits.md)
 * [Github](https://github.com/mainsail-crew/mainsail)
 * [Release Notes](https://github.com/mainsail-crew/mainsail/releases)
 * [Discord](https://discord.gg/skWTwTD)

@@ -6,10 +6,10 @@ Mainsail understands the need for data privacy and it has been designed to only 
 
 The following table applies to Mainsail when installed locally or accessed remotely at [my.mainsail.xyz](http://my.mainsail.xyz).
 
-|                              YES                             |                  NO                  |
-| :----------------------------------------------------------: | :----------------------------------: |
-|   Store static files in browser storage (.html, .js, .css)   |              ‘Telemetry’             |
-| Communicate directly with your printer via the Moonraker API | Send or transfer any data externally |
+|                                  YES                                  |                  NO                  |
+| :-------------------------------------------------------------------: | :----------------------------------: |
+| <p>Store static files in browser storage</p><p>(.html, .js, .css)</p> |              ‘Telemetry’             |
+|      Communicate directly with your printer via the Moonraker API     | Send or transfer any data externally |
 
 ### Will my data be safe if I use the hosted version?
 
