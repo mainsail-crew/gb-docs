@@ -4,10 +4,10 @@ description: >-
   user interface, centred around an intuitive and consistent design philosophy.
 ---
 
-# Welcome to Mainsail!
+# Welcome to Mainsail
 
-{% content-ref url="setup/getting-started.md" %}
-[getting-started.md](setup/getting-started.md)
+{% content-ref url="setup/installation/" %}
+[installation](setup/installation/)
 {% endcontent-ref %}
 
 ## Screenshots

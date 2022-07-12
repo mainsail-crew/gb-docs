@@ -4,10 +4,12 @@
 
 ## Setup
 
-* [Getting started](setup/getting-started.md)
-  * [MainsailOS](setup/getting-started/mainsailos.md)
-  * [KIAUH](setup/getting-started/kiauh.md)
-  * [Manual setup](setup/getting-started/manual-setup.md)
+* [Installation](setup/installation/README.md)
+  * [MainsailOS](setup/installation/mainsailos.md)
+  * [KIAUH](setup/installation/kiauh.md)
+  * [Manual setup](setup/installation/manual-setup.md)
+* [Updates](setup/updates.md)
+* [Configuration](setup/configuration.md)
 
 ***
 
@@ -23,6 +25,7 @@
   * [Localization](page.title.md)
   * [Themes](features/themes/README.md)
     * [Community Themes](features/themes.md)
+* [Quicktips](quicktips.md)
 * [Data Privacy](data-privacy.md)
 * [Credits](credits.md)
 
