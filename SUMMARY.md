@@ -11,23 +11,23 @@
 * [Updates](setup/updates.md)
 * [Configuration](setup/configuration.md)
 
-## howto
+## overview
 
-* [Features](howto/features/README.md)
-  * [Thumbnails](howto/features/thumbnails.md)
-  * [Update Manager](howto/features/update-manager.md)
-  * [Bed Mesh](howto/features/bed-mesh.md)
-  * [Dashboard Organisation](howto/features/dashboard-organisation.md)
-  * [Exclude Objects](howto/features/exclude-objects.md)
-  * [Hide macros, outputs or fans](howto/features/hide-macros-outputs-or-fans.md)
-  * [Macro Management (stub)](howto/features/macro-management-stub.md)
-  * [webcam - replace w/ crowsnest](howto/features/webcam-replace-w-crowsnest.md)
-  * [Localization](howto/features/localization.md)
-  * [Themes](howto/features/themes/README.md)
-    * [Community Themes](howto/features/themes/themes.md)
-* [Settings](howto/settings.md)
-* [Quicktips](howto/quicktips.md)
-* [Developement](howto/developement.md)
+* [Features](overview/features/README.md)
+  * [Thumbnails](overview/features/thumbnails.md)
+  * [Update Manager](overview/features/update-manager.md)
+  * [Bed Mesh](overview/features/bed-mesh.md)
+  * [Dashboard Organisation](overview/features/dashboard-organisation.md)
+  * [Exclude Objects](overview/features/exclude-objects.md)
+  * [Hide macros, outputs or fans](overview/features/hide-macros-outputs-or-fans.md)
+  * [Macro Management (stub)](overview/features/macro-management-stub.md)
+  * [webcam - replace w/ crowsnest](overview/features/webcam-replace-w-crowsnest.md)
+  * [Localization](overview/features/localization.md)
+  * [Themes](overview/features/themes/README.md)
+    * [Community Themes](overview/features/themes/themes.md)
+* [Settings](overview/settings.md)
+* [Quicktips](overview/quicktips.md)
+* [Developement](overview/developement.md)
 
 ## About
 
