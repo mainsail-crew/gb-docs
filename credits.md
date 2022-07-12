@@ -12,9 +12,8 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 
 ## Contributors
 
-|!\[]\(\{{ contributor.avatar\_url \}}){: style="width: 20px; vertical-align: bottom;"} **\{{ contributor.login \}}**|\[\{{ contributor.html\_url \}}]\(\{{ contributor.html\_url \}}){:target="\_blank"}|
+to be done
 
 ## Licenses
 
-\| **\{{ deps\[0] \}}**\
-\{{ deps\[1].description \}} | \{{ deps\[1].licenses \}} | \[\{{ deps\[1].repository \}}]\(\{{ deps\[1].repository \}}){:target="\_blank"} |
+to be done

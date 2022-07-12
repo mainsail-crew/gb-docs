@@ -24,9 +24,15 @@ Mainsail does not modify any third party packages and does not control Data Priv
 If you are concerned, please review the privacy policies for the following third party software:
 
 * [RaspberryOS](https://www.raspberrypi.org/privacy/)
-* Klipper
-* Moonraker
+* [Klipper](https://github.com/Klipper3d/klipper)
+* [Moonraker](https://github.com/Arksine/moonraker)
 
 Please contact the developers of any of the above software if you have any concerns.
 
-It is worth noting that Klipper, Moonraker and Raspberry Pi OS are open source software. This does not bring a guarantee of privacy and security, but the source code is available and open to peer review. {: .info} The Raspberry Foundation is a registered charity in the United Kingdom with extensive Privacy and Safeguarding policies. {: .info}
+{% hint style="info" %}
+It is worth noting that Klipper, Moonraker and Raspberry Pi OS are open source software. This does not bring a guarantee of privacy and security, but the source code is available and open to peer review.
+{% endhint %}
+
+{% hint style="info" %}
+The Raspberry Foundation is a registered charity in the United Kingdom with extensive Privacy and Safeguarding policies.
+{% endhint %}
