@@ -2,32 +2,62 @@
 description: >-
   Mainsail makes Klipper more accessible by adding a lightweight, responsive web
   user interface, centred around an intuitive and consistent design philosophy.
-cover: >-
-  https://images.unsplash.com/photo-1611505908502-5b67e53e3a76?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw4fHwzZCUyMHByaW50ZXJ8ZW58MHx8fHwxNjU3MjA1MDM2&ixlib=rb-1.2.1&q=80
-coverY: -169.4837997054492
 ---
 
-# Welcome
+# Welcome to Mainsail!
 
-## Ready to go in under 10 minutes
-
-![](.gitbook/assets/RASP\_PI\_4\_B\_01\_ANW.png)
-
-Whether you simply flash our ready-made MainsailOS image or use third-party tools such as KIAUH to set it up, Mainsail and the printer firmware Klipper are ready to use in almost no time.
-
-If you already have a Klipper printer with Moonraker, you can even start right away.
-
-{% content-ref url="overview.md" %}
-[overview.md](overview.md)
+{% content-ref url="setup/getting-started.md" %}
+[getting-started.md](setup/getting-started.md)
 {% endcontent-ref %}
 
-## **Full remote control**
+| [GitHub](https://github.com/mainsail-crew/mainsail) | [Release Notes](https://github.com/mainsail-crew/mainsail/releases) |
+| :-------------------------------------------------: | :-----------------------------------------------------------------: |
 
-## 100% Open Source
 
-Those who believe that open source software is just software that is free of charge have misunderstood and will never be able to fully use the potentials of free software.
 
-Mainsail is a free and open source software released under the GPL3. The complete source code is available in the Github repository and anyone can help improve the project.&#x20;
 
-Anything that contributes to the project to make it bug-free, more comprehensive, more beautiful and simply BETTER is appreciated.
 
+Mainsail is also available in remote mode on [http://my.mainsail.xyz](http://my.mainsail.xyz). Find out more.
+
+## Screenshots
+
+![](https://docs.mainsail.xyz/assets/img/screenshot.png)
+
+![](https://docs.mainsail.xyz/assets/img/features.png)
+
+## Features
+
+* **Responsive Web Interface:** _Optimized for desktops, tablets and mobile devices_
+* **Printer Farm:** _Supports multiple 3D printers_
+* **Localization:** _Choose between 12 different languages_
+* **File Manager:** _Delete, rename and upload your G-Code and config files_
+* **File Editor:** _Edit G-Code and config files with syntax highlighting in your browser_
+* **Print History:** _See your previous prints and their status_
+* **Statistics:** _View how much time your printer has been in use and the number of jobs that have succeeded or failed_
+* **Job Queue:** _Queue multiple jobs and add them directly from your slicer_
+* **Temperature Presets:** _Manage different temperature presets for easy preheating_
+* **Bed Mesh Visualisation:** _View your bed using a 3D mesh graph_
+* **G-Code Viewer:** _View a 3D render of your print and follow the progress_
+* **Multi-Webcam Support:** _View your print from different angles with multiple webcams_
+* **Timelapse Integration:** _Automatically record a timelapse of your print using_ [_moonraker-timelapse_](https://github.com/mainsail-crew/moonraker-timelapse)
+* **Power Control:** _Control power devices such as relays, TP-Link and Tasmota devices, and more_
+* **Powerful Macro-Management:** _Manage your macros on a micro level_
+* **Configurable Dashboard:** _Create your own personal dashboard_
+* **Theming Support:** _Customizable user interface including logos, backgrounds, and custom CSS_
+* **Additional Sensors:** _Add extra sensors to the temperature graph_
+* **Exclude Objects:** _Exclude parts of your print_
+
+## Help and Support
+
+Do you need help or just want to talk? Join our active community on Discord. Have you found a bug? Please create an Issue in GitHub and let us know.
+
+[Discord](https://discord.gg/skWTwTD){: .btn}{:target="\_blank"} [GitHub Issues](https://github.com/mainsail-crew/mainsail/issues){: .btn}{:target="\_blank"}
+
+## Support Mainsail
+
+Mainsail is primarily developed and maintained by `meteyou`. To keep the project going he invests his free time, almost every day. To motivate him (☕🍺😜) there are several ways to support him:
+
+* [Patreon (recurring)](https://patreon.com/meteyou){:target="\_blank"}
+* [Ko-Fi (one-time)](https://ko-fi.com/mainsail){:target="\_blank"}
+
+Please also support all of our maintainers and contributors. {: .info}

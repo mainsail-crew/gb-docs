@@ -1,23 +1,26 @@
 # Credits
 
-## Credits
+## \{{ page.title \}}
 
-| test1 | test2 |
-| ----- | ----- |
-| 1     | ert   |
-| 2     | sdfg  |
-| 3     | cvbn  |
-| 3     | helau |
+{: .no\_toc }
 
-## test
+We would like acknowledge the valuable contributions that many people and projects have made to Mainsail, especially the following:
 
-sdfalskfg
+* contributors, who help make Mainsail better
+* testers, who help find bugs in Mainsail, so they can be quickly fixed
+* supporters via Patreon and Ko-fi
 
-![](.gitbook/assets/RASP\_PI\_4\_B\_01\_ANW.png)
+We would like to thank the projects Mainsail is built on, especially [Klipper](https://github.com/KevinOConnor/klipper){:target="\_blank"}, [Moonraker](https://github.com/Arksine/moonraker){:target="\_blank"}, and [MainsailOS](https://github.com/mainsail-crew/MainsailOS/){:target="\_blank"}.
 
-![](.gitbook/assets/RASP\_PI\_4\_B\_01\_ANW.png)
+**THANK YOU for your continued support.**
 
-### test2
+* TOC {:toc}
 
-aaaaaaaaa\
-bbbbbbbbb ccccccccc
+## Contributors
+
+|!\[]\(\{{ contributor.avatar\_url \}}){: style="width: 20px; vertical-align: bottom;"} **\{{ contributor.login \}}**|\[\{{ contributor.html\_url \}}]\(\{{ contributor.html\_url \}}){:target="\_blank"}|
+
+## Licenses
+
+\| **\{{ deps\[0] \}}**\
+\{{ deps\[1].description \}} | \{{ deps\[1].licenses \}} | \[\{{ deps\[1].repository \}}]\(\{{ deps\[1].repository \}}){:target="\_blank"} |
