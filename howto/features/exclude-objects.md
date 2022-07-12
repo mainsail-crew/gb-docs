@@ -18,7 +18,7 @@ In PrusaSlicer or SuperSlicer you have to enable the checkbox in:
 Print Settings > Output options > Output file > Label objects
 ```
 
-![](../.gitbook/assets/exclude\_objects-prusaslicer.png)
+![](../../.gitbook/assets/exclude\_objects-prusaslicer.png)
 
 {% hint style="info" %}
 Cura & Ideamaker label objects by default in the G-Code, and they are automatically compatible without any further settings.
@@ -51,8 +51,8 @@ For more information about the exclude\_object module in Klipper see: [exclude\_
 
 From now on all newly uploaded G-Code files should support this function. A new button in form of a dashed square with an x in the center appears in the status panel.
 
-![](../.gitbook/assets/exclude\_objects-status\_panel.png)
+![](../../.gitbook/assets/exclude\_objects-status\_panel.png)
 
 The button will open a dialog in which you can select each individual object and exclude it from the currently ongoing print.
 
-![](../.gitbook/assets/exclude\_objects.png)
+![](../../.gitbook/assets/exclude\_objects.png)

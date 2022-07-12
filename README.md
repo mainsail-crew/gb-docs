@@ -6,8 +6,8 @@ description: >-
 
 # Welcome to Mainsail
 
-{% content-ref url="setup/installation/" %}
-[installation](setup/installation/)
+{% content-ref url="setup/getting-started.md" %}
+[getting-started.md](setup/getting-started.md)
 {% endcontent-ref %}
 
 ## Screenshots

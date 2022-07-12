@@ -8,11 +8,11 @@ description: >-
 
 ## Select language
 
-To change the language, go to the "Interface Settings" by clicking on the two gears at the top right. ![](.gitbook/assets/header-settings.png)
+To change the language, go to the "Interface Settings" by clicking on the two gears at the top right. ![](../../.gitbook/assets/header-settings.png)
 
 In the "GENERAL" section, select your preferred language.
 
-![](.gitbook/assets/settings-language.png)
+![](../../.gitbook/assets/settings-language.png)
 
 ## Missing a translation or found an incorrect translation?
 

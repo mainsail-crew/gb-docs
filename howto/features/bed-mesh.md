@@ -6,13 +6,13 @@ description: View and create bedmeshes & analyze problems with the print bed.
 
 In order to get to the Bed Meshes, select `HEIGHTMAP` from the navigation bar.
 
-<img src="../.gitbook/assets/navbar-heightmap.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/navbar-heightmap.png" alt="" data-size="original">
 
 {% hint style="info" %}
 Please note that this entry only appears after "Bed Mesh" has been properly configured in Klipper. For more information on this topic, please consult the [Klipper documentation](https://www.klipper3d.org/Bed\_Mesh.html)
 {% endhint %}
 
-![](../.gitbook/assets/bedmesh)
+![](../../.gitbook/assets/bedmesh)
 
 1. "Profiles" your Bed Mesh profiles are listed. You can have multiple profiles in Klipper and select and delete them in this panel. Next to the profile name, it displays the variance, the difference between the highest and the lowest measurement point.
 2. You create profiles by performing the calibration. This can be done with the "CALIBRATE" button in the title bar. There you can also home your printer and clear the currently loaded mesh. Remember to save the config! A "save config" button will appear in the header.
