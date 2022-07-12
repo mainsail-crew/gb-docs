@@ -6,6 +6,8 @@ description: >-
 
 # Welcome to Mainsail
 
+## Getting started
+
 {% content-ref url="setup/getting-started.md" %}
 [getting-started.md](setup/getting-started.md)
 {% endcontent-ref %}
