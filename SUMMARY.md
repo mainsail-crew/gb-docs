@@ -3,12 +3,11 @@
 * [Welcome to Mainsail!](README.md)
 * [Data Privacy](data-privacy.md)
 * [Credits](credits.md)
-* [\{{ page.title \}}](page.title.md)
-* [\{{ page.title \}}](page.title-1.md)
 
 ## Setup
 
-* [Getting started](setup/getting-started.md)
+* [Getting started](setup/getting-started/README.md)
+  * [Page 1](setup/getting-started/page-1.md)
 * [Page 2](setup/page-2.md)
 
 ## Features
@@ -21,7 +20,11 @@
 * [Macro Management (stub)](features/macro-management-stub.md)
 * [webcam - replace w/ crowsnest](features/webcam-replace-w-crowsnest.md)
 * [Community Themes](features/themes.md)
+* [Localization](features/localization.md)
+* [Thumbnails](features/thumbnails.md)
 
 ***
 
 * [Github](https://github.com/mainsail-crew/mainsail)
+* [Release Notes](https://github.com/mainsail-crew/mainsail/releases)
+* [Discord](https://discord.gg/skWTwTD)

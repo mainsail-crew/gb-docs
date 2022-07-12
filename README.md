@@ -6,17 +6,9 @@ description: >-
 
 # Welcome to Mainsail!
 
-{% content-ref url="setup/getting-started.md" %}
-[getting-started.md](setup/getting-started.md)
+{% content-ref url="setup/getting-started/" %}
+[getting-started](setup/getting-started/)
 {% endcontent-ref %}
-
-{% embed url="https://github.com/mainsail-crew/mainsail" %}
-
-{% embed url="https://github.com/mainsail-crew/mainsail/releases" %}
-
-
-
-Mainsail is also available in remote mode on [http://my.mainsail.xyz](http://my.mainsail.xyz). Find out more.
 
 ## Screenshots
 
@@ -50,13 +42,18 @@ Mainsail is also available in remote mode on [http://my.mainsail.xyz](http://my.
 
 Do you need help or just want to talk? Join our active community on Discord. Have you found a bug? Please create an Issue in GitHub and let us know.
 
-[Discord](https://discord.gg/skWTwTD){: .btn}{:target="\_blank"} [GitHub Issues](https://github.com/mainsail-crew/mainsail/issues){: .btn}{:target="\_blank"}
+[Discord](https://discord.gg/skWTwTD)
+
+[GitHub Issues](https://github.com/mainsail-crew/mainsail/issues)
 
 ## Support Mainsail
 
 Mainsail is primarily developed and maintained by `meteyou`. To keep the project going he invests his free time, almost every day. To motivate him (☕🍺😜) there are several ways to support him:
 
-* [Patreon (recurring)](https://patreon.com/meteyou){:target="\_blank"}
-* [Ko-Fi (one-time)](https://ko-fi.com/mainsail){:target="\_blank"}
+[Patreon](https://www.patreon.com/meteyou)
 
-Please also support all of our maintainers and contributors. {: .info}
+[Ko-Fi](https://ko-fi.com/mainsail)
+
+{% hint style="info" %}
+Please also support all of our maintainers and contributors.
+{% endhint %}
