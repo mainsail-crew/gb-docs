@@ -10,10 +10,9 @@ description: >-
 [getting-started.md](setup/getting-started.md)
 {% endcontent-ref %}
 
-| [GitHub](https://github.com/mainsail-crew/mainsail) | [Release Notes](https://github.com/mainsail-crew/mainsail/releases) |
-| :-------------------------------------------------: | :-----------------------------------------------------------------: |
+{% embed url="https://github.com/mainsail-crew/mainsail" %}
 
-
+{% embed url="https://github.com/mainsail-crew/mainsail/releases" %}
 
 
 
