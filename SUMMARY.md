@@ -7,7 +7,9 @@
 * [Installation](setup/getting-started.md)
   * [MainsailOS](https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)
   * [KIAUH](setup/installation/kiauh.md)
+  * [Docker](setup/installation/docker.md)
   * [Manual setup](setup/installation/manual-setup.md)
+  * [my.mainsail.xyz](setup/installation/my.mainsail.xyz.md)
 * [Updates](setup/updates.md)
 * [Configuration](setup/configuration.md)
 
@@ -28,7 +30,8 @@
   * [webcam - replace w/ crowsnest](overview/features/webcam-replace-w-crowsnest.md)
 * [Settings](overview/settings/README.md)
   * [Console](overview/settings/console.md)
-* [Quicktips](overview/quicktips.md)
+* [Quicktips](overview/quicktips/README.md)
+  * [Remote Access](overview/quicktips/remote-access.md)
 * [Developement](overview/developement.md)
 
 ## About
