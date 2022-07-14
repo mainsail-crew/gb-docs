@@ -5,7 +5,7 @@
 ## Setup
 
 * [Installation](setup/getting-started.md)
-  * [MainsailOS](https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)
+  *
   * [KIAUH](setup/installation/kiauh.md)
   * [Docker](setup/installation/docker.md)
   * [Manual setup](setup/installation/manual-setup.md)
