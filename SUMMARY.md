@@ -30,7 +30,7 @@
   * [webcam - replace w/ crowsnest](overview/features/webcam-replace-w-crowsnest.md)
 * [Settings](overview/settings/README.md)
   * [Console](overview/settings/console.md)
-* [Quicktips](overview/quicktips/README.md)
+* [Quicktips](overview/quicktips.md)
   * [Remote Access](overview/quicktips/remote-access.md)
 * [Developement](overview/developement.md)
 
@@ -38,6 +38,7 @@
 
 * [Data Privacy](about/data-privacy.md)
 * [Credits](about/credits.md)
+* [Help](about/help.md)
 
 ## 🔗 Links
 

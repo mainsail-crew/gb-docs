@@ -1,3 +1,7 @@
+---
+description: You will need to choose which way you want to install Mainsail.
+---
+
 # Installation
 
 ## Local installation <a href="#local-installation" id="local-installation"></a>
