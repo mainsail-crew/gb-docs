@@ -16,4 +16,8 @@ gcode:
 
 `MY_AWESOME_GCODE` appears in your interface settings, `_MY_HELPER_CODE` does not.
 
-This also works for other configuration sections including **fans and outputs.** {: .info}
+![](../../.gitbook/assets/my\_awesome\_macro.png)
+
+{% hint style="info" %}
+This also works for other configuration sections including **fans and outputs.**
+{% endhint %}
