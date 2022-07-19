@@ -39,7 +39,10 @@
 * [Settings](overview/settings/README.md)
   * [Console](overview/settings/console.md)
 * [Quicktips](overview/quicktips.md)
+  * [Slicer upload](overview/quicktips/slicer-upload.md)
   * [Remote Access](overview/quicktips/remote-access.md)
+  * [Additional Sensors](overview/quicktips/additional-sensors.md)
+  * [Disable Octoprint LCD menu](overview/quicktips/disable-octoprint-lcd-menu.md)
 * [Developement](overview/developement/README.md)
   * [Localization](overview/developement/localization.md)
 
