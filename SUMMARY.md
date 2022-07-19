@@ -10,7 +10,9 @@
   * [Docker](setup/installation/docker.md)
   * [Manual setup](setup/installation/manual-setup.md)
   * [my.mainsail.xyz](setup/installation/my.mainsail.xyz.md)
-* [Updates](setup/updates.md)
+* [Updates](setup/updates/README.md)
+  * [Update Manager](setup/updates/update-manager.md)
+  * [Manual Update](setup/updates/manual-update.md)
 * [Configuration](setup/configuration.md)
 
 ## overview
