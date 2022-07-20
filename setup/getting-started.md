@@ -10,7 +10,7 @@ description: You will need to choose which way you want to install Mainsail.
 
 _<mark style="color:red;">recommended for Raspberry Pi users</mark>_
 
-A prebuilt image for your Pi. Preconfigured and requires the least amount of setup.
+MainsailOS is a prebuilt image for single board computers that already includes Mainsail, Moonraker and Klipper. The least amount of setup.
 
 {% content-ref url="https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/" %}
 [MainsailOS](https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)
@@ -23,6 +23,8 @@ A script toolbox to install and update Klipper, Moonraker and Mainsail. KIAUH co
 {% content-ref url="installation/kiauh.md" %}
 [kiauh.md](installation/kiauh.md)
 {% endcontent-ref %}
+
+### Docker
 
 ### Manual setup
 
