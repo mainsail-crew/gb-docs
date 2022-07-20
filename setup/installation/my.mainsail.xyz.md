@@ -20,7 +20,7 @@ The hosted version of Mainsail can be used on the same local network with your p
 You can learn more about editing Moonraker’s authorization [configuration documentation here.](https://moonraker.readthedocs.io/en/latest/configuration/#authorization)
 {% endhint %}
 
-To configure [my.mainsail.xyz](http://my.mainsail.xyz) for access with your local installation, open `moonraker.conf` and add the following `authorization` section:
+To configure your local moonraker installation for [my.mainsail.xyz](http://my.mainsail.xyz), open `moonraker.conf` and add the following `authorization` section:
 
 ```yaml
 [authorization]
