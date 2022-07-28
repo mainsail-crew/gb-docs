@@ -24,13 +24,14 @@ Add the following sections, if not already present:
 {% code title="moonraker.conf" %}
 ```yaml
 [update_manager]
+refresh_interval: 168
+enable_auto_refresh: True
 
 [update_manager client mainsail]
 type: web
+channel: stable
 repo: mainsail-crew/mainsail
 path: ~/mainsail
-refresh_interval: 168
-enable_auto_refresh: True
 ```
 {% endcode %}
 
