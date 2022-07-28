@@ -29,6 +29,8 @@ Add the following sections, if not already present:
 type: web
 repo: mainsail-crew/mainsail
 path: ~/mainsail
+refresh_interval: 168
+enable_auto_refresh: True
 ```
 {% endcode %}
 
@@ -44,7 +46,7 @@ With Update Manager enabled, select the "Machine" tab in the sidebar. The "Updat
 
 ### Check for Updates
 
-You should click the reload button to have Moonraker check for recent updates. Moonraker also checks for updates periodically, but the standard interval is set quite high, although that can be configured.
+You should click the reload button to have Moonraker check for recent updates. Moonraker also checks for updates periodically, but the standard interval is set quite high, although that can be configured. In the config above, we have already decreased the value to 7 days (168 hours).
 
 ### Check Releasenotes
 
