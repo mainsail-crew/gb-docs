@@ -59,3 +59,4 @@
 * [Github](https://github.com/mainsail-crew/mainsail)
 * [Release Notes](https://github.com/mainsail-crew/mainsail/releases)
 * [Discord](https://discord.gg/skWTwTD)
+* [Youtube](https://www.youtube.com/c/Mainsail-Crew)
