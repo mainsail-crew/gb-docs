@@ -45,11 +45,11 @@ You can find further information on this topic in the [Moonraker documentation](
 
 With Update Manager enabled, select the "Machine" tab in the sidebar. The "Update Manager" panel will be present.
 
-### Check for Updates
+### Check for updates
 
 You should click the reload button to have Moonraker check for recent updates. Moonraker also checks for updates periodically, but the standard interval is set quite high, although that can be configured. In the config above, we have already decreased the value to 7 days (168 hours).
 
-### Check Releasenotes
+### Check release notes
 
 Review the release notes by clicking on the info icon next to the component.
 
@@ -57,7 +57,7 @@ Review the release notes by clicking on the info icon next to the component.
 Please note that some Klipper updates **may require a reflash of the MCUs**. Without reflashing, your printer will not work. Avoid updating when you have important prints pending.
 {% endhint %}
 
-### Perform Updates
+### Perform updates
 
 {% hint style="info" %}
 The recommended order of updating is from top to bottom.
