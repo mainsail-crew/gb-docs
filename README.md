@@ -1,13 +1,18 @@
 ---
-description: >-
-  Mainsail makes Klipper more accessible by adding a lightweight, responsive web
-  user interface, centred around an intuitive and consistent design philosophy.
 cover: >-
-  https://images.unsplash.com/photo-1611505908502-5b67e53e3a76?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw4fHwzZCUyMHByaW50ZXJ8ZW58MHx8fHwxNjU3ODAwMzkz&ixlib=rb-1.2.1&q=80
-coverY: -284.87702503681885
+  https://cdn.discordapp.com/attachments/999929040112721940/1002322186029252699/1080.jpg
+coverY: -87.03296703296704
 ---
 
 # Welcome to Mainsail
+
+<mark style="color:red;">**Mainsail.**</mark> A modern and responsive user interface for Klipper. Control and monitor your printer from everywhere, from any device.
+
+<mark style="color:red;">**Easy to use.**</mark>** ** The focus lies on both anticipating what users may need to do and ensuring that the user interface contains elements that are easily accessible, understandable, and user-friendly to make those actions easier.
+
+<mark style="color:red;">**Always one step ahead.**</mark> We work closely with developers of other projects so that functions can already be implemented early on.
+
+<mark style="color:red;">**100% open source.**</mark> Anyone can join, anyone can contribute.
 
 ## Getting started
 
