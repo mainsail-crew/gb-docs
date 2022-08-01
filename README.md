@@ -1,7 +1,6 @@
 ---
-cover: >-
-  https://cdn.discordapp.com/attachments/999929040112721940/1002322186029252699/1080.jpg
-coverY: -87.03296703296704
+cover: .gitbook/assets/Mainsail_SB.jpg
+coverY: 0
 ---
 
 # Welcome to Mainsail
