@@ -12,7 +12,11 @@ These streams can be displayed in various places:
 
 ### Dashboard
 
+The dashboard panel can be moved, collapsed or entirely hidden. For more information see the [dashboard organization](dashboard-organisation.md).
+
 ### Webcam page
+
+A separate webcam entry can be added to the navigation. This can be configured in the [UI settings](../settings/ui-settings.md).
 
 ### Print farm overview
 

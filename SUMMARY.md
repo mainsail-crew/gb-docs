@@ -40,6 +40,7 @@
   * [Console](overview/settings/console.md)
   * [Webcam](overview/settings/webcam.md)
   * [Dashboard](overview/settings/dashboard.md)
+  * [UI-Settings](overview/settings/ui-settings.md)
 * [Quicktips](overview/quicktips.md)
   * [Slicer upload](overview/quicktips/slicer-upload.md)
   * [Remote Access](overview/quicktips/remote-access.md)
