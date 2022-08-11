@@ -2,6 +2,8 @@
 
 ## Prerequisites
 
+### MJPEG
+
 To be able to add a stream to Mainsail, it must be available as a so-called “MJPEG stream”.
 
 So either you have a network camera that offers such a stream by itself, or you use a conventional webcam (USB camera, Raspberry Pi Camera, …) that is connected to your system. For a non-network cameras, you need to install and configure a streamer software on your system, such as [Crowsnest](https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/qXE1OQLsr0XFNbT54RTY/).&#x20;
@@ -11,6 +13,13 @@ So either you have a network camera that offers such a stream by itself, or you 
 {% endhint %}
 
 Once such a stream is available, you only have to configure it in the Mainsail settings.&#x20;
+
+### IP Cam
+
+The stream of your IP camera needs to be compatible with your browser. More information:
+
+[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)\
+[https://www.w3schools.com/tags/tag\_video.asp](https://www.w3schools.com/tags/tag\_video.asp)
 
 ## Settings
 
@@ -54,7 +63,7 @@ You also need to select a streaming mode. Below are descriptions of the differen
 | **MJPEG (Streamer)** | <p>The streamer mode extracts individual frames from the stream URL and streams them. </p><p></p><p>This is to prevent the buildup of delay in case of insufficient bandwidth. <br><br><strong>IMPORTANT:</strong> This mode does currently not work on iOS devices for technical reasons.</p> |
 | **MJPEG (Adaptive)** | <p>The adaptive mode takes the snapshot <em></em> URL and pulls individual images. </p><p></p><p>Also, this is intended to prevent a delay.</p>                                                                                                                                                |
 | **MJPEG (Classic)**  | <p>The classic mode is the plain MJPEG stream embedded in an image tag. </p><p></p><p>In this case, it can happen that after some runtime a delay steadily builds up, because frames cannot be skipped. Only a browser reload will help.</p>                                                   |
-| **IP-Camera**        |                                                                                                                                                                                                                                                                                                |
+| **IP-Camera**        | The stream URL is embedded in an HTML5 video element. We can't really provide support for this. Browser plugins may be required.                                                                                                                                                               |
 
 
 
