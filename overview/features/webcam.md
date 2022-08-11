@@ -32,6 +32,6 @@ In case of more than one webcam is configured on a printer, all cameras are disp
 
 To find out how to set up the webcams and what the requirements are, please refer to the webcam settings page:
 
-{% content-ref url="../settings/webcam.md" %}
-[webcam.md](../settings/webcam.md)
+{% content-ref url="../settings/webcams.md" %}
+[webcams.md](../settings/webcams.md)
 {% endcontent-ref %}
