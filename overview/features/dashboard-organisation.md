@@ -6,17 +6,9 @@ description: There are a few ways to customize your dashboard to your needs.
 
 ## Rearrange panels and show/hide them
 
-To customize the dashboard panels, go to the settings by clicking on the two gears at the top right. ![](../../.gitbook/assets/header-settings.png)
-
-Go to the "DASHBOARD" section.
-
-![](../../.gitbook/assets/settings-dashboard.png)
-
-There the different elements can be selected and deselected and moved around.
+The panels on the Dashboard can be rearranged. How to do this is described in the [Dashboard Settings page](../settings/dashboard.md).
 
 Please note that different settings can be set **for each device class**. The device classes also have **different column layouts**. So, for example, it is possible to hide some panels on mobile devices that are displayed on desktops, in a different order.
-
-![](../../.gitbook/assets/settings-rearrange-dashboard.gif)
 
 ## Collapsible panels
 

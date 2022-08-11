@@ -1,23 +1,33 @@
+---
+description: >-
+  In Mainsail, one or more webcam stream can be added so that you can keep an
+  eye on your printer.
+---
+
 # Webcam
 
-One or more webcam streams can be added to Mainsail.
+## Views
 
-These streams can be displayed
+These streams can be displayed in various places:
 
-* on the dashboard.
-* on a separate webcam page.
-* on the print farm overview.
+### Dashboard
 
-For being able to add a stream to Mainsail, it must be available as a so-called "MJPEG stream".
+### Webcam page
 
-So either you have a network camera that offers such a stream by itself, or you use a conventional webcam (USB camera, Raspberry Pi Camera, …) that is connected to your system. For a non-network camera, you need to install a streamer software on your system.&#x20;
+### Print farm overview
 
-{% hint style="info" %}
-[MainsailOS ](https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)comes preinstalled with [Crowsnest](https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/qXE1OQLsr0XFNbT54RTY/) as streamer. If you wish to install Crowsnest on your system, or need assistance in configuring Crowsnest, please refer to its documentation.
-{% endhint %}
 
-Once such a stream is available, you only have to configure it in the Mainsail settings. The procedure can be found here.
 
-## ALTER WEG
+## Options
 
-****
+In case of more than one webcam is configured on a printer, all cameras are displayed in an overview. However, it is also possible to switch to a single camera, using the drop-down menu in the panel header.
+
+![](../../.gitbook/assets/grafik.png)
+
+## Settings
+
+To find out how to set up the webcams and what the requirements are, please refer to the webcam settings page:
+
+{% content-ref url="../settings/webcam.md" %}
+[webcam.md](../settings/webcam.md)
+{% endcontent-ref %}

@@ -39,6 +39,7 @@
 * [Settings](overview/settings/README.md)
   * [Console](overview/settings/console.md)
   * [Webcam](overview/settings/webcam.md)
+  * [Dashboard](overview/settings/dashboard.md)
 * [Quicktips](overview/quicktips.md)
   * [Slicer upload](overview/quicktips/slicer-upload.md)
   * [Remote Access](overview/quicktips/remote-access.md)
