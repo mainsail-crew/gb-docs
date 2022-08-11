@@ -23,7 +23,7 @@ The stream of your IP camera needs to be compatible with your browser. More info
 
 ## Settings
 
-Go to the [settings](./) and select the Webcams category.
+Go to the [settings](./) and select the Webcam category.
 
 In this view, you can add new webcams, or edit and remove existing ones.
 
