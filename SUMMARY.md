@@ -49,6 +49,7 @@
   * [UI-Settings](overview/settings/ui-settings.md)
   * [Webcams](overview/settings/webcams.md)
 * [Quicktips](overview/quicktips.md)
+  * [✏ Metadata](overview/quicktips/metadata.md)
   * [Slicer upload](overview/quicktips/slicer-upload.md)
   * [Remote Access](overview/quicktips/remote-access.md)
   * [Additional Sensors](overview/quicktips/additional-sensors.md)
