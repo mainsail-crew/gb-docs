@@ -1,7 +1,3 @@
----
-description: An attempt to describe all console specific settings.
----
-
 # Console
 
 {% hint style="info" %}
