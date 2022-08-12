@@ -4,7 +4,7 @@ description: >-
   file manager or the print history.
 ---
 
-# ✏ Metadata
+# Metadata
 
 {% hint style="info" %}
 Mainsail displays metadata given by Moonraker (API). You can find a list [here](https://moonraker.readthedocs.io/en/latest/web\_api/#get-gcode-metadata).
