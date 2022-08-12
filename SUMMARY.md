@@ -58,6 +58,17 @@
   * [Environment](overview/developement/environment.md)
   * [Localization](overview/developement/localization.md)
 
+***
+
+* [FAQ](faq/README.md)
+  * [Mainsail](faq/mainsail.md)
+  * [Moonraker warnings](faq/moonraker-warnings/README.md)
+    * [PolicyKit Permissions](faq/moonraker-warnings/policykit-permissions.md)
+  * [Klipper warnings](faq/klipper-warnings/README.md)
+    * [Deprecated Values](faq/klipper-warnings/deprecated-values.md)
+    * [Deprecated Options](faq/klipper-warnings/deprecated-options.md)
+  * [Klipper errors](faq/klipper-errors.md)
+
 ## About
 
 * [Data Privacy](about/data-privacy.md)
