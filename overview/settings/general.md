@@ -2,6 +2,8 @@
 
 Go to the [settings](./) and select the General category.
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>General settings</p></figcaption></figure>
+
 ## Printer Name
 
 Here you can assign a name for your printer. This name is displayed in the top bar, but also in printer selections in various places or in the print farm.
