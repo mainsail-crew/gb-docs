@@ -10,15 +10,15 @@ Go to the [settings](./) and select the Console category.
 
 ## Direction <a href="#direction" id="direction"></a>
 
-Change the direction of the console output. From top to bottom or vice versa.
+Change the direction of the console output. From top to bottom, or vice versa.
 
 This also affects whether the input field is located at the top or at the bottom.
 
 ## Entry-Design <a href="#entry-design" id="entry-design"></a>
 
-It is possible to switch the appearance of console entries.
+Switch the appearance of console entries.
 
-At the moment there is “default” and “compact”. Compact comes without separators and smaller line spacing.
+At the moment, there is “default” and “compact”. Compact, comes without separators and smaller line spacing.
 
 ## Height <a href="#height" id="height"></a>
 
@@ -26,7 +26,7 @@ Specify the height of the console panel on the dashboard in pixels, so that it f
 
 ## Console Filters <a href="#console-filters" id="console-filters"></a>
 
-With console filters you can suppress entries from the console.
+With console filters, you can suppress entries from the console.
 
 ![](../../.gitbook/assets/settings-console-filters.png)
 
