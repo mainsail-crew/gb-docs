@@ -16,8 +16,6 @@ Choose the language in which you want to use Mainsail. Please note that the tran
 
 This is where you can select the factors to be used for calculating the print time.
 
-[How are estimations of the printing time calculated?](../../faq/mainsail.md#how-are-estimations-of-the-printing-time-calculated)
-
 {% hint style="info" %}
 More information on this topic in the FAQ:\
 [How are estimations of the printing time calculated?](../../faq/mainsail.md#how-are-estimations-of-the-printing-time-calculated)
