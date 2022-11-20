@@ -21,3 +21,18 @@ gcode:
 {% hint style="info" %}
 This also works for other configuration sections including **fans and outputs.**
 {% endhint %}
+
+### Macros with `rename_existing`
+
+All `gcode_macros` with the attribute `rename_existing` are also hidden in Mainsail, because these are default Klipper Gcodes and these should be implemented in Mainsail itself with buttons already.
+
+For example the `PAUSE` macro in the `mainsail.cfg`:
+
+```
+[gcode_macro PAUSE]
+description: Pause the actual running print
+rename_existing: PAUSE_BASE
+gcode:
+  PAUSE_BASE
+  _TOOLHEAD_PARK_PAUSE_CANCEL
+```
