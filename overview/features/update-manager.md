@@ -27,7 +27,7 @@ Add the following sections, if not already present:
 refresh_interval: 168
 enable_auto_refresh: True
 
-[update_manager client mainsail]
+[update_manager mainsail]
 type: web
 channel: stable
 repo: mainsail-crew/mainsail
