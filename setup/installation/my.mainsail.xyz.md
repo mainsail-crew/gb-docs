@@ -25,9 +25,8 @@ To configure your local moonraker installation for [my.mainsail.xyz](http://my.m
 ```yaml
 [authorization]
 cors_domains:
-    https://my.mainsail.xyz
-    http://my.mainsail.xyz
-    http://*.local
+    *://my.mainsail.xyz
+    *://*.local
 trusted_clients:
     10.0.0.0/8
     127.0.0.0/8
