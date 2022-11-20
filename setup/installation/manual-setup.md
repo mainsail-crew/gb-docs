@@ -3,7 +3,7 @@
 ## Operating System <a href="#operating-system" id="operating-system"></a>
 
 {% hint style="warning" %}
-Do **not** use an OctoPi image as it can cause unforeseen (avoidable) problems.
+Please do **not** use an OctoPi image, as it can cause unforeseen (avoidable) problems.
 {% endhint %}
 
 {% hint style="info" %}
@@ -20,22 +20,21 @@ Once you have finished the installation and are connected via SSH, you can conti
 
 Install the required packages and update the system:
 
+{% tabs %}
+{% tab title="Debian 10 (Buster)" %}
 ```bash
-sudo apt update --allow-releaseinfo-change && sudo apt upgrade
-sudo apt install git dfu-util unzip
+sudo apt update --allow-releaseinfo-change && sudo apt upgrade --yes
+sudo apt install git unzip
 ```
+{% endtab %}
 
-{% hint style="danger" %}
-**Verify that your distribution’s Python 3 package(s) are version 3.7 or newer.**
-{% endhint %}
-
-Moonraker requires Python 3.7 and will not operate without it.
-
-You can check the current Python version installed to your operating system with the following terminal command:
-
+{% tab title="Debian 11 (Bullseye)" %}
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install git unzip
 ```
-python3 --version
-```
+{% endtab %}
+{% endtabs %}
 
 ## Klipper <a href="#klipper" id="klipper"></a>
 
@@ -43,9 +42,23 @@ python3 --version
 
 At first we have to install some OS dependencies:
 
+{% tabs %}
+{% tab title="Debian 10 (Buster)" %}
+{% code overflow="wrap" %}
 ```bash
-sudo apt install virtualenv python-dev libffi-dev build-essential libncurses-dev libusb-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0 
+sudo apt install python3-virtualenv python3-dev python3-dev libffi-dev build-essential libncurses-dev libusb-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0
 ```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Debian 11 (Bullseye)" %}
+{% code overflow="wrap" %}
+```bash
+sudo apt install python3-virtualenv python3-dev python3-dev libffi-dev build-essential libncurses-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0-0 libusb-1.0-0-dev
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 The following commands will clone Klipper to an appropriate directory in HOME.
 
@@ -56,17 +69,25 @@ git clone https://github.com/KevinOConnor/klipper
 
 Then we can initialize the python virtual environment and install the python dependencies:
 
-```bash
-cd ~
-virtualenv -p python2 ./klippy-env
-./klippy-env/bin/pip install -r ./klipper/scripts/klippy-requirements.txt
-```
+<pre class="language-bash"><code class="lang-bash">cd ~
+<strong>virtualenv -p python3 ./klippy-env
+</strong>./klippy-env/bin/pip install -r ./klipper/scripts/klippy-requirements.txt</code></pre>
 
 ### &#x20;Configuration & startup service <a href="#configuration--startup-service" id="configuration--startup-service"></a>
 
-After Klipper is installed, you will need to create a startup script to define log, config & UDS service location:
+After Klipper is installed, you will need to create the file structure vor Klipper & Moonraker.
 
-To edit this file type:
+```bash
+mkdir ~/printer_data/
+mkdir ~/printer_data/config
+mkdir ~/printer_data/logs
+mkdir ~/printer_data/gcodes
+mkdir ~/printer_data/systemd
+mkdir ~/printer_data/comms
+touch ~/printer_data/config/printer.cfg
+```
+
+To create a service file for Klipper use:
 
 ```bash
 sudo nano /etc/systemd/system/klipper.service
@@ -75,12 +96,10 @@ sudo nano /etc/systemd/system/klipper.service
 fill in these lines:
 
 ```systemd
-#Systemd Klipper Service
-
 [Unit]
-Description=Starts Klipper and provides klippy Unix Domain Socket API
+Description=Klipper 3D Printer Firmware SV1
 Documentation=https://www.klipper3d.org/
-After=network.target
+After=network-online.target
 Before=moonraker.service
 Wants=udev.target
 
@@ -89,16 +108,31 @@ Alias=klippy
 WantedBy=multi-user.target
 
 [Service]
-Environment=KLIPPER_CONFIG=/home/pi/klipper_config/printer.cfg
-Environment=KLIPPER_LOG=/home/pi/klipper_logs/klippy.log
-Environment=KLIPPER_SOCKET=/tmp/klippy_uds
 Type=simple
 User=pi
 RemainAfterExit=yes
-ExecStart= /home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
+WorkingDirectory=/home/pi/klipper
+EnvironmentFile=/home/pi/printer_data/systemd/klipper.env
+ExecStart=/home/pi/klippy-env/bin/python $KLIPPER_ARGS
 Restart=always
 RestartSec=10
 ```
+
+Save the file with `CTRL+O` and close the editor with `CTRL+X`.
+
+Next step, you have to create an Klipper environment file in your `printer_data`:
+
+```bash
+nano ~/printer_data/systemd/klipper.env
+```
+
+fill in these line:
+
+{% code overflow="wrap" %}
+```bash
+KLIPPER_ARGS="/home/pi/klipper/klippy/klippy.py /home/pi/printer_data/config/printer.cfg -l /home/pi/printer_data/logs/klippy.log -I /home/pi/printer_data/comms/klippy.serial -a /home/pi/printer_data/comms/klippy.sock"
+```
+{% endcode %}
 
 Save the file with `CTRL+O` and close the editor with `CTRL+X`.
 
@@ -113,15 +147,6 @@ To enable and start the Klipper service execute these commands:
 sudo systemctl enable klipper.service
 ```
 
-You have to create the directories for your Klipper configuration, logs and the `virtual_sdcard` directory:
-
-```bash
-mkdir ~/klipper_config
-mkdir ~/klipper_logs
-mkdir ~/gcode_files
-touch ~/klipper_config/printer.cfg
-```
-
 After your config is in place, restart Klipper with `sudo systemctl start klipper`.
 
 ## Moonraker <a href="#moonraker" id="moonraker"></a>
@@ -132,9 +157,23 @@ Moonraker is a web server that exposes APIs which lets Mainsail interact with Kl
 
 At first we have to install some OS dependencies:
 
+{% tabs %}
+{% tab title="Debian 10 (Buster)" %}
+{% code overflow="wrap" %}
 ```bash
-sudo apt install python3-virtualenv python3-dev libopenjp2-7 python3-libgpiod curl libcurl4-openssl-dev libssl-dev liblmdb-dev libsodium-dev zlib1g-dev libjpeg-dev
+sudo apt install python3-virtualenv python3-dev libopenjp2-7 python3-libgpiod curl libcurl4-openssl-dev libssl-dev liblmdb-dev libsodium-dev zlib1g-dev libjpeg-dev packagekit wireless-tools
 ```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Debian 11 (Bullseye)" %}
+{% code overflow="wrap" %}
+```bash
+sudo apt install python3-virtualenv python3-dev libopenjp2-7 python3-libgpiod curl libcurl4-openssl-dev libssl-dev liblmdb-dev libsodium-dev zlib1g-dev libjpeg-dev packagekit wireless-tools
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 Clone Moonraker into your HOME directory:
 
@@ -160,7 +199,7 @@ A very common source of errors are improperly configured `trusted_clients`.
 
 For Moonraker you’ll need to create a separate config file.
 
-`nano ~/klipper_config/moonraker.conf`
+`nano ~/printer_data/config/moonraker.conf`
 
 Insert the following part:
 
@@ -168,16 +207,20 @@ Insert the following part:
 [server]
 host: 0.0.0.0
 port: 7125
-enable_debug_logging: False
-config_path: ~/klipper_config
-log_path: ~/klipper_logs
+# The maximum size allowed for a file upload (in MiB).  Default 1024 MiB
+max_upload_size: 1024
+# Path to klippy Unix Domain Socket
+klippy_uds_address: ~/printer_data/comms/klippy.sock
+
+[file_manager]
+# post processing for object cancel. Not recommended for low resource SBCs such as a Pi Zero. Default False
+enable_object_processing: False
 
 [authorization]
 cors_domains:
-    https://my.mainsail.xyz
-    http://my.mainsail.xyz
-    http://*.local
-    http://*.lan
+    *://my.mainsail.xyz
+    *://*.local
+    *://*.lan
 trusted_clients:
     10.0.0.0/8
     127.0.0.0/8
@@ -193,11 +236,19 @@ trusted_clients:
 # enables moonraker to track and store print history.
 [history]
 
+# this enables moonraker announcements for mainsail
+[announcements]
+subscriptions:
+    mainsail
+
 # this enables moonraker's update manager
 [update_manager]
+refresh_interval: 168
+enable_auto_refresh: True
 
 [update_manager mainsail]
 type: web
+channel: stable
 repo: mainsail-crew/mainsail
 path: ~/mainsail
 ```
@@ -229,28 +280,45 @@ fill in these lines:
 #Systemd moonraker Service
 
 [Unit]
-Description=Moonraker provides Web API for klipper
-Documentation=https://moonraker.readthedocs.io/en/latest/
-After=network.target klipper.service
+Description=API Server for Klipper SV1
+Requires=network-online.target
+After=network-online.target
 
 [Install]
 WantedBy=multi-user.target
 
 [Service]
-Environment=MOONRAKER_CONFIG=/home/pi/klipper_config/moonraker.conf
-Environment=MOONRAKER_LOG=/home/pi/klipper_logs/moonraker.log
 Type=simple
 User=pi
+SupplementaryGroups=moonraker-admin
 RemainAfterExit=yes
-ExecStart=/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/moonraker.py -c ${MOONRAKER_CONFIG} -l ${MOONRAKER_LOG}
+WorkingDirectory=/home/pi/moonraker
+EnvironmentFile=/home/pi/printer_data/systemd/moonraker.env
+ExecStart=/home/pi/moonraker-env/bin/python $MOONRAKER_ARGS
 Restart=always
 RestartSec=10
 ```
 
 Save the file with `CTRL+O` and close the editor with `CTRL+X`.
 
+Next step, you have to create an Klipper environment file in your `printer_data`:
+
+```bash
+nano ~/printer_data/systemd/moonraker.env
+```
+
+fill in these lines:
+
+```
+MOONRAKER_ARGS="/home/pi/moonraker/moonraker/moonraker.py -d /home/pi/printer_data"
+```
+
+Save the file with `CTRL+O` and close the editor with `CTRL+X`.
+
+{% hint style="info" %}
 **Please check and modify the username!**\
 If you do not use the user `pi`, you must replace it in each path and in the variable user in the service file.
+{% endhint %}
 
 To enable Moonraker service execute these commands:
 
@@ -258,19 +326,27 @@ To enable Moonraker service execute these commands:
 sudo systemctl enable moonraker.service
 ```
 
+Then we have also to add some Moonraker PolicyKit rules. Moonraker already provides a script for these:
+
+```bash
+./moonraker/scripts/set-policykit-rules.sh
+```
+
 After your config is in place, start Moonraker with `sudo systemctl start moonraker`.
 
 Open the following URL with your printers IP in your browser
 
 ```url
-http://<printer-ip>:7125/printer/info
+http://<printer-ip>:7125/server/info
 ```
 
 If everything has been set up successfully, a message like this should appear:
 
+{% code overflow="wrap" %}
 ```json
-{"result": {"state_message": "Printer is ready", "klipper_path": "/home/pi/klipper", "config_file": "/home/pi/klipper_config/printer.cfg", "software_version": "v0.9.1-785-g1be19177", "hostname": "raspberrypi", "cpu_info": "4 core ARMv7 Processor rev 4 (v7l)", "state": "ready", "python_path": "/home/pi/klippy-env/bin/python", "log_file": "/home/pi/klipper_log/klippy.log"}}
+{"result": {"klippy_connected": false, "klippy_state": "disconnected", "components": ["klippy_connection", "application", "websockets", "internal_transport", "dbus_manager", "database", "file_manager", "klippy_apis", "secrets", "template", "shell_command", "machine", "data_store", "proc_stats", "job_state", "job_queue", "http_client", "announcements", "webcam", "extensions", "authorization", "octoprint_compat", "history", "update_manager"], "failed_components": [], "registered_directories": ["config", "logs", "gcodes"], "warnings": [], "websocket_count": 0, "moonraker_version": "v0.7.1-747-g779997c", "missing_klippy_requirements": [], "api_version": [1, 0, 5], "api_version_string": "1.0.5"}}
 ```
+{% endcode %}
 
 ## Mainsail <a href="#mainsail" id="mainsail"></a>
 
@@ -351,6 +427,8 @@ sudo nano /etc/nginx/sites-available/mainsail
 
 server {
     listen 80 default_server;
+    # uncomment the next line to activate IPv6
+    # listen [::]:80 default_server;
 
     access_log /var/log/nginx/mainsail-access.log;
     error_log /var/log/nginx/mainsail-error.log;
@@ -398,25 +476,47 @@ server {
 
     location ~ ^/(printer|api|access|machine|server)/ {
         proxy_pass http://apiserver$request_uri;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Host $http_host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Scheme $scheme;
     }
-	
+
     location /webcam/ {
+        postpone_output 0;
+        proxy_buffering off;
+        proxy_ignore_headers X-Accel-Buffering;
+        access_log off;
+        error_log off;
         proxy_pass http://mjpgstreamer1/;
     }
 
     location /webcam2/ {
+        postpone_output 0;
+        proxy_buffering off;
+        proxy_ignore_headers X-Accel-Buffering;
+        access_log off;
+        error_log off;
         proxy_pass http://mjpgstreamer2/;
     }
 
     location /webcam3/ {
+        postpone_output 0;
+        proxy_buffering off;
+        proxy_ignore_headers X-Accel-Buffering;
+        access_log off;
+        error_log off;
         proxy_pass http://mjpgstreamer3/;
     }
 
     location /webcam4/ {
+        postpone_output 0;
+        proxy_buffering off;
+        proxy_ignore_headers X-Accel-Buffering;
+        access_log off;
+        error_log off;
         proxy_pass http://mjpgstreamer4/;
     }
 }
@@ -424,7 +524,7 @@ server {
 
 Save the file with `CTRL+O` and close the editor with `CTRL+X`.
 
-Create directory for static files and active NGINX config:
+Create the directory for static files and active NGINX config:
 
 ```bash
 mkdir ~/mainsail
@@ -433,17 +533,19 @@ sudo ln -s /etc/nginx/sites-available/mainsail /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 
-Now you can check again the API if it works with the reverse proxy. Open the URL `http://\<printer-ip\>/printer/info` in your browser. if you see a content like this:
+Now you can recheck the API to see if it works with the reverse proxy. Open the URL `http://\<printer-ip\>/server/info` in your browser. If you see content like this:
 
+{% code overflow="wrap" %}
 ```json
-{"result": {"state_message": "Printer is ready", "klipper_path": "/home/pi/klipper", "config_file": "/home/pi/klipper_config/printer.cfg", "software_version": "v0.9.1-785-g1be19177", "hostname": "raspberrypi", "cpu_info": "4 core ARMv7 Processor rev 4 (v7l)", "state": "ready", "python_path": "/home/pi/klippy-env/bin/python", "log_file": "/home/pi/klipper_log/klippy.log"}}
+{"result": {"klippy_connected": false, "klippy_state": "disconnected", "components": ["klippy_connection", "application", "websockets", "internal_transport", "dbus_manager", "database", "file_manager", "klippy_apis", "secrets", "template", "shell_command", "machine", "data_store", "proc_stats", "job_state", "job_queue", "http_client", "announcements", "webcam", "extensions", "authorization", "octoprint_compat", "history", "update_manager"], "failed_components": [], "registered_directories": ["config", "logs", "gcodes"], "warnings": [], "websocket_count": 0, "moonraker_version": "v0.7.1-747-g779997c", "missing_klippy_requirements": [], "api_version": [1, 0, 5], "api_version_string": "1.0.5"}}
 ```
+{% endcode %}
 
 Now we can install Mainsail.
 
 ### &#x20;Install `httpdocs` <a href="#install-httpdocs" id="install-httpdocs"></a>
 
-Now you can download the current Mainsail static data
+Now you can download the current Mainsail static data.
 
 ```bash
 cd ~/mainsail
@@ -454,18 +556,18 @@ Now it should be possible to open the interface: `http://<printer-ip>/`.
 
 ### &#x20;Important macros <a href="#important-macros" id="important-macros"></a>
 
-if you want to get the full experience with Mainsail and Klipper `virtual_sdcard` print, you should use these macros, or use them as templates for your own.
+If you want the whole experience with Mainsail and Klipper `virtual_sdcard` print, you should use these macros or use them as templates for your own.
 
 [Macro Link](https://docs.mainsail.xyz/configuration)
 
-### &#x20;Change the hostname (optional) <a href="#change-the-hostname-optional" id="change-the-hostname-optional"></a>
+### &#x20;Use hostname instead of IP to open Mainsail (optional) <a href="#change-the-hostname-optional" id="change-the-hostname-optional"></a>
 
-to use the hostname instate of the IP, you can install the avahi-daemon:
+To use the hostname instate of the IP, you can install the avahi-daemon:
 
 `sudo apt install avahi-daemon`
 
-and you can config your hostname:
+And you can config your hostname:
 
 `sudo raspi-config`
 
-in `2 Network Options` > `N1 Hostname` you can edit your hostname of your Raspberry Pi. After a reboot you can use `http://\<hostname\>.local/` to open the web interface.
+In `2 Network Options` > `N1 Hostname`, you can edit the hostname of your Raspberry Pi. After a reboot, you can use `http://\<hostname\>.local/` to open the web interface.
