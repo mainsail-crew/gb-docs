@@ -16,12 +16,6 @@ The panels on the dashboard can be collapsed to temporarily save space and expan
 
 ![](../../.gitbook/assets/dashboard-panel-collapse.gif)
 
-## Subpanels
-
-In some panels it is possible to switch subpanels on and off.
-
-![](../../.gitbook/assets/dashboard-subpanel-collapse.gif)
-
 ## Macro Management
 
 Indirectly, the dashboard layout can also be customized through Mainsails macromanagement. In expert mode, macrogroups can be created that will be shown as panels on the dashboard. The macro colors can be customized and macros can be displayed depending on the printer status.
