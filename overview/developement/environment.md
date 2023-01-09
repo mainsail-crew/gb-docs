@@ -27,18 +27,11 @@ You need to set `VUE_APP_HOSTNAME=localhost` in case you want to use a [Virtual-
 
 ### Configure Moonraker <a href="#configure-moonraker" id="configure-moonraker"></a>
 
-For Moonraker, you need to add your local IP to the `cors_domains` section inside the `moonraker.conf`:
+For Moonraker, you need to add localhost:8080 to the `cors_domains` section inside the `moonraker.conf`:
 
 ```yaml
 cors_domains:
-    *//<your local ip>:<local port>
-```
-
-_Example:_ If the IP of your PC you develop Mainsail on is `192.168.1.20`:
-
-```yaml
-cors_domains:
-    *//192.168.1.20:8080
+    *//localhost:8080
 ```
 
 {% hint style="info" %}
@@ -51,7 +44,7 @@ You can download NodeJS from [here](https://nodejs.org/en/download).\
 Pick your preferred installation package.
 
 {% hint style="info" %}
-Make sure you run node >=15.9.0
+Make sure you run node >= 16
 {% endhint %}
 
 Open your preferred terminal application and navigate into the Mainsail root directory.\
@@ -77,10 +70,10 @@ We created a special project for that, which you can find [here](https://github.
 To use our Virtual-Klipper-Printer project, it is required to have Docker installed.\
 Below are some general resources on how to get Docker.
 
-**Linux:** [https://docs.docker.com/engine/install](https://docs.docker.com/engine/install)
-
-**Mac:** [https://docs.docker.com/docker-for-mac/install](https://docs.docker.com/docker-for-mac/install)
-
+**Linux:** [https://docs.docker.com/engine/install](https://docs.docker.com/engine/install)\
+**Mac:** [https://docs.docker.com/docker-for-mac/install](https://docs.docker.com/docker-for-mac/install)\
 **Windows:** [https://docs.docker.com/docker-for-windows/install](https://docs.docker.com/docker-for-windows/install)
+
+
 
 After Docker is installed, follow the instructions [here](https://github.com/mainsail-crew/virtual-klipper-printer#instructions) to get everything up and running.
