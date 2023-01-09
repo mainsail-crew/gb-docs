@@ -14,7 +14,7 @@ The `Virtual SD Card` allows G-Code file uploads.
 
 ```yaml
 [virtual_sdcard]
-path: ~/gcode_files
+path: ~/printer_data/gcodes
 ```
 
 ### &#x20;Display Status <a href="#display-status" id="display-status"></a>
