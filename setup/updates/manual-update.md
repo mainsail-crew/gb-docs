@@ -11,7 +11,15 @@ git pull
 
 Restart Klipper (`sudo service klipper restart`) and check the `klippy.log`, if Klipper starts correctly and then continue the guide.
 
-### &#x20;Klipper config changes <a href="#klipper-config-changes" id="klipper-config-changes"></a>
+### Update Klipper dependences
+
+This is only necessary, if you see missing modules in the Klipper log.
+
+```bash
+./klippy-env/bin/pip install -r ./klipper/scripts/klippy-requirements.txt
+```
+
+### Klipper config changes <a href="#klipper-config-changes" id="klipper-config-changes"></a>
 
 If you have issues after update your Klipper instance, you can check config changes [here](https://www.klipper3d.org/Config\_Changes.html).
 
@@ -30,7 +38,7 @@ If you see a content like this
 {"result": {"hostname": "voron250", "error_detected": false, "version": "v0.8.0-643-g528f9f25", "is_ready": true, "message": "Printer is ready", "cpu": "4 core ARMv7 Processor rev 4 (v7l)"}}
 ```
 
-### &#x20;Update Moonraker dependence <a href="#update-moonraker-dependence" id="update-moonraker-dependence"></a>
+### &#x20;Update Moonraker dependences <a href="#update-moonraker-dependence" id="update-moonraker-dependence"></a>
 
 This is only necessary, if you see missing modules in the Moonraker log.
 
