@@ -71,7 +71,8 @@ Then we can initialize the python virtual environment and install the python dep
 
 <pre class="language-bash"><code class="lang-bash">cd ~
 <strong>virtualenv -p python3 ./klippy-env
-</strong>./klippy-env/bin/pip install -r ./klipper/scripts/klippy-requirements.txt</code></pre>
+</strong>./klippy-env/bin/pip install -r ./klipper/scripts/klippy-requirements.txt
+</code></pre>
 
 ### &#x20;Configuration & startup service <a href="#configuration--startup-service" id="configuration--startup-service"></a>
 
@@ -533,7 +534,7 @@ sudo ln -s /etc/nginx/sites-available/mainsail /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 
-Now you can recheck the API to see if it works with the reverse proxy. Open the URL `http://\<printer-ip\>/server/info` in your browser. If you see content like this:
+Now you can recheck the API to see if it works with the reverse proxy. Open the URL `http://<printer-ip>/server/info` in your browser. If you see content like this:
 
 {% code overflow="wrap" %}
 ```json
