@@ -10,7 +10,7 @@ Please do **not** use an OctoPi image, as it can cause unforeseen (avoidable) pr
 Don’t forget to enable SSH and configure a network if using Wi-Fi.
 {% endhint %}
 
-It is recommended to use a clean [Raspberry Pi OS 32-bit Lite](https://downloads.raspberrypi.org/raspios\_lite\_armhf\_latest) image.
+It is recommended to use a clean [Raspberry Pi OS 32-bit Lite](https://downloads.raspberrypi.org/raspios\_lite\_armhf\_latest) image. If you don't use a Raspberry Pi as SBC, every default Debian Buster / Bullseye (recommended) should also fit with this guide.
 
 We recommend you follow the Raspberry Pi OS official [documentation](https://www.raspberrypi.org/documentation/installation/installing-images/) to flash and install the operating system to your SD card.
 
@@ -571,4 +571,4 @@ And you can config your hostname:
 
 `sudo raspi-config`
 
-In `2 Network Options` > `N1 Hostname`, you can edit the hostname of your Raspberry Pi. After a reboot, you can use `http://\<hostname\>.local/` to open the web interface.
+In `2 Network Options` > `N1 Hostname`, you can edit the hostname of your Raspberry Pi. After a reboot, you can use `http://<hostname>.local/` to open the web interface.
