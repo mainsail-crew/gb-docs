@@ -2,7 +2,7 @@
 
 Go to the [settings](./) and select the General category.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>General settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>General settings</p></figcaption></figure>
 
 ## Printer Name
 
@@ -11,6 +11,28 @@ Here you can assign a name for your printer. This name is displayed in the top b
 ## Language
 
 Choose the language in which you want to use Mainsail. Please note that the translations are created by the community. [Missing a translation or found an incorrect translation?](../features/localization.md#missing-a-translation-or-found-an-incorrect-translation)
+
+## Data Format
+
+Choose your favorite date format. . By default, Mainsail use the browser format.
+
+## Time Format
+
+Choose your favorite time format. . By default, Mainsail use the browser format.
+
+## Print progress calculation
+
+* File position (relative)\
+  The print progress will be calculated via file position without start and end G-code metadata.\
+
+* File position (absolute)\
+  The print progress will be calculated via file position incl. start and end G-code metadata.\
+
+* Slicer(M73)\
+  Mainsail displays the print progress of the M73 G-code. Absolute file progress is used as fallback.\
+
+* Filament\
+  The progress will be calculated via used filament and slicer calculated filament.
 
 ## Estimate time calculation
 

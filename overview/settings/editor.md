@@ -2,7 +2,7 @@
 
 Go to the [settings](./) and select the Editor category.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Editor settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Editor settings</p></figcaption></figure>
 
 ## Use ESC to close editor
 
