@@ -18,7 +18,7 @@ In PrusaSlicer or SuperSlicer you have to enable the checkbox in:
 Print Settings > Output options > Output file > Label objects
 ```
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Best practise G-codes
 

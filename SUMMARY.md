@@ -67,12 +67,13 @@
 
 * [FAQ](faq/README.md)
   * [Mainsail](faq/mainsail.md)
-  * [Moonraker warnings](faq/moonraker-warnings/README.md)
-    * [PolicyKit Permissions](faq/moonraker-warnings/policykit-permissions.md)
   * [Klipper warnings](faq/klipper-warnings/README.md)
     * [Deprecated Values](faq/klipper-warnings/deprecated-values.md)
     * [Deprecated Options](faq/klipper-warnings/deprecated-options.md)
-  * [Klipper errors](faq/klipper-errors.md)
+  * [Moonraker warnings](faq/moonraker-warnings/README.md)
+    * [PolicyKit Permissions](faq/moonraker-warnings/policykit-permissions.md)
+  * [Klipper errors](faq/klipper-errors/README.md)
+    * [Command format mismatch](faq/klipper-errors/command-format-mismatch.md)
 
 ## About
 
