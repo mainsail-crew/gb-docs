@@ -9,11 +9,3 @@ We would like acknowledge the valuable contributions that many people and projec
 We would like to thank the projects Mainsail is built on, especially [Klipper](https://github.com/KevinOConnor/klipper), [Moonraker](https://github.com/Arksine/moonraker), and [MainsailOS](https://github.com/mainsail-crew/MainsailOS/).
 
 **THANK YOU for your continued support.**
-
-## Contributors
-
-to be done
-
-## Licenses
-
-to be done

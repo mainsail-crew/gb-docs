@@ -51,17 +51,15 @@ coverY: 0
 
 Do you need help or just want to talk? Join our active community on Discord. Have you found a bug? Please create an Issue in GitHub and let us know.
 
-[Discord](https://discord.gg/skWTwTD)
-
-[GitHub Issues](https://github.com/mainsail-crew/mainsail/issues)
+* [Discord](https://discord.gg/skWTwTD)
+* [GitHub Issues](https://github.com/mainsail-crew/mainsail/issues)
 
 ## Support Mainsail
 
 Mainsail is primarily developed and maintained by `meteyou`. To keep the project going he invests his free time, almost every day. To motivate him (☕🍺😜) there are several ways to support him:
 
-[Patreon](https://www.patreon.com/meteyou)
-
-[Ko-Fi](https://ko-fi.com/mainsail)
+* [Patreon](https://www.patreon.com/meteyou) (recurring)
+* [Ko-Fi](https://ko-fi.com/mainsail) (one-time)
 
 {% hint style="info" %}
 Please also support all of our maintainers and contributors.
