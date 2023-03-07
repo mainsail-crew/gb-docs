@@ -14,4 +14,4 @@ description: >-
 
 ## Support Mainsail
 
-You can support Mainsail development directly, either regulary ([Patreon](https://patreon.com/meteyou)) or one-time ([Ko-Fi](https://ko-fi.com/mainsail)).
+You can support Mainsail development directly, either regulary ([Patreon](https://patreon.com/meteyou), [GitHub](https://github.com/sponsors/mainsail-crew)) or one-time ([Ko-Fi](https://ko-fi.com/mainsail), [GitHub](https://github.com/sponsors/mainsail-crew)).
