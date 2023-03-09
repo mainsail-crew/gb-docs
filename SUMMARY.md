@@ -80,7 +80,6 @@
 * [Data Privacy](about/data-privacy.md)
 * [Sponsors](about/sponsors.md)
 * [Credits](about/credits.md)
-* [Help](about/help.md)
 
 ## 🔗 Links
 

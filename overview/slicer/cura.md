@@ -10,13 +10,13 @@ You have to add a Post Processing Script to add "G-code thumbnails" in Cura. To 
 Important is, that the size is square! If you don't use a square resolution, Cura will squeeze the thumbnail.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Direct G-code upload
 
 Install the OctoPrint-Connection plugin in Cura’s Marketplace. In Cura go to `Settings > Printer > Manage Printers` and find the Button `Connect OctoPrint`. Add your printer and type anything in the `API Key` field.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### Best practise G-codes
 
