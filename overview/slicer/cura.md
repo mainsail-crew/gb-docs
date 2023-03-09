@@ -12,6 +12,12 @@ Important is, that the size is square! If you don't use a square resolution, Cur
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
+### Direct G-code upload
+
+Install the OctoPrint-Connection plugin in Cura’s Marketplace. In Cura go to `Settings > Printer > Manage Printers` and find the Button `Connect OctoPrint`. Add your printer and type anything in the `API Key` field.
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
 ### Best practise G-codes
 
 In Cura, there is a straightforward solution to add custom G-codes. Pedro Lamas has developed an excellent script that you can use as post-processing to add everything necessary.

@@ -10,7 +10,7 @@ This mode is very simple to manage your `gcode_macro`s. You can only hide macros
 
 In this mode, you can create individual groups. Each group is displayed as a separate panel on the dashboard and can be positioned independently in the dashboard.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Macro settings (Mode: expert)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Macro settings (Mode: expert)</p></figcaption></figure>
 
 Each group can then be individually equipped, and the visibility can be individually adjusted.
 

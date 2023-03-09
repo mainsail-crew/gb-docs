@@ -6,4 +6,4 @@ Go to the [settings](./) and select the Printer category.
 
 In this settings page, you can add multiple printers for the "farm view". You only have to fill in the IP-address and the port of the Moonraker instance of the other printer.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Add printer dialog</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Add printer dialog</p></figcaption></figure>

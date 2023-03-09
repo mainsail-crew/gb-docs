@@ -20,6 +20,12 @@ Print Settings > Output options > Output file > Label objects
 
 <figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
+### Direct G-code from slicer
+
+Enable advanced or expert mode and change the options under `Printer Settings / General` as shown in the screenshot below. A “Physical Printer” must be configured in `Printer Settings / General`.
+
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
 ### Best practise G-codes
 
 These custom G-codes are necessary to get the best user experience.

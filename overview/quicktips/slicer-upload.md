@@ -12,18 +12,18 @@ Moonraker is compatible with OctoPrint’s API. To enable OctoPrint API compatib
 [octoprint_compat]
 ```
 
-## PrusaSlicer / SuperSlicer (PrusaSlicer v2.3.0 and up) <a href="#prusaslicer--superslicer-prusaslicer-v230-and-up" id="prusaslicer--superslicer-prusaslicer-v230-and-up"></a>
+### How to setup direct upload
 
-Enable advanced or expert mode and change the options under `Printer Settings / General` as shown in the screenshot below. A “Physical Printer” must be configured in `Printer Settings / General`.
+Read the detailed tutorial in the slicer page:
 
-## PrusaSlicer / SuperSlicer (prior to PrusaSlicer v2.3.0) <a href="#prusaslicer--superslicer-prior-to-prusaslicer-v230" id="prusaslicer--superslicer-prior-to-prusaslicer-v230"></a>
+{% content-ref url="../slicer/cura.md" %}
+[cura.md](../slicer/cura.md)
+{% endcontent-ref %}
 
-Enable advanced or expert mode and change the options under `Printer Settings / General` as shown in the screenshot below. For “API Key” you can type anything.
+{% content-ref url="../slicer/prusaslicer.md" %}
+[prusaslicer.md](../slicer/prusaslicer.md)
+{% endcontent-ref %}
 
-![](../../.gitbook/assets/FileUpload-PrusaSlicer-2.2.0.png)
-
-## Cura with OctoPrint-Connect <a href="#cura-with-octoprint-connect" id="cura-with-octoprint-connect"></a>
-
-Install the OctoPrint-Connection plugin in Cura’s Marketplace. In Cura go to `Settings > Printer > Manage Printers` and find the Button `Connect OctoPrint`. Add your printer and type anything in the `API Key` field.
-
-![](../../.gitbook/assets/FileUpload-Cura-4.8.png)
+{% content-ref url="../slicer/superslicer.md" %}
+[superslicer.md](../slicer/superslicer.md)
+{% endcontent-ref %}
