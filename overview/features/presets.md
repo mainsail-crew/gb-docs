@@ -24,4 +24,4 @@ You can add custom G-Code to make it easier to switch between different Z-Offset
 
 To configure the G-Code enter `SET_GCODE_OFFSET Z=0.2`, and change `0.2` to the offset you need.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
