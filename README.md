@@ -1,11 +1,12 @@
 ---
+description: >-
+  A modern and responsive user interface for Klipper. Control and monitor your
+  printer from everywhere, from any device.
 cover: .gitbook/assets/Mainsail_SB.jpg
 coverY: 0
 ---
 
 # Welcome to Mainsail
-
-<mark style="color:red;">**Mainsail.**</mark> A modern and responsive user interface for Klipper. Control and monitor your printer from everywhere, from any device.
 
 <mark style="color:red;">**Easy to use.**</mark>** ** The focus lies on both anticipating what users may need to do and ensuring that the user interface contains elements that are easily accessible, understandable, and user-friendly to make those actions easier.
 
