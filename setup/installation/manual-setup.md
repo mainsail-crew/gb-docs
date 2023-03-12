@@ -21,16 +21,16 @@ Once you have finished the installation and are connected via SSH, you can conti
 Install the required packages and update the system:
 
 {% tabs %}
-{% tab title="Debian 10 (Buster)" %}
+{% tab title="Debian 11 (Bullseye)" %}
 ```bash
-sudo apt update --allow-releaseinfo-change && sudo apt upgrade --yes
+sudo apt update && sudo apt upgrade -y
 sudo apt install git unzip
 ```
 {% endtab %}
 
-{% tab title="Debian 11 (Bullseye)" %}
+{% tab title="Debian 10 (Buster)" %}
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update --allow-releaseinfo-change && sudo apt upgrade --yes
 sudo apt install git unzip
 ```
 {% endtab %}
@@ -43,18 +43,18 @@ sudo apt install git unzip
 At first we have to install some OS dependencies:
 
 {% tabs %}
-{% tab title="Debian 10 (Buster)" %}
-{% code overflow="wrap" %}
-```bash
-sudo apt install python3-virtualenv python3-dev python3-dev libffi-dev build-essential libncurses-dev libusb-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0
-```
-{% endcode %}
-{% endtab %}
-
 {% tab title="Debian 11 (Bullseye)" %}
 {% code overflow="wrap" %}
 ```bash
 sudo apt install python3-virtualenv python3-dev python3-dev libffi-dev build-essential libncurses-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0-0 libusb-1.0-0-dev
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Debian 10 (Buster)" %}
+{% code overflow="wrap" %}
+```bash
+sudo apt install python3-virtualenv python3-dev python3-dev libffi-dev build-essential libncurses-dev libusb-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0
 ```
 {% endcode %}
 {% endtab %}
@@ -159,7 +159,7 @@ Moonraker is a web server that exposes APIs which lets Mainsail interact with Kl
 At first we have to install some OS dependencies:
 
 {% tabs %}
-{% tab title="Debian 10 (Buster)" %}
+{% tab title="Debian 11 (Bullseye)" %}
 {% code overflow="wrap" %}
 ```bash
 sudo apt install python3-virtualenv python3-dev libopenjp2-7 python3-libgpiod curl libcurl4-openssl-dev libssl-dev liblmdb-dev libsodium-dev zlib1g-dev libjpeg-dev packagekit wireless-tools
@@ -167,7 +167,7 @@ sudo apt install python3-virtualenv python3-dev libopenjp2-7 python3-libgpiod cu
 {% endcode %}
 {% endtab %}
 
-{% tab title="Debian 11 (Bullseye)" %}
+{% tab title="Debian 10 (Buster)" %}
 {% code overflow="wrap" %}
 ```bash
 sudo apt install python3-virtualenv python3-dev libopenjp2-7 python3-libgpiod curl libcurl4-openssl-dev libssl-dev liblmdb-dev libsodium-dev zlib1g-dev libjpeg-dev packagekit wireless-tools
