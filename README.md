@@ -22,9 +22,9 @@ coverY: 0
 
 ## Screenshots
 
-![](https://docs.mainsail.xyz/assets/img/screenshot.png)
+<figure><img src=".gitbook/assets/screenshot.png" alt=""><figcaption><p>Screenshot Dashboard (Mobile &#x26; Desktop)</p></figcaption></figure>
 
-![](https://docs.mainsail.xyz/assets/img/features.png)
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Heightmap, G-code viewer, Farm mode</p></figcaption></figure>
 
 ## Features
 
