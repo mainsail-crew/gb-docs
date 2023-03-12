@@ -40,12 +40,6 @@ Start G-code (before your start G-code):
 SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
 ```
 
-End G-code (at the last line):
-
-```
-; total layers count = [total_layer_count]
-```
-
 After layer change G-code:
 
 ```
