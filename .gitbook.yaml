@@ -1,0 +1,4 @@
+root: ./
+
+redirects:
+  setup/mainsail-os: setup/getting-started
