@@ -5,7 +5,7 @@
 ## Setup
 
 * [Installation](setup/getting-started.md)
-  * [MainsailOS](https://app.gitbook.com/s/HZGYoL7ogomNyBLNEpEJ/setup)
+  * [MainsailOS](https://docs-os.mainsail.xyz/)
   * [KIAUH](setup/installation/kiauh.md)
   * [Docker](setup/installation/docker.md)
   * [Manual setup](setup/installation/manual-setup.md)
@@ -19,7 +19,7 @@
 
 * [Features](overview/features/README.md)
   * [Thumbnails](overview/features/thumbnails.md)
-  * [Update Manager](overview/features/update-manager.md)
+  *
   * [Bed Mesh](overview/features/bed-mesh.md)
   * [Console](overview/features/console.md)
   * [Dashboard Organisation](overview/features/dashboard-organisation.md)
