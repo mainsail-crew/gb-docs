@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
-  setup/mainsail-os: setup/getting-started
+  setup/mainsail-os: setup/getting-started.md
