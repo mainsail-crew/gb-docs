@@ -89,11 +89,3 @@ Repository: [Turbine1991/mainsail-theme-elegance](https://www.github.com/Turbine
 
 ![](https://raw.githubusercontent.com/Turbine1991/mainsail-theme-elegance/master/screenshot.jpg)
 
-### Elegance Theme2
-
-id: `10`\
-Author: [Turbine1991](https://www.github.com/Turbine1991/)\
-Repository: [Turbine1991/mainsail-theme-elegance](https://www.github.com/Turbine1991/mainsail-theme-elegance/)
-
-![](https://raw.githubusercontent.com/Turbine1991/mainsail-theme-elegance/master/screenshot.jpg)
-
