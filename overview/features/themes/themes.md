@@ -23,7 +23,7 @@ id: `1`\
 Author: [steadyjaw](https://www.github.com/steadyjaw/)\
 Repository: [steadyjaw/dracula-mainsail-theme](https://www.github.com/steadyjaw/dracula-mainsail-theme/)
 
-![](https://raw.githubusercontent.com/steadyjaw/dracula-mainsail-theme/master/screenshot.png)
+![](https://raw.githubusercontent.com/steadyjaw/dracula-mainsail-theme/master/screenshot.jpg)
 
 ### Cyberpunk
 
@@ -31,27 +31,23 @@ id: `2`\
 Author: [Dario-Ciceri](https://www.github.com/Dario-Ciceri/)\
 Repository: [Dario-Ciceri/cp2077-mainsail-theme](https://www.github.com/Dario-Ciceri/cp2077-mainsail-theme/)
 
-![](https://raw.githubusercontent.com/Dario-Ciceri/cp2077-mainsail-theme/master/screenshot.png)
+![](https://raw.githubusercontent.com/Dario-Ciceri/cp2077-mainsail-theme/master/screenshot.jpg)
 
 ### Mainsail x Voron Toolhead
-
-> Various toolhead images inside the theme folder can be renamed to 'sidebar-background.png'
 
 id: `3`\
 Author: [eriroh](https://www.github.com/eriroh/)\
 Repository: [eriroh/Mainsail-x-Voron-Toolhead-Theme](https://www.github.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/)
 
-![](https://raw.githubusercontent.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/master/screenshot.png)
+![](https://raw.githubusercontent.com/eriroh/Mainsail-x-Voron-Toolhead-Theme/master/screenshot.jpg)
 
 ### Rat Rig (unofficial)
-
-> includes various sidebar images which can be renamed to ‘sidebar-background.png’
 
 id: `4`\
 Author: [Raabi91](https://www.github.com/Raabi91/)\
 Repository: [Raabi91/ratrig-mainsail-theme](https://www.github.com/Raabi91/ratrig-mainsail-theme/)
 
-![](https://raw.githubusercontent.com/Raabi91/ratrig-mainsail-theme/master/screenshot.png)
+![](https://raw.githubusercontent.com/Raabi91/ratrig-mainsail-theme/master/screenshot.jpg)
 
 ### Cryd
 
@@ -62,8 +58,6 @@ Repository: [cryd-s/Mainsail-Theme-by-Cryd](https://www.github.com/cryd-s/Mainsa
 ![](https://raw.githubusercontent.com/cryd-s/Mainsail-Theme-by-Cryd/master/screenshot.jpg)
 
 ### Minesail - a Minecraft theme
-
-> Please check the readme regarding the logos
 
 id: `6`\
 Author: [lixxbox](https://www.github.com/lixxbox/)\
@@ -86,3 +80,12 @@ Author: [dapostol73](https://www.github.com/dapostol73/)\
 Repository: [dapostol73/MainsailEryoneTheme](https://www.github.com/dapostol73/MainsailEryoneTheme/)
 
 ![](https://raw.githubusercontent.com/dapostol73/MainsailEryoneTheme/master/screenshot.jpg)
+
+### Elegance Theme
+
+id: `9`\
+Author: [Turbine1991](https://www.github.com/Turbine1991/)\
+Repository: [Turbine1991/mainsail-theme-elegance](https://www.github.com/Turbine1991/mainsail-theme-elegance/)
+
+![](https://raw.githubusercontent.com/Turbine1991/mainsail-theme-elegance/master/screenshot.jpg)
+
