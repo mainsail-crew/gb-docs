@@ -1,0 +1,42 @@
+name: Update Credits
+
+on:
+  push:
+    branches:
+      - main
+    files:
+      - '.github/workflows/update-credits.yml'
+      - '_scripts/generate-credits.js'
+      - '_scripts/credits.md'
+  workflow_dispatch:
+
+jobs:
+  update-credits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v1
+        with:
+          node-version: v18.x
+
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: npm install
+        run: npm ci
+
+      - name: Download contributors list and commit
+        run: |
+          cd ${GITHUB_WORKSPACE}/_data
+          wget -O contributors.json https://api.github.com/repositories/240875926/contributors?anon=0
+
+      - name: Generate credits.md
+        run: node ./_scripts/generate-credits.js
+
+      - name: git add & commit & push
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'credits.md', './_data/contributors.json'
+          default_author: github_actions
+          message: 'docs: update credits.md'
+          push: true
