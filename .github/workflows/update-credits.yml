@@ -8,6 +8,8 @@ on:
       - '.github/workflows/update-credits.yml'
       - '_scripts/generate-credits.js'
       - '_scripts/credits.md'
+      - '_data/contributors.json'
+      - '_data/licenses.json'
   workflow_dispatch:
 
 jobs:
