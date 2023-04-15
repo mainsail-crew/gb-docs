@@ -38,7 +38,9 @@ jobs:
       - name: git add & commit & push
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'credits.md', './_data/contributors.json'
+          add:
+            - './about/credits.md'
+            - './_data/contributors.json'
           default_author: github_actions
           message: 'docs: update credits.md'
           push: true
