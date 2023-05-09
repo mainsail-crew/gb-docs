@@ -3,13 +3,13 @@
 ## How are estimations of the printing time calculated?
 
 * **Estimate**\
-  __The remaining time is calculated based on configurable factors, from which the average is derived.\
+  The remaining time is calculated based on configurable factors, from which the average is derived.\
   Available factors_: File, Filament (see below)_
 * **Slicer**\
-  __The remaining time is determined taking into account the total printing time of the slicer.\
+  The remaining time is determined taking into account the total printing time of the slicer.\
   _(see below: factor slicer)_
 * **Print**\
-  __Print time is the elapsed time since the first G-code movement. This usually does not include heating time or other preparations.
+  Print time is the elapsed time since the first G-code movement. This usually does not include heating time or other preparations.
 * **Total**\
   Total time is the elapsed time since the start of printing. This also takes into account the heating time.
 *   **ETA (estimated time of arrival)**\

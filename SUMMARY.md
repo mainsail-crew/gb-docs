@@ -19,7 +19,6 @@
 
 * [Features](overview/features/README.md)
   * [Thumbnails](overview/features/thumbnails.md)
-  *
   * [Bed Mesh](overview/features/bed-mesh.md)
   * [Console](overview/features/console.md)
   * [Dashboard Organisation](overview/features/dashboard-organisation.md)
@@ -59,6 +58,7 @@
   * [Printer power switch](overview/quicktips/printer-power-switch.md)
   * [Additional Sensors](overview/quicktips/additional-sensors.md)
   * [Disable Octoprint LCD menu](overview/quicktips/disable-octoprint-lcd-menu.md)
+  * [config.json](overview/quicktips/config.json.md)
 * [Developement](overview/developement/README.md)
   * [Code standards](overview/developement/code-standards.md)
   * [Environment](overview/developement/environment.md)

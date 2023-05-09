@@ -71,7 +71,7 @@ Several details about the update process are displayed in a pop-up window. Once 
 
 The components in the Update Manager can have different statuses.
 
-![](../../.gitbook/assets/update\_manager\_states.png)
+![](<../../.gitbook/assets/update\_manager\_states (1).png>)
 
 #### <mark style="color:green;">**UP-TO-DATE**</mark>
 
@@ -83,7 +83,7 @@ Updates are available for the component. Upgrades are for system packages.
 
 #### <mark style="color:orange;">**DETACHED**</mark>
 
-The components <mark style="color:orange;">****</mark> repo is currently in a detached state. You can recover the status.
+The components repo is currently in a detached state. You can recover the status.
 
 #### <mark style="color:orange;">**DIRTY**</mark>
 

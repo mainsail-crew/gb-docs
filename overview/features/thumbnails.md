@@ -8,7 +8,7 @@ description: >-
 
 ![Print start dialog](../../.gitbook/assets/large-preview.png)
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Thumbnails in G-codes list</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Thumbnails in G-codes list</p></figcaption></figure>
 
 ### How to config your slicer for thumbnails
 

@@ -13,7 +13,7 @@ Start typing in the Console. To submit a command press Enter key or click on the
 If you press the <mark style="background-color:yellow;">TAB</mark> key, the command will be completed to the next possible position. If there are several possibilities, you will get a list of choices. You can either click on a command to complete it, or just keep typing and press <mark style="background-color:yellow;">TAB</mark> key to complete it again.
 
 {% hint style="info" %}
-**On mobile devices** _Mainsail will show you a tab button._![](../../.gitbook/assets/console-mobile-tab.png)__
+**On mobile devices** _Mainsail will show you a tab button._![](../../.gitbook/assets/console-mobile-tab.png)
 {% endhint %}
 
 ## Find commands <a href="#find-commands" id="find-commands"></a>

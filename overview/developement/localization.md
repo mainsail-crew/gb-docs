@@ -16,7 +16,7 @@ If you have a finished translation file, you can make a [PR (pull request)](http
 
 #### Test your translations live <a href="#test-your-translations-live" id="test-your-translations-live"></a>
 
-You can follow [this guide](https://docs.mainsail.xyz/development/environment) to start Mainsail in a “Debug Mode” and check your translation live.
+You can follow [this guide](environment.md) to start Mainsail in a “Debug Mode” and check your translation live.
 
 #### Check the translation with `vue-i18n-extract` <a href="#check-the-translation-with-vue-i18n-extract" id="check-the-translation-with-vue-i18n-extract"></a>
 

@@ -6,7 +6,7 @@ description: Place some background images to give Mainsail its own look with eas
 
 There are two background images that can be used in Mainsail. The first is in the sidebar and the second is in the main section.
 
-![](<../../../.gitbook/assets/sidebar-main (1).jpg>)
+![](../../../.gitbook/assets/sidebar-main.jpg)
 
 You can upload a new background image using the file manager located in `Settings > Machine`.
 

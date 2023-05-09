@@ -8,7 +8,7 @@ coverY: 0
 
 # Welcome to Mainsail
 
-<mark style="color:red;">**Easy to use.**</mark>** ** The focus lies on both anticipating what users may need to do and ensuring that the user interface contains elements that are easily accessible, understandable, and user-friendly to make those actions easier.
+<mark style="color:red;">**Easy to use.**</mark> The focus lies on both anticipating what users may need to do and ensuring that the user interface contains elements that are easily accessible, understandable, and user-friendly to make those actions easier.
 
 <mark style="color:red;">**Always one step ahead.**</mark> We work closely with developers of other projects so that functions can already be implemented early on.
 
