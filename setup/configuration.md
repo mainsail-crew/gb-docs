@@ -6,7 +6,15 @@ Mainsail requires a minimum configuration to function properly and will display 
 
 ## Required
 
-The following configuration elements are required and must be configured for Mainsail to function properly. In **MainsailOS** they are stored by default in [mainsail.cfg](https://github.com/mainsail-crew/MainsailOS/blob/master/src/modules/mainsail/filesystem/home/pi/klipper\_config/mainsail.cfg) and only need to be included in `printer.cfg`.
+The following configuration elements are required and must be configured for Mainsail to function properly. In **MainsailOS** they are stored by default in [mainsail.cfg](https://github.com/mainsail-crew/MainsailOS/blob/master/src/modules/mainsail/filesystem/home/pi/klipper\_config/mainsail.cfg) and only need to be included in `printer.cfg`. 
+
+### Include mainsail.cfg <a href="#include-mainsail-cfg" id="include-mainsail-cfg"></a>
+
+This ensures that your printer config file includes the mainsail.cfg. If you are migrating from a different Klipper front end, this will *not* be in your existing `printer.cfg`.
+```yaml
+[include mainsail.cfg]
+```
+
 
 ### Virtual SD Card <a href="#virtual-sd-card" id="virtual-sd-card"></a>
 
