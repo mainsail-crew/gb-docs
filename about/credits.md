@@ -67,6 +67,7 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 | **echarts-gl** | BSD | [https://github.com/ecomfe/echarts-gl](https://github.com/ecomfe/echarts-gl) |
 | **echarts** | Apache-2.0 | [https://github.com/apache/echarts](https://github.com/apache/echarts) |
 | **hls.js** | Apache-2.0 | [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js) |
+| **jmuxer** | UNKNOWN | [https://github.com/samirkumardas/jmuxer](https://github.com/samirkumardas/jmuxer) |
 | **js-sha256** | MIT | [https://github.com/emn178/js-sha256](https://github.com/emn178/js-sha256) |
 | **lodash.kebabcase** | MIT | [https://github.com/lodash/lodash](https://github.com/lodash/lodash) |
 | **lodash.throttle** | MIT | [https://github.com/lodash/lodash](https://github.com/lodash/lodash) |
@@ -75,6 +76,7 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 | **regenerator-runtime** | MIT | [https://github.com/facebook/regenerator/tree/master/packages/runtime](https://github.com/facebook/regenerator/tree/master/packages/runtime) |
 | **resize-observer-polyfill** | MIT | [https://github.com/que-etc/resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) |
 | **semver** | ISC | [https://github.com/npm/node-semver](https://github.com/npm/node-semver) |
+| **typed_janus_js** | ISC | [undefined](undefined) |
 | **uuid** | MIT | [https://github.com/uuidjs/uuid](https://github.com/uuidjs/uuid) |
 | **vue-class-component** | MIT | [https://github.com/vuejs/vue-class-component](https://github.com/vuejs/vue-class-component) |
 | **vue-echarts** | MIT | [https://github.com/ecomfe/vue-echarts](https://github.com/ecomfe/vue-echarts) |
