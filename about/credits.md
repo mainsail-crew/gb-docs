@@ -61,6 +61,7 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 | **@sindarius/gcodeviewer** | LGPL-3.0-or-later | [https://github.com/Sindarius/npm_gcodeviewer](https://github.com/Sindarius/npm_gcodeviewer) |
 | **@types/node** | MIT | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) |
 | **@types/overlayscrollbars** | MIT | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) |
+| **@uiw/codemirror-theme-vscode** | MIT | [https://github.com/uiwjs/react-codemirror](https://github.com/uiwjs/react-codemirror) |
 | **axios** | MIT | [https://github.com/axios/axios](https://github.com/axios/axios) |
 | **codemirror** | MIT | [https://github.com/codemirror/basic-setup](https://github.com/codemirror/basic-setup) |
 | **core-js** | MIT | [https://github.com/zloirock/core-js](https://github.com/zloirock/core-js) |
