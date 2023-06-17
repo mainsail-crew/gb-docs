@@ -59,10 +59,10 @@
   * [Additional Sensors](overview/quicktips/additional-sensors.md)
   * [Disable Octoprint LCD menu](overview/quicktips/disable-octoprint-lcd-menu.md)
   * [config.json](overview/quicktips/config.json.md)
-* [Developement](overview/developement/README.md)
-  * [Code standards](overview/developement/code-standards.md)
-  * [Environment](overview/developement/environment.md)
-  * [Localization](overview/developement/localization.md)
+* [Development](overview/development/README.md)
+  * [Code standards](overview/development/code-standards.md)
+  * [Environment](overview/development/environment.md)
+  * [Localization](overview/development/localization.md)
 
 ***
 

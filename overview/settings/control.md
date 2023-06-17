@@ -8,7 +8,11 @@ Go to the [settings](./) and select the Control category.
 
 In this passage, the customizing possibilities for this panel are described.
 
-![Toolhead panel](../../.gitbook/assets/toolhead.png)
+<div align="center">
+
+<img src="../../.gitbook/assets/toolhead.png" alt="Toolhead panel">
+
+</div>
 
 ### Style
 

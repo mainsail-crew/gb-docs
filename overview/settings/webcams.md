@@ -47,25 +47,13 @@ You also need to specify stream and snapshot URL. For network cameras, please co
 
 **Note:** In [MainsailOS](http://localhost:5000/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/), by default, four webcam ports are mapped to URLs. Notice that the first URL doesn't contain a number. Check which port you have configured in your streamer and add the URLs.
 
-| Port | Stream URL              | Snapshot URL              |
-| ---- | ----------------------- | ------------------------- |
-| 8080 | /webcam/?action=stream  | /webcam/?action=snapshot  |
-| 8081 | /webcam2/?action=stream | /webcam2/?action=snapshot |
-| 8082 | /webcam3/?action=stream | /webcam3/?action=snapshot |
-| 8083 | /webcam4/?action=stream | /webcam4/?action=snapshot |
+<table><thead><tr><th width="150">Port</th><th>Stream URL</th><th>Snapshot URL</th></tr></thead><tbody><tr><td>8080</td><td>/webcam/?action=stream</td><td>/webcam/?action=snapshot</td></tr><tr><td>8081</td><td>/webcam2/?action=stream</td><td>/webcam2/?action=snapshot</td></tr><tr><td>8082</td><td>/webcam3/?action=stream</td><td>/webcam3/?action=snapshot</td></tr><tr><td>8083</td><td>/webcam4/?action=stream</td><td>/webcam4/?action=snapshot</td></tr></tbody></table>
 
 ### Streaming mode
 
 You also need to select a streaming mode. Below are descriptions of the different modes, so you can decide. Try out what works best for you.
 
-| Mode                         | Description                                                                                                                                                                                                                                                                                    |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **MJPEG-Streamer**           | <p>The streamer mode extracts individual frames from the stream URL and streams them. </p><p></p><p>This is to prevent the buildup of delay in case of insufficient bandwidth. <br><br><strong>IMPORTANT:</strong> This mode does currently not work on iOS devices for technical reasons.</p> |
-| **Adaptive MJPEG-Streamer**  | <p>The adaptive mode takes the snapshot URL and pulls individual images. </p><p></p><p>Also, this is intended to prevent a delay.</p>                                                                                                                                                          |
-| **UV4L-MJPEG**               | <p>The classic mode is the plain MJPEG stream embedded in an image tag. </p><p></p><p>In this case, it can happen that after some runtime a delay steadily builds up, because frames cannot be skipped. Only a browser reload will help.</p>                                                   |
-| **IP-Camera**                | The stream URL is embedded in an HTML5 video element. We can't really provide support for this. Browser plugins may be required.                                                                                                                                                               |
-| **WebRTC (camera-streamer)** | <p>This stream is very bandwidth efficient.<br><br><strong>IMPORTANT</strong>: This mode is currently only available on Raspberry devices.</p>                                                                                                                                                 |
-| **HLS Streamer**             | This mode is for IP webcams with RTSP support.                                                                                                                                                                                                                                                 |
+<table><thead><tr><th width="213.55085622344592">Mode</th><th>Description</th></tr></thead><tbody><tr><td><strong>MJPEG-Streamer</strong></td><td><p>The streamer mode extracts individual frames from the stream URL and streams them. </p><p></p><p>This is to prevent the buildup of delay in case of insufficient bandwidth. <br><br><strong>IMPORTANT:</strong> This mode does currently not work on iOS devices for technical reasons.</p></td></tr><tr><td><strong>Adaptive MJPEG-Streamer</strong></td><td><p>The adaptive mode takes the snapshot URL and pulls individual images. </p><p></p><p>Also, this is intended to prevent a delay.</p></td></tr><tr><td><strong>UV4L-MJPEG</strong></td><td><p>The classic mode is the plain MJPEG stream embedded in an image tag. </p><p></p><p>In this case, it can happen that after some runtime a delay steadily builds up, because frames cannot be skipped. Only a browser reload will help.</p></td></tr><tr><td><strong>IP-Camera</strong></td><td>The stream URL is embedded in an HTML5 video element. We can't really provide support for this. Browser plugins may be required.</td></tr><tr><td><strong>WebRTC (camera-streamer)</strong></td><td>This stream is very bandwidth efficient.<br><br><strong>IMPORTANT</strong>: This mode is currently only available on Raspberry devices.</td></tr><tr><td><strong>HLS Streamer</strong></td><td>This mode is for IP webcams with RTSP support.</td></tr></tbody></table>
 
 
 

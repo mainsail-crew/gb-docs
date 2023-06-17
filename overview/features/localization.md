@@ -16,7 +16,7 @@ In the "GENERAL" section, select your preferred language.
 
 ## Missing a translation or found an incorrect translation?
 
-You are welcome to help us improve the translations. You can find instructions on how to do that over [here](../developement/localization.md).
+You are welcome to help us improve the translations. You can find instructions on how to do that over [here](../development/localization.md).
 
 {% hint style="info" %}
 Get in touch with us on our Discord server. We will assign you a translator role for your language and inform you in advance when a new Mainsail version will be released, so that you can make the changes.

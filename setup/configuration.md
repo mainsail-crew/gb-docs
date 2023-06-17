@@ -6,15 +6,15 @@ Mainsail requires a minimum configuration to function properly and will display 
 
 ## Required
 
-The following configuration elements are required and must be configured for Mainsail to function properly. In **MainsailOS** they are stored by default in [mainsail.cfg](https://github.com/mainsail-crew/MainsailOS/blob/master/src/modules/mainsail/filesystem/home/pi/klipper\_config/mainsail.cfg) and only need to be included in `printer.cfg`. 
+The following configuration elements are required and must be configured for Mainsail to function properly. In **MainsailOS** they are stored by default in [mainsail.cfg](https://github.com/mainsail-crew/MainsailOS/blob/master/src/modules/mainsail/filesystem/home/pi/klipper\_config/mainsail.cfg) and only need to be included in `printer.cfg`.
 
 ### Include mainsail.cfg <a href="#include-mainsail-cfg" id="include-mainsail-cfg"></a>
 
-This ensures that your printer config file includes the mainsail.cfg. If you are migrating from a different Klipper front end, this will *not* be in your existing `printer.cfg`.
+This ensures that your printer config file includes the mainsail.cfg. If you are migrating from a different Klipper front end, this will _not_ be in your existing `printer.cfg`.
+
 ```yaml
 [include mainsail.cfg]
 ```
-
 
 ### Virtual SD Card <a href="#virtual-sd-card" id="virtual-sd-card"></a>
 
@@ -25,7 +25,7 @@ The `Virtual SD Card` allows G-Code file uploads.
 path: ~/printer_data/gcodes
 ```
 
-### &#x20;Display Status <a href="#display-status" id="display-status"></a>
+### Display Status <a href="#display-status" id="display-status"></a>
 
 `Display Status` is required for messages in your status panel, if you don’t have `[display]` in your configuration.
 
@@ -33,7 +33,7 @@ path: ~/printer_data/gcodes
 [display_status]
 ```
 
-### &#x20;Pause, Resume, Cancel <a href="#pause-resume-cancel" id="pause-resume-cancel"></a>
+### Pause, Resume, Cancel <a href="#pause-resume-cancel" id="pause-resume-cancel"></a>
 
 These macros enable pause and resume in Klipper.
 
@@ -41,9 +41,9 @@ These macros enable pause and resume in Klipper.
 [pause_resume]
 ```
 
-### &#x20;Macros <a href="#macros" id="macros"></a>
+### Macros <a href="#macros" id="macros"></a>
 
-#### &#x20;Add pause / resume / cancel functionality <a href="#add-pause--resume--cancel-functionality" id="add-pause--resume--cancel-functionality"></a>
+#### Add pause / resume / cancel functionality <a href="#add-pause--resume--cancel-functionality" id="add-pause--resume--cancel-functionality"></a>
 
 You can modify the below macros to fit your needs.
 
@@ -62,7 +62,8 @@ description: Resume the actual running print
 rename_existing: RESUME_BASE
 gcode:
   ##### read extrude from  _TOOLHEAD_PARK_PAUSE_CANCEL  macro #####
-  {% raw %}
+  
+{% raw %}
 {% set extrude = printer['gcode_macro _TOOLHEAD_PARK_PAUSE_CANCEL'].extrude %}
   #### get VELOCITY parameter if specified ####
   {% if 'VELOCITY' in params|upper %}
@@ -78,7 +79,8 @@ gcode:
   {% else %}
     {action_respond_info("Extruder not hot enough")}
   {% endif %}
-{% endraw %}  
+{% endraw %}
+  
   RESUME_BASE {get_params}
 ```
 
@@ -89,11 +91,13 @@ rename_existing: CANCEL_PRINT_BASE
 variable_park: True
 gcode:
   ## Move head and retract only if not already in the pause state and park set to true
-  {% raw %}
+  
+{% raw %}
 {% if printer.pause_resume.is_paused|lower == 'false' and park|lower == 'true'%}
     _TOOLHEAD_PARK_PAUSE_CANCEL
   {% endif %}
 {% endraw %}
+
   TURN_OFF_HEATERS
   CANCEL_PRINT_BASE
 ```
@@ -105,7 +109,8 @@ variable_extrude: 1.0
 gcode:
   ##### set park positon for x and y #####
   # default is your max posion from your printer.cfg
-  {% raw %}
+  
+{% raw %}
 {% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
   {% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
   {% set z_park_delta = 2.0 %}
@@ -147,7 +152,7 @@ Klipper has a number of preset commands that are also just macros.
 
 The default configuration of these may not suit your needs or preferences, though they are usually a good place to start. It’s possible to adjust these by including them in your config, along with any additional code you would like to run.
 
-#### &#x20;Example <a href="#example" id="example"></a>
+#### Example <a href="#example" id="example"></a>
 
 Adjusting the `BED_MESH_CALIBRATE` command, which is found in the menu at Sidebar > Heightmap > Calibrate.
 
