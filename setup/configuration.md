@@ -6,7 +6,7 @@ Mainsail requires a minimum configuration to function properly and will display 
 
 ## Required
 
-The following configuration elements are required and must be configured for Mainsail to function properly. In **MainsailOS** they are stored by default in [mainsail.cfg](https://github.com/mainsail-crew/MainsailOS/blob/master/src/modules/mainsail/filesystem/home/pi/klipper\_config/mainsail.cfg) and only need to be included in `printer.cfg`.
+The following configuration elements are required and must be configured for Mainsail to function properly. In **MainsailOS** they are stored by default in [mainsail.cfg](https://github.com/mainsail-crew/mainsail-config/blob/master/client.cfg) and only need to be included in `printer.cfg`.
 
 ### Include mainsail.cfg <a href="#include-mainsail-cfg" id="include-mainsail-cfg"></a>
 
@@ -62,7 +62,7 @@ description: Resume the actual running print
 rename_existing: RESUME_BASE
 gcode:
   ##### read extrude from  _TOOLHEAD_PARK_PAUSE_CANCEL  macro #####
-  
+
 {% raw %}
 {% set extrude = printer['gcode_macro _TOOLHEAD_PARK_PAUSE_CANCEL'].extrude %}
   #### get VELOCITY parameter if specified ####
@@ -80,7 +80,7 @@ gcode:
     {action_respond_info("Extruder not hot enough")}
   {% endif %}
 {% endraw %}
-  
+
   RESUME_BASE {get_params}
 ```
 
@@ -91,7 +91,7 @@ rename_existing: CANCEL_PRINT_BASE
 variable_park: True
 gcode:
   ## Move head and retract only if not already in the pause state and park set to true
-  
+
 {% raw %}
 {% if printer.pause_resume.is_paused|lower == 'false' and park|lower == 'true'%}
     _TOOLHEAD_PARK_PAUSE_CANCEL
@@ -109,7 +109,7 @@ variable_extrude: 1.0
 gcode:
   ##### set park positon for x and y #####
   # default is your max posion from your printer.cfg
-  
+
 {% raw %}
 {% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
   {% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
