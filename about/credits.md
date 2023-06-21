@@ -40,8 +40,8 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/43513802?v=4" alt="KwadFan" data-size="line"> **KwadFan**|[https://github.com/KwadFan](https://github.com/KwadFan)|
 |<img src="https://avatars.githubusercontent.com/u/85504?v=4" alt="pedrolamas" data-size="line"> **pedrolamas**|[https://github.com/pedrolamas](https://github.com/pedrolamas)|
 |<img src="https://avatars.githubusercontent.com/u/7727467?v=4" alt="randellhodges" data-size="line"> **randellhodges**|[https://github.com/randellhodges](https://github.com/randellhodges)|
+|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
 |<img src="https://avatars.githubusercontent.com/u/1850271?v=4" alt="goesta" data-size="line"> **goesta**|[https://github.com/goesta](https://github.com/goesta)|
-|<img src="https://avatars.githubusercontent.com/u/259751?v=4" alt="kageurufu" data-size="line"> **kageurufu**|[https://github.com/kageurufu](https://github.com/kageurufu)|
 
 
 ## Licenses
