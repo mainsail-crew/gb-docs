@@ -26,7 +26,7 @@ A script toolbox to install and update Klipper, Moonraker and Mainsail. KIAUH co
 
 ### Docker
 
-For those who prefer the containerized approach, Docker runs Mainsail in an isolated Docker environment with our pre-built NGINX-basaed image.
+For those who prefer the containerized approach, Docker runs Mainsail in an isolated Docker environment with our pre-built NGINX-based image.
 
 {% content-ref url="installation/docker.md" %}
 [docker.md](installation/docker.md)
