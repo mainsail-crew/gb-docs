@@ -89,3 +89,27 @@ Repository: [Turbine1991/mainsail-theme-elegance](https://www.github.com/Turbine
 
 ![](https://raw.githubusercontent.com/Turbine1991/mainsail-theme-elegance/master/screenshot.jpg)
 
+### Acryl
+
+id: `10`\
+Author: [eliteSchwein](https://www.github.com/eliteSchwein/)\
+Repository: [eliteSchwein/acryl-fluidd-mainsail-theme](https://www.github.com/eliteSchwein/acryl-fluidd-mainsail-theme/)
+
+![](https://raw.githubusercontent.com/eliteSchwein/acryl-fluidd-mainsail-theme/master/screenshot.jpg)
+
+### Dark Acryl
+
+id: `11`\
+Author: [midikeyboard](https://www.github.com/midikeyboard/)\
+Repository: [midikeyboard/dark-acryl-fluidd-mainsail-theme](https://www.github.com/midikeyboard/dark-acryl-fluidd-mainsail-theme/)
+
+![](https://raw.githubusercontent.com/midikeyboard/dark-acryl-fluidd-mainsail-theme/master/screenshot.jpg)
+
+### Vibrant Acryl
+
+id: `12`\
+Author: [midikeyboard](https://www.github.com/midikeyboard/)\
+Repository: [midikeyboard/vibrant-acryl-fluidd-mainsail-theme](https://www.github.com/midikeyboard/vibrant-acryl-fluidd-mainsail-theme/)
+
+![](https://raw.githubusercontent.com/midikeyboard/vibrant-acryl-fluidd-mainsail-theme/master/screenshot.jpg)
+
