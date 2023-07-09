@@ -21,7 +21,7 @@ A default `config.json` file should look like this:
 
 ### Remote Mode
 
-This is the behaviour of mainsail when you use e.g. [my.mainsail.xyz](http://my.mainsail.xyz/). If you have installed the Mainsail instance independently of the various Moonraker instances (printers). For example, you use a smart home server or a NAS in your home network that can serve as a web server and is always accessible.
+This is the behavior of mainsail when you use e.g. [my.mainsail.xyz](http://my.mainsail.xyz/). If you have installed the Mainsail instance independently of the various Moonraker instances (printers). For example, you use a smart home server or a NAS in your home network that can serve as a web server and is always accessible.
 
 To use this mode, open the `config.json` and change the value `instancesDB` to `browser`. If you now open Mainsail, you should see this dialog.
 
@@ -31,9 +31,9 @@ In this mode, the socket settings are saved in the browser and you can add as ma
 
 ### Remote Mode with fixed printers
 
-This mode is very similar to the one described above, except that the Socket settings are not stored in the browser but directly in the config.json file and are therefore automatically available in every browser (pc, tablet, smartphone).
+This mode is very similar to the one described above, except that the Socket settings are not stored in the browser but directly in the `config.json` file and are therefore automatically available in every browser (pc, tablet, smartphone).
 
-With this mode, you have to switch the `remoteMode` as before to `true`, but then also have to specify a list of printers in the `instances` array. Here an example:
+To use this mode, you have to switch the `instancesDB` to `json`, and then you also have to specify a list of printers in the `instances` array. Here an example:
 
 ```json
 {
