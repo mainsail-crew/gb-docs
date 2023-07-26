@@ -1,12 +1,18 @@
 # Deprecated Options
 
-#### **default\_parameter**
+### Removal of `relative_reference_index` <a href="#relative_reference_index" id="relative_reference_index"></a>
 
-## Removal of `default_parameter_` for G-Code macros.
+The `relative_reference_index` option has been deprecated and superceded by the `zero_reference_position` option. Refer to the [Bed Mesh Documentation](https://www.klipper3d.org/Bed\_Mesh.html#the-deprecated-relative\_reference\_index) for details on how to update the configuration. With this deprecation the `RELATIVE_REFERENCE_INDEX` is no longer available as a parameter for the `BED_MESH_CALIBRATE` G-Code command.
+
+{% hint style="info" %}
+[Source](https://www.klipper3d.org/Config\_Changes.html) Klipper Configuration Changes
+{% endhint %}
+
+### Removal of `default_parameter_` for G-Code macros. <a href="#default_parameter" id="default_parameter"></a>
 
 In the past, default parameters for G-Code macros were defined like so:
 
-```
+```yaml
 [gcode_macro PRINT_START]
 default_parameter_EXTRUDER: 230
 gcode:
@@ -15,7 +21,7 @@ gcode:
 
 This would define a macro called `PRINT_START` that can be called with an `EXTRUDER` parameter like so: `PRINT_START EXTRUDER=200`. If no value is passed for `EXTRUDER` the default value of 230 is used. This style of default parameters has been deprecated. Instead, define your macro like so:
 
-```
+```yaml
 [gcode_macro PRINT_START]
 gcode:
   {% raw %}
@@ -34,9 +40,7 @@ Take note of the following important aspects:
 The above description was provided by our community member [FHeilmann](https://github.com/FHeilmann) and we have his permission to publish it here. Thanks a lot! [Source](https://gist.github.com/FHeilmann/a8097b3e908e85de7255bbe6246ddfd5)
 {% endhint %}
 
-#### **step\_distance**
-
-## Removal of `step_distance`
+### Removal of `step_distance` <a href="#step_distance" id="step_distance"></a>
 
 `step_distance` describes the distance covered by a certain axis with 1 stepper (micro-)step. The downside of this parameter (and one of the reasons for its removal, is that if one were to change the microstepping of a stepper, the step\_distance changes as well. Klipper therefore removed the `step_distance` parameter in favor of `rotation_distance` and `full_steps_per_rotation`. These two parameters are unaffected by microstepping, and can be easily determined by inspecting the used hardware.
 
@@ -56,9 +60,7 @@ Perform the following steps to convert your config:
 The above description was provided by our community member [FHeilmann](https://github.com/FHeilmann) and we have his permission to publish it here. Thanks a lot! [Source](https://gist.github.com/FHeilmann/a8097b3e908e85de7255bbe6246ddfd5)
 {% endhint %}
 
-#### **pin\_map**
-
-## Removal of `pin_map`
+### Removal of `pin_map` <a href="#pin_map" id="pin_map"></a>
 
 For Voron printers, this is only relevant if you’re running an Arduino based controller board and use pins named similar to `ar19` etc. These pin declarations are no longer valid and need to be replaced with their hardware pin identifiers. To find the appropriate hardware pin identifier perform a google image search for your board plus `pinout`. E.g.:
 
@@ -72,7 +74,7 @@ There, find the pin you’re trying to replace. The old pin maps use the digital
 
 Alternatively, you can copy an appropriate `[board_pins]` block from [this location](https://github.com/Klipper3d/klipper/blob/master/config/sample-aliases.cfg) to your config. If you’re using multiple Arduinos, make sure to add the appropriate `mcu` to each block like so:
 
-```
+```yaml
 [board_pins arduino-mega]
 mcu: mcu
 ```
@@ -81,9 +83,7 @@ mcu: mcu
 The above description was provided by our community member [FHeilmann](https://github.com/FHeilmann) and we have his permission to publish it here. Thanks a lot! [Source](https://gist.github.com/FHeilmann/a8097b3e908e85de7255bbe6246ddfd5)
 {% endhint %}
 
-#### **pid\_integral\_max**
-
-## Removal of `pid_integral_max`
+### Removal of `pid_integral_max` <a href="#pid_integral_max" id="pid_integral_max"></a>
 
 Remove any instances of `pid_integral_max` from your config.
 

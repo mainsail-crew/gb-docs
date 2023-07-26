@@ -81,6 +81,7 @@ gcode:
   {% endif %}
 {% endraw %}
 
+
   RESUME_BASE {get_params}
 ```
 
@@ -97,6 +98,7 @@ gcode:
     _TOOLHEAD_PARK_PAUSE_CANCEL
   {% endif %}
 {% endraw %}
+
 
   TURN_OFF_HEATERS
   CANCEL_PRINT_BASE

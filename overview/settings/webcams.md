@@ -6,10 +6,10 @@
 
 To be able to add a stream to Mainsail, it must be available as a so-called “MJPEG stream”.
 
-So either you have a network camera that offers such a stream by itself, or you use a conventional webcam (USB camera, Raspberry Pi Camera, …) that is connected to your system. For a non-network cameras, you need to install and configure a streamer software on your system, such as [Crowsnest](http://localhost:5000/o/O2j4rN2JOaGEeS1KBjXz/s/qXE1OQLsr0XFNbT54RTY/).&#x20;
+So either you have a network camera that offers such a stream by itself, or you use a conventional webcam (USB camera, Raspberry Pi Camera, …) that is connected to your system. For a non-network cameras, you need to install and configure a streamer software on your system, such as [Crowsnest](http://127.0.0.1:5000/o/O2j4rN2JOaGEeS1KBjXz/s/qXE1OQLsr0XFNbT54RTY/).&#x20;
 
 {% hint style="info" %}
-[MainsailOS ](http://localhost:5000/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)comes preinstalled with [Crowsnest](http://localhost:5000/o/O2j4rN2JOaGEeS1KBjXz/s/qXE1OQLsr0XFNbT54RTY/) as streamer. If you wish to install Crowsnest on your system, or need assistance in configuring Crowsnest, please refer to its documentation.
+[MainsailOS ](http://127.0.0.1:5000/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)comes preinstalled with [Crowsnest](http://127.0.0.1:5000/o/O2j4rN2JOaGEeS1KBjXz/s/qXE1OQLsr0XFNbT54RTY/) as streamer. If you wish to install Crowsnest on your system, or need assistance in configuring Crowsnest, please refer to its documentation.
 {% endhint %}
 
 Once such a stream is available, you only have to configure it in the Mainsail settings.&#x20;
@@ -45,7 +45,7 @@ At first, you have to give the camera a name, and you can assign an icon to it.
 
 You also need to specify stream and snapshot URL. For network cameras, please consult the manufacturer's manual or search the Internet.
 
-**Note:** In [MainsailOS](http://localhost:5000/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/), by default, four webcam ports are mapped to URLs. Notice that the first URL doesn't contain a number. Check which port you have configured in your streamer and add the URLs.
+**Note:** In [MainsailOS](http://127.0.0.1:5000/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/), by default, four webcam ports are mapped to URLs. Notice that the first URL doesn't contain a number. Check which port you have configured in your streamer and add the URLs.
 
 <table><thead><tr><th width="150">Port</th><th>Stream URL</th><th>Snapshot URL</th></tr></thead><tbody><tr><td>8080</td><td>/webcam/?action=stream</td><td>/webcam/?action=snapshot</td></tr><tr><td>8081</td><td>/webcam2/?action=stream</td><td>/webcam2/?action=snapshot</td></tr><tr><td>8082</td><td>/webcam3/?action=stream</td><td>/webcam3/?action=snapshot</td></tr><tr><td>8083</td><td>/webcam4/?action=stream</td><td>/webcam4/?action=snapshot</td></tr></tbody></table>
 

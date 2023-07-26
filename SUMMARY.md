@@ -64,17 +64,16 @@
   * [Environment](overview/development/environment.md)
   * [Localization](overview/development/localization.md)
 
-***
+## FAQ
 
-* [FAQ](faq/README.md)
-  * [Mainsail](faq/mainsail.md)
-  * [Klipper warnings](faq/klipper-warnings/README.md)
-    * [Deprecated Values](faq/klipper-warnings/deprecated-values.md)
-    * [Deprecated Options](faq/klipper-warnings/deprecated-options.md)
-  * [Moonraker warnings](faq/moonraker-warnings/README.md)
-    * [PolicyKit Permissions](faq/moonraker-warnings/policykit-permissions.md)
-  * [Klipper errors](faq/klipper-errors/README.md)
-    * [Command format mismatch](faq/klipper-errors/command-format-mismatch.md)
+* [Mainsail](faq/mainsail.md)
+* [Klipper warnings](faq/klipper\_warnings/README.md)
+  * [Deprecated Values](faq/klipper\_warnings/deprecated\_values.md)
+  * [Deprecated Options](faq/klipper\_warnings/deprecated\_options.md)
+* [Moonraker warnings](faq/moonraker\_warnings/README.md)
+  * [PolicyKit Permissions](faq/moonraker\_warnings/policykit-permissions.md)
+* [Klipper errors](faq/klipper\_errors/README.md)
+  * [Command format mismatch](faq/klipper\_errors/command-format-mismatch.md)
 
 ## About
 

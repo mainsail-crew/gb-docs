@@ -1,8 +1,6 @@
 # Deprecated Values
 
-#### **NTC 100K beta 3950**
-
-## Removal of `NTC 100K beta 3950` sensor type.
+### Removal of `NTC 100K beta 3950` sensor type. <a href="#ntc-100k-beta-3950" id="ntc-100k-beta-3950"></a>
 
 The “NTC 100K beta 3950” temperature sensor is _deprecated_ and will be removed in the near future.
 
@@ -14,9 +12,7 @@ Most users will find the “Generic 3950” temperature sensor more accurate. An
 [Source](https://www.klipper3d.org/Config\_Changes.html) Klipper Configuration Changes
 {% endhint %}
 
-#### **rpi\_temperature**
-
-## Removal of `rpi_temperature` sensor alias.
+### Removal of `rpi_temperature` sensor alias. <a href="#rpi_temperature" id="rpi_temperature"></a>
 
 Replace `sensor_type: rpi_temperature` by `sensor_type: temperature_host` everywhere in your config.
 
