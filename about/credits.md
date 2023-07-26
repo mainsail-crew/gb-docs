@@ -22,11 +22,11 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/9819264?v=4" alt="winbin" data-size="line"> **winbin**|[https://github.com/winbin](https://github.com/winbin)|
 |<img src="https://avatars.githubusercontent.com/u/21110785?v=4" alt="le3tspeak" data-size="line"> **le3tspeak**|[https://github.com/le3tspeak](https://github.com/le3tspeak)|
 |<img src="https://avatars.githubusercontent.com/u/36079537?v=4" alt="steadyjaw" data-size="line"> **steadyjaw**|[https://github.com/steadyjaw](https://github.com/steadyjaw)|
+|<img src="https://avatars.githubusercontent.com/u/23371663?v=4" alt="Samuel-0-0" data-size="line"> **Samuel-0-0**|[https://github.com/Samuel-0-0](https://github.com/Samuel-0-0)|
 |<img src="https://avatars.githubusercontent.com/u/92088582?v=4" alt="srbjessen" data-size="line"> **srbjessen**|[https://github.com/srbjessen](https://github.com/srbjessen)|
 |<img src="https://avatars.githubusercontent.com/u/50421769?v=4" alt="ZISQO" data-size="line"> **ZISQO**|[https://github.com/ZISQO](https://github.com/ZISQO)|
 |<img src="https://avatars.githubusercontent.com/u/12411803?v=4" alt="bartlammers" data-size="line"> **bartlammers**|[https://github.com/bartlammers](https://github.com/bartlammers)|
 |<img src="https://avatars.githubusercontent.com/u/71041835?v=4" alt="CodingJustForRun" data-size="line"> **CodingJustForRun**|[https://github.com/CodingJustForRun](https://github.com/CodingJustForRun)|
-|<img src="https://avatars.githubusercontent.com/u/23371663?v=4" alt="Samuel-0-0" data-size="line"> **Samuel-0-0**|[https://github.com/Samuel-0-0](https://github.com/Samuel-0-0)|
 |<img src="https://avatars.githubusercontent.com/u/48555545?v=4" alt="chai-md" data-size="line"> **chai-md**|[https://github.com/chai-md](https://github.com/chai-md)|
 |<img src="https://avatars.githubusercontent.com/u/26986716?v=4" alt="translucentfocus" data-size="line"> **translucentfocus**|[https://github.com/translucentfocus](https://github.com/translucentfocus)|
 |<img src="https://avatars.githubusercontent.com/u/12812702?v=4" alt="Birkemosen" data-size="line"> **Birkemosen**|[https://github.com/Birkemosen](https://github.com/Birkemosen)|
@@ -35,13 +35,13 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/152501?v=4" alt="vajonam" data-size="line"> **vajonam**|[https://github.com/vajonam](https://github.com/vajonam)|
 |<img src="https://avatars.githubusercontent.com/u/98190291?v=4" alt="Furrciak" data-size="line"> **Furrciak**|[https://github.com/Furrciak](https://github.com/Furrciak)|
 |<img src="https://avatars.githubusercontent.com/u/67276?v=4" alt="prcutler" data-size="line"> **prcutler**|[https://github.com/prcutler](https://github.com/prcutler)|
+|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
+|<img src="https://avatars.githubusercontent.com/u/11527277?v=4" alt="Daviteusz" data-size="line"> **Daviteusz**|[https://github.com/Daviteusz](https://github.com/Daviteusz)|
 |<img src="https://avatars.githubusercontent.com/u/19880109?v=4" alt="ded-doggo" data-size="line"> **ded-doggo**|[https://github.com/ded-doggo](https://github.com/ded-doggo)|
 |<img src="https://avatars.githubusercontent.com/u/10913183?v=4" alt="FrYakaTKoP" data-size="line"> **FrYakaTKoP**|[https://github.com/FrYakaTKoP](https://github.com/FrYakaTKoP)|
 |<img src="https://avatars.githubusercontent.com/u/43513802?v=4" alt="KwadFan" data-size="line"> **KwadFan**|[https://github.com/KwadFan](https://github.com/KwadFan)|
 |<img src="https://avatars.githubusercontent.com/u/85504?v=4" alt="pedrolamas" data-size="line"> **pedrolamas**|[https://github.com/pedrolamas](https://github.com/pedrolamas)|
 |<img src="https://avatars.githubusercontent.com/u/7727467?v=4" alt="randellhodges" data-size="line"> **randellhodges**|[https://github.com/randellhodges](https://github.com/randellhodges)|
-|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
-|<img src="https://avatars.githubusercontent.com/u/1850271?v=4" alt="goesta" data-size="line"> **goesta**|[https://github.com/goesta](https://github.com/goesta)|
 
 
 ## Licenses
