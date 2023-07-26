@@ -1,3 +1,9 @@
+---
+description: >-
+  Here you can find a list of known Klipper changes with a description of how to
+  fix them.
+---
+
 # Deprecated Options
 
 ### Removal of `relative_reference_index` <a href="#relative_reference_index" id="relative_reference_index"></a>
