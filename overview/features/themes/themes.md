@@ -113,3 +113,11 @@ Repository: [midikeyboard/vibrant-acryl-fluidd-mainsail-theme](https://www.githu
 
 ![](https://raw.githubusercontent.com/midikeyboard/vibrant-acryl-fluidd-mainsail-theme/master/screenshot.jpg)
 
+### Frosted Gray
+
+id: `13`\
+Author: [Xapu1337](https://www.github.com/Xapu1337/)\
+Repository: [Xapu1337/frosted-gray-mainsail-theme](https://www.github.com/Xapu1337/frosted-gray-mainsail-theme/)
+
+![](https://raw.githubusercontent.com/Xapu1337/frosted-gray-mainsail-theme/master/screenshot.jpg)
+
