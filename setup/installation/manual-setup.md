@@ -559,7 +559,7 @@ Now it should be possible to open the interface: `http://<printer-ip>/`.
 
 If you want the whole experience with Mainsail and Klipper `virtual_sdcard` print, you should use these macros or use them as templates for your own.
 
-[Macro Link](https://docs.mainsail.xyz/configuration)
+[Macro Link](https://docs.mainsail.xyz/setup/configuration)
 
 ### &#x20;Use hostname instead of IP to open Mainsail (optional) <a href="#change-the-hostname-optional" id="change-the-hostname-optional"></a>
 
