@@ -32,10 +32,10 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/12812702?v=4" alt="Birkemosen" data-size="line"> **Birkemosen**|[https://github.com/Birkemosen](https://github.com/Birkemosen)|
 |<img src="https://avatars.githubusercontent.com/u/88626902?v=4" alt="cgrossi70" data-size="line"> **cgrossi70**|[https://github.com/cgrossi70](https://github.com/cgrossi70)|
 |<img src="https://avatars.githubusercontent.com/u/39838619?v=4" alt="eliteSchwein" data-size="line"> **eliteSchwein**|[https://github.com/eliteSchwein](https://github.com/eliteSchwein)|
+|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
 |<img src="https://avatars.githubusercontent.com/u/152501?v=4" alt="vajonam" data-size="line"> **vajonam**|[https://github.com/vajonam](https://github.com/vajonam)|
 |<img src="https://avatars.githubusercontent.com/u/98190291?v=4" alt="Furrciak" data-size="line"> **Furrciak**|[https://github.com/Furrciak](https://github.com/Furrciak)|
 |<img src="https://avatars.githubusercontent.com/u/67276?v=4" alt="prcutler" data-size="line"> **prcutler**|[https://github.com/prcutler](https://github.com/prcutler)|
-|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
 |<img src="https://avatars.githubusercontent.com/u/11527277?v=4" alt="Daviteusz" data-size="line"> **Daviteusz**|[https://github.com/Daviteusz](https://github.com/Daviteusz)|
 |<img src="https://avatars.githubusercontent.com/u/19880109?v=4" alt="ded-doggo" data-size="line"> **ded-doggo**|[https://github.com/ded-doggo](https://github.com/ded-doggo)|
 |<img src="https://avatars.githubusercontent.com/u/10913183?v=4" alt="FrYakaTKoP" data-size="line"> **FrYakaTKoP**|[https://github.com/FrYakaTKoP](https://github.com/FrYakaTKoP)|
