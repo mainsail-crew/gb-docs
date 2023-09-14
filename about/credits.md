@@ -14,7 +14,7 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 
 | contributor | link |
 |:--------|:-----|
-|<img src="https://avatars.githubusercontent.com/u/31533186?v=4" alt="th33xitus" data-size="line"> **th33xitus**|[https://github.com/th33xitus](https://github.com/th33xitus)|
+|<img src="https://avatars.githubusercontent.com/u/31533186?v=4" alt="dw-0" data-size="line"> **dw-0**|[https://github.com/dw-0](https://github.com/dw-0)|
 |<img src="https://avatars.githubusercontent.com/u/5220632?v=4" alt="freasy" data-size="line"> **freasy**|[https://github.com/freasy](https://github.com/freasy)|
 |<img src="https://avatars.githubusercontent.com/u/5130466?v=4" alt="lixxbox" data-size="line"> **lixxbox**|[https://github.com/lixxbox](https://github.com/lixxbox)|
 |<img src="https://avatars.githubusercontent.com/u/3403851?v=4" alt="pataar" data-size="line"> **pataar**|[https://github.com/pataar](https://github.com/pataar)|
@@ -28,15 +28,15 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/12411803?v=4" alt="bartlammers" data-size="line"> **bartlammers**|[https://github.com/bartlammers](https://github.com/bartlammers)|
 |<img src="https://avatars.githubusercontent.com/u/71041835?v=4" alt="CodingJustForRun" data-size="line"> **CodingJustForRun**|[https://github.com/CodingJustForRun](https://github.com/CodingJustForRun)|
 |<img src="https://avatars.githubusercontent.com/u/48555545?v=4" alt="chai-md" data-size="line"> **chai-md**|[https://github.com/chai-md](https://github.com/chai-md)|
+|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
 |<img src="https://avatars.githubusercontent.com/u/26986716?v=4" alt="translucentfocus" data-size="line"> **translucentfocus**|[https://github.com/translucentfocus](https://github.com/translucentfocus)|
+|<img src="https://avatars.githubusercontent.com/u/11527277?v=4" alt="Daviteusz" data-size="line"> **Daviteusz**|[https://github.com/Daviteusz](https://github.com/Daviteusz)|
 |<img src="https://avatars.githubusercontent.com/u/12812702?v=4" alt="Birkemosen" data-size="line"> **Birkemosen**|[https://github.com/Birkemosen](https://github.com/Birkemosen)|
 |<img src="https://avatars.githubusercontent.com/u/88626902?v=4" alt="cgrossi70" data-size="line"> **cgrossi70**|[https://github.com/cgrossi70](https://github.com/cgrossi70)|
 |<img src="https://avatars.githubusercontent.com/u/39838619?v=4" alt="eliteSchwein" data-size="line"> **eliteSchwein**|[https://github.com/eliteSchwein](https://github.com/eliteSchwein)|
-|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
 |<img src="https://avatars.githubusercontent.com/u/152501?v=4" alt="vajonam" data-size="line"> **vajonam**|[https://github.com/vajonam](https://github.com/vajonam)|
 |<img src="https://avatars.githubusercontent.com/u/98190291?v=4" alt="Furrciak" data-size="line"> **Furrciak**|[https://github.com/Furrciak](https://github.com/Furrciak)|
 |<img src="https://avatars.githubusercontent.com/u/67276?v=4" alt="prcutler" data-size="line"> **prcutler**|[https://github.com/prcutler](https://github.com/prcutler)|
-|<img src="https://avatars.githubusercontent.com/u/11527277?v=4" alt="Daviteusz" data-size="line"> **Daviteusz**|[https://github.com/Daviteusz](https://github.com/Daviteusz)|
 |<img src="https://avatars.githubusercontent.com/u/19880109?v=4" alt="ded-doggo" data-size="line"> **ded-doggo**|[https://github.com/ded-doggo](https://github.com/ded-doggo)|
 |<img src="https://avatars.githubusercontent.com/u/10913183?v=4" alt="FrYakaTKoP" data-size="line"> **FrYakaTKoP**|[https://github.com/FrYakaTKoP](https://github.com/FrYakaTKoP)|
 |<img src="https://avatars.githubusercontent.com/u/43513802?v=4" alt="KwadFan" data-size="line"> **KwadFan**|[https://github.com/KwadFan](https://github.com/KwadFan)|
