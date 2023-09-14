@@ -85,5 +85,5 @@
 
 * [Github](https://github.com/mainsail-crew/mainsail)
 * [Release Notes](https://github.com/mainsail-crew/mainsail/releases)
-* [Discord](https://discord.gg/skWTwTD)
+* [Discord](https://discord.gg/mainsail)
 * [Youtube](https://www.youtube.com/c/Mainsail-Crew)
