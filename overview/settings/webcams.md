@@ -1,7 +1,7 @@
 ---
 description: >-
   In this tab you can connect mainsail with different webcam streamers. Some of
-  the webcam clients are provided by Crewsnest (Webcam streamer wrapper from the
+  the webcam clients are provided by Crowsnest (Webcam streamer wrapper from the
   Mainsail-Crew).
 ---
 
