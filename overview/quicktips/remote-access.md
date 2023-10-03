@@ -21,10 +21,12 @@ There are several options for sending status messages, some include additional f
 * **Moonraker:**
   * Moonraker has built-in [notification support](https://moonraker.readthedocs.io/en/latest/configuration/#notifier) for a variety of services via [Apprise](https://github.com/caronc/apprise).
 * [**Obico for Klipper**](https://obico.io/docs/user-guides/klipper-setup/)**:**
+  * Obico provides free full remote access to the Mainsail web interface from anywhere through a secure tunnel without the need for a VPN or port forwarding.
+  * You can get real-time webcam live feed and printer control using Obico’s mobile app for [iOS](https://apps.apple.com/ae/app/obico-for-octoprint-klipper/id1540646623) or [Android](https://play.google.com/store/apps/details?id=com.thespaghettidetective.android\&hl=en\_US\&gl=US) or in the browser.
   * Obico sends status messages as well as webcam snapshots to mobile push notification, Email, Telegram, Discord, and more.
-  * You can get the real-time webcam feed and printer control using Obico’s mobile app or in the browser.
-  * Obico also uses AI to detect print failures.
-* ****[**OctoEverywhere for Klipper**](https://octoeverywhere.com/?source=mainsail\_docs)****
+  * Formerly known as The Spaghetti Detective, Obico is the first and best AI print failure detection. Let AI watch your prints and alert you through your preferred channel or pause the print if something looks fishy.
+  * Obico is 100% open-source from the client to the server, including the AI failure detection. [Self-host Obico server vs. Use Obico cloud](https://www.obico.io/obico-cloud-vs-self-hosted.html)
+* [**OctoEverywhere for Klipper**](https://octoeverywhere.com/?source=mainsail\_docs)
   * OctoEverywhere’s free notification system sends real-time print status and webcam snapshots via push notifications, Discord, Telegram, Email, SMS, and more.
   * OctoEverywhere also provides free, private, and unlimited access to your full Mainsail web portal from anywhere, including full framerate webcam streaming.
   * [Gadget](https://octoeverywhere.com/gadget?source=mainsail\_docs), OctoEverywhere’s free and unlimited AI print failure detection, continuously watches your prints and alerts you or pauses the print if something is wrong.
