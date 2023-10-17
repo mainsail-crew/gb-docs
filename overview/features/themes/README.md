@@ -6,6 +6,6 @@ description: >-
 
 # Themes
 
-Start with the [Prepare](https://docs.mainsail.xyz/theming/prepare) section to create a basic structure for your own theme or take a look in [themes](https://docs.mainsail.xyz/theming/themes) to see if there are themes from the Mainsail community you would like to use or customize.
+Start with the [Prepare](prepare.md) section to create a basic structure for your own theme or take a look in [themes](themes.md) to see if there are themes from the Mainsail community you would like to use or customize.
 
 {% embed url="https://www.youtube.com/watch?v=kbSfLQtl4tA" %}
