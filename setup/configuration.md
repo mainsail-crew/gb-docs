@@ -64,7 +64,7 @@ gcode:
   ##### read extrude from  _TOOLHEAD_PARK_PAUSE_CANCEL  macro #####
 
 {% raw %}
-{% set extrude = printer['gcode_macro _TOOLHEAD_PARK_PAUSE_CANCEL'].extrude %}
+  {% set extrude = printer['gcode_macro _TOOLHEAD_PARK_PAUSE_CANCEL'].extrude %}
   #### get VELOCITY parameter if specified ####
   {% if 'VELOCITY' in params|upper %}
     {% set get_params = ('VELOCITY=' + params.VELOCITY)  %}
@@ -94,7 +94,7 @@ gcode:
   ## Move head and retract only if not already in the pause state and park set to true
 
 {% raw %}
-{% if printer.pause_resume.is_paused|lower == 'false' and park|lower == 'true'%}
+  {% if printer.pause_resume.is_paused|lower == 'false' and park|lower == 'true'%}
     _TOOLHEAD_PARK_PAUSE_CANCEL
   {% endif %}
 {% endraw %}
@@ -113,7 +113,7 @@ gcode:
   # default is your max posion from your printer.cfg
 
 {% raw %}
-{% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+  {% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
   {% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
   {% set z_park_delta = 2.0 %}
   ##### calculate save lift position #####
