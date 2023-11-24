@@ -27,9 +27,11 @@ There are several options for sending status messages, some include additional f
   * Formerly known as The Spaghetti Detective, Obico is the first and best AI print failure detection. Let AI watch your prints and alert you through your preferred channel or pause the print if something looks fishy.
   * Obico is 100% open-source from the client to the server, including the AI failure detection. [Self-host Obico server vs. Use Obico cloud](https://www.obico.io/obico-cloud-vs-self-hosted.html)
 * [**OctoEverywhere for Klipper**](https://octoeverywhere.com/?source=mainsail\_docs)
-  * OctoEverywhere’s free notification system sends real-time print status and webcam snapshots via push notifications, Discord, Telegram, Email, SMS, and more.
-  * OctoEverywhere also provides free, private, and unlimited access to your full Mainsail web portal from anywhere, including full framerate webcam streaming.
-  * [Gadget](https://octoeverywhere.com/gadget?source=mainsail\_docs), OctoEverywhere’s free and unlimited AI print failure detection, continuously watches your prints and alerts you or pauses the print if something is wrong.
+  * Free, secure, and unlimited remote access to your full Mainsail web interface built by the maker community. Trusted by over 145k makers, our worldwide server network provides instant loading and full-frame rate webcam streaming while keeping your access secure and private.
+  * [Gadget](https://octoeverywhere.com/gadget?source=mainsail\_docs), OctoEverywhere's free and unlimited AI print failure detection, uses next-generation computer vision AI models to continuously watch your prints and alert you or pause them if something is wrong.
+  * OctoEverywhere empowers your [favorite iOS or Android apps](https://octoeverywhere.com/appsetup?source=mainsail\_docs&klipper=true) with remote access from anywhere, including full-frame rate webcam streaming.
+  * OctoEverywhere's [notification engine](https://octoeverywhere.com/notifications?source=mainsail\_docs) keeps you up-to-date with your prints, sending real-time stats and full-resolution webcam images where you want them: Email, SMS, Push Notifications, Discord, Telegram, Webhooks, and more.
+  * With 15+ free features, a [4.9/5.0 rating](https://www.trustpilot.com/review/octoeverywhere.com), and a vibrant project community, OctoEverywhere's mission is to empower the worldwide maker community to print better with free cloud tools.
 * **Telegram:**
   * [Moonraker-telegram-bot](https://github.com/nlef/moonraker-telegram-bot) by nlef is a bot that provides you status updates using the Telegram messaging service.
   * [Moonraker-telegram](https://github.com/Raabi91/moonraker-telegram) by Raabi91 is a bot that also brings you status updates using the chat app Telegram.
@@ -68,7 +70,7 @@ What you **could do**:
 
 OctoEverywhere empowers the worldwide maker community with free, secure, and unlimited remote access to their entire Mainsail web UI from anywhere, including full resolution and frame rate webcam streaming.
 
-OctoEverywhere is a community-based project with the goal of cloud-empowering 3D printers worldwide. Along with remote access, OctoEverywhere provides free and unlimited [AI print failure detection,](https://octoeverywhere.com/gadget?source=mainsail\_docs\_remote) 3rd party Moonraker app support, real-time print notifications, live streaming, secure shared remote access, and more!
+OctoEverywhere is a community-based project with the goal of cloud-empowering 3D printers worldwide. Along with remote access, OctoEverywhere provides free and unlimited [AI print failure detection](https://octoeverywhere.com/gadget?source=mainsail\_docs\_remote), [community Moonraker app support](https://octoeverywhere.com/appsetup?source=mainsail\_docs&klipper=true), real-time [print notifications](https://octoeverywhere.com/notifications?source=mainsail\_docs), live streaming, secure shared remote access, and more!
 
 * [Learn More About OctoEverywhere](https://octoeverywhere.com/?source=mainsail\_docs\_remote)
 
