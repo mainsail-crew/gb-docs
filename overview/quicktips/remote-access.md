@@ -31,7 +31,6 @@ There are several options for sending status messages, some include additional f
   * [Gadget](https://octoeverywhere.com/gadget?source=mainsail\_docs), OctoEverywhere's free and unlimited AI print failure detection, uses next-generation computer vision AI models to continuously watch your prints and alert you or pause them if something is wrong.
   * OctoEverywhere empowers your [favorite iOS or Android apps](https://octoeverywhere.com/appsetup?source=mainsail\_docs&klipper=true) with remote access from anywhere, including full-frame rate webcam streaming.
   * OctoEverywhere's [notification engine](https://octoeverywhere.com/notifications?source=mainsail\_docs) keeps you up-to-date with your prints, sending real-time stats and full-resolution webcam images where you want them: Email, SMS, Push Notifications, Discord, Telegram, Webhooks, and more.
-  * With 15+ free features, a [4.9/5.0 rating](https://www.trustpilot.com/review/octoeverywhere.com), and a vibrant project community, OctoEverywhere's mission is to empower the worldwide maker community to print better with free cloud tools.
 * **Telegram:**
   * [Moonraker-telegram-bot](https://github.com/nlef/moonraker-telegram-bot) by nlef is a bot that provides you status updates using the Telegram messaging service.
   * [Moonraker-telegram](https://github.com/Raabi91/moonraker-telegram) by Raabi91 is a bot that also brings you status updates using the chat app Telegram.
