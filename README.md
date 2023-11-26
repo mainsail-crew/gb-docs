@@ -24,7 +24,7 @@ coverY: 0
 
 <figure><img src=".gitbook/assets/screenshot.png" alt=""><figcaption><p>Screenshot Dashboard (Mobile &#x26; Desktop)</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Heightmap, G-code viewer, Farm mode</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Heightmap, G-code viewer, Farm mode</p></figcaption></figure>
 
 ## Features
 
