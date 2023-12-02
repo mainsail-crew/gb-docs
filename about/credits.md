@@ -16,8 +16,8 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |:--------|:-----|
 |<img src="https://avatars.githubusercontent.com/u/31533186?v=4" alt="dw-0" data-size="line"> **dw-0**|[https://github.com/dw-0](https://github.com/dw-0)|
 |<img src="https://avatars.githubusercontent.com/u/5220632?v=4" alt="freasy" data-size="line"> **freasy**|[https://github.com/freasy](https://github.com/freasy)|
-|<img src="https://avatars.githubusercontent.com/u/3403851?v=4" alt="pataar" data-size="line"> **pataar**|[https://github.com/pataar](https://github.com/pataar)|
 |<img src="https://avatars.githubusercontent.com/u/5130466?v=4" alt="lixxbox" data-size="line"> **lixxbox**|[https://github.com/lixxbox](https://github.com/lixxbox)|
+|<img src="https://avatars.githubusercontent.com/u/3403851?v=4" alt="pataar" data-size="line"> **pataar**|[https://github.com/pataar](https://github.com/pataar)|
 |<img src="https://avatars.githubusercontent.com/u/12520045?v=4" alt="Sindarius" data-size="line"> **Sindarius**|[https://github.com/Sindarius](https://github.com/Sindarius)|
 |<img src="https://avatars.githubusercontent.com/u/9819264?v=4" alt="winbin" data-size="line"> **winbin**|[https://github.com/winbin](https://github.com/winbin)|
 |<img src="https://avatars.githubusercontent.com/u/21110785?v=4" alt="le3tspeak" data-size="line"> **le3tspeak**|[https://github.com/le3tspeak](https://github.com/le3tspeak)|
@@ -39,9 +39,9 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/67276?v=4" alt="prcutler" data-size="line"> **prcutler**|[https://github.com/prcutler](https://github.com/prcutler)|
 |<img src="https://avatars.githubusercontent.com/u/19880109?v=4" alt="ded-doggo" data-size="line"> **ded-doggo**|[https://github.com/ded-doggo](https://github.com/ded-doggo)|
 |<img src="https://avatars.githubusercontent.com/u/10913183?v=4" alt="FrYakaTKoP" data-size="line"> **FrYakaTKoP**|[https://github.com/FrYakaTKoP](https://github.com/FrYakaTKoP)|
-|<img src="https://avatars.githubusercontent.com/u/148391189?v=4" alt="Bahoue" data-size="line"> **Bahoue**|[https://github.com/Bahoue](https://github.com/Bahoue)|
 |<img src="https://avatars.githubusercontent.com/u/43513802?v=4" alt="KwadFan" data-size="line"> **KwadFan**|[https://github.com/KwadFan](https://github.com/KwadFan)|
 |<img src="https://avatars.githubusercontent.com/u/85504?v=4" alt="pedrolamas" data-size="line"> **pedrolamas**|[https://github.com/pedrolamas](https://github.com/pedrolamas)|
+|<img src="https://avatars.githubusercontent.com/u/7727467?v=4" alt="randellhodges" data-size="line"> **randellhodges**|[https://github.com/randellhodges](https://github.com/randellhodges)|
 
 
 ## Licenses
