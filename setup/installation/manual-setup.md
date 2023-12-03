@@ -1,9 +1,20 @@
+---
+description: >-
+  This page contains step-by-step instructions on how to manually install
+  Mainsail on a Raspberry Pi. Manual installation is slightly more complex than
+  using a pre-built image, but more flexible.
+---
+
 # Manual setup
 
 ## Operating System <a href="#operating-system" id="operating-system"></a>
 
 {% hint style="warning" %}
 Please do **not** use an OctoPi image, as it can cause unforeseen (avoidable) problems.
+{% endhint %}
+
+{% hint style="warning" %}
+_Please check and modify the username, if you do not use the user pi, you have to replace it in each path and in the variable User in the service files._
 {% endhint %}
 
 {% hint style="info" %}
