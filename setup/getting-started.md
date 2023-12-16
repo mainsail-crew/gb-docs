@@ -12,8 +12,8 @@ _<mark style="color:red;">recommended for Raspberry Pi users</mark>_
 
 MainsailOS is a prebuilt image for single board computers that already includes Mainsail, Moonraker and Klipper. The least amount of setup.
 
-{% content-ref url="http://127.0.0.1:5000/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/" %}
-[MainsailOS](http://127.0.0.1:5000/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)
+{% content-ref url="https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/" %}
+[MainsailOS](https://app.gitbook.com/o/O2j4rN2JOaGEeS1KBjXz/s/HZGYoL7ogomNyBLNEpEJ/)
 {% endcontent-ref %}
 
 ### KIAUH - _Klipper Installation And Update Helper_

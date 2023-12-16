@@ -1,10 +1,3 @@
----
-description: >-
-  This page contains step-by-step instructions on how to manually install
-  Mainsail on a Raspberry Pi. Manual installation is slightly more complex than
-  using a pre-built image, but more flexible.
----
-
 # Manual setup
 
 ## Operating System <a href="#operating-system" id="operating-system"></a>
