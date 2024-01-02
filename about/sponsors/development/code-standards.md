@@ -19,7 +19,7 @@ Add this integration by:
 
 So it looks like this:
 
-![](../../.gitbook/assets/prettier-config-jetbrains.png)
+![](../../../.gitbook/assets/prettier-config-jetbrains.png)
 
 ### VSCode <a href="#vscode" id="vscode"></a>
 

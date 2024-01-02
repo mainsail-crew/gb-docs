@@ -60,10 +60,6 @@
   * [Additional Sensors](overview/quicktips/additional-sensors.md)
   * [Disable Octoprint LCD menu](overview/quicktips/disable-octoprint-lcd-menu.md)
   * [config.json](overview/quicktips/config.json.md)
-* [Development](overview/development/README.md)
-  * [Code standards](overview/development/code-standards.md)
-  * [Environment](overview/development/environment.md)
-  * [Localization](overview/development/localization.md)
 
 ## FAQ
 
@@ -75,11 +71,18 @@
   * [PolicyKit Permissions](faq/moonraker\_warnings/policykit-permissions.md)
 * [Klipper errors](faq/klipper\_errors/README.md)
   * [Command format mismatch](faq/klipper\_errors/command-format-mismatch.md)
+* [Getting Help](faq/getting-help/README.md)
+  * [Discord](faq/getting-help/discord.md)
+  * [GitHub Discussions](faq/getting-help/github-discussions.md)
 
 ## About
 
 * [Data Privacy](about/data-privacy.md)
-* [Sponsors](about/sponsors.md)
+* [Sponsors](about/sponsors/README.md)
+  * [Development](about/sponsors/development/README.md)
+    * [Code standards](about/sponsors/development/code-standards.md)
+    * [Environment](about/sponsors/development/environment.md)
+    * [Localization](about/sponsors/development/localization.md)
 * [Credits](about/credits.md)
 
 ## 🔗 Links
