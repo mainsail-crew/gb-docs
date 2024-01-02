@@ -23,8 +23,8 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/21110785?v=4" alt="le3tspeak" data-size="line"> **le3tspeak**|[https://github.com/le3tspeak](https://github.com/le3tspeak)|
 |<img src="https://avatars.githubusercontent.com/u/36079537?v=4" alt="steadyjaw" data-size="line"> **steadyjaw**|[https://github.com/steadyjaw](https://github.com/steadyjaw)|
 |<img src="https://avatars.githubusercontent.com/u/23371663?v=4" alt="Samuel-0-0" data-size="line"> **Samuel-0-0**|[https://github.com/Samuel-0-0](https://github.com/Samuel-0-0)|
-|<img src="https://avatars.githubusercontent.com/u/11527277?v=4" alt="Daviteusz" data-size="line"> **Daviteusz**|[https://github.com/Daviteusz](https://github.com/Daviteusz)|
 |<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
+|<img src="https://avatars.githubusercontent.com/u/11527277?v=4" alt="Daviteusz" data-size="line"> **Daviteusz**|[https://github.com/Daviteusz](https://github.com/Daviteusz)|
 |<img src="https://avatars.githubusercontent.com/u/92088582?v=4" alt="srbjessen" data-size="line"> **srbjessen**|[https://github.com/srbjessen](https://github.com/srbjessen)|
 |<img src="https://avatars.githubusercontent.com/u/50421769?v=4" alt="ZISQO" data-size="line"> **ZISQO**|[https://github.com/ZISQO](https://github.com/ZISQO)|
 |<img src="https://avatars.githubusercontent.com/u/12411803?v=4" alt="bartlammers" data-size="line"> **bartlammers**|[https://github.com/bartlammers](https://github.com/bartlammers)|
