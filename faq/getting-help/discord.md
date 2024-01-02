@@ -15,9 +15,9 @@ We are trying our best to support everyone to satisfaction but we are just human
 
 ## Rules
 
-### Is your issue connected to some part of the Mainsail universe or from a third-party?
+### Subject of the issue
 
-As already explained before, we cannot know everything. The main focus of the support is for following programs:
+Is your issue connected to some part of the Mainsail universe or from a third-party. As already explained before, we cannot know everything. The main focus of the support is for following programs:
 
 * [Mainsail](https://github.com/mainsail-crew/mainsail)
 * [MainsailOS](https://github.com/mainsail-crew/MainsailOS)
@@ -45,7 +45,7 @@ All other questions regarding third-party programs and third-party macros should
 
 The chat area of the Mainsail Discord should be used only for chatting. If you need help with a topic open a post inside the support-forum. Don't hesitate to open a post even for small problems.
 
-### Choose a good post name and the correct tag
+### Good post name and the correct tag
 
 Choosing a good name for your post and only the correct tag, will make it easier for others to know what your issue is about.\
 \
@@ -67,7 +67,7 @@ Choose only one tag best suited for your problem!
 Configuration problems or errors from your printer doesn't have anything to do with Mainsail. Mainsail is just the messenger showing you that problem. _**Don't shoot the messenger!**_
 {% endhint %}
 
-### Upload logs and give as much information as possible
+### Provide information
 
 Always upload logs and/or pictures of the corresponding software and/or problem. Give detailed informations on when this problem occured and maybe what you already tried to fix it. There is nothing like too much information.
 
@@ -79,7 +79,7 @@ Everyone supporting, it doesn't matter if part of the crew or one of the communi
 Don't ask in multiple places at the same time. Getting help on multiple ends for the same problem will make it more difficult and time consuming for everyone.
 {% endhint %}
 
-## Open your post and get your issue resolved
+## Open your post
 
 If you read through all of this, you should be ready to join our [Discord](https://discord.gg/mainsail) and open a post for your issue inside the **support-forum**. If your issue is resolved, please close the post again. More information for this can be found inside the **readme** channel.
 
