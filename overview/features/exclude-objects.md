@@ -22,7 +22,7 @@ At first, you have to double-check the `G-code flavor` in:
 Printer Settings > General > Firmware > G-code flavor
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Printer Settings > General > Firmware (since v2.7.0)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Printer Settings > General > Firmware (since v2.7.0)</p></figcaption></figure>
 
 Next step, have to change the `Label Objects` setting to `Firmware-specific` in:
 
@@ -30,7 +30,7 @@ Next step, have to change the `Label Objects` setting to `Firmware-specific` in:
 Print Settings > Output options > Output file > Label objects
 ```
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Print Settings > Output options > Output file (since v2.7.0)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Print Settings > Output options > Output file (since v2.7.0)</p></figcaption></figure>
 
 ## Before PrusaSlicer v2.7.0
 

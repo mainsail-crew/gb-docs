@@ -2,11 +2,11 @@
 
 ### Thumbnail (since v2.7.0)
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt="Thumbnail from PrusaSlicer"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt="Thumbnail from PrusaSlicer"><figcaption></figcaption></figure>
 
 In "Expert" mode PrusaSlicer has an option in the "Printer Settings" tab to activate previews. Under `General / Firmware`, enter `32x32/PNG,400x300/PNG` as "G-code thumbnails".
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Printer Settings > General > Firmware (since v2.7.0)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Printer Settings > General > Firmware (since v2.7.0)</p></figcaption></figure>
 
 ### Thumbnail (since v2.3.0)
 
@@ -20,7 +20,7 @@ In PrusaSlicer you have to select `Firmware-specific` in:
 Print Settings > Output options > Output file > Label objects
 ```
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Print Settings > Output options > Output file (since v2.7.0)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Print Settings > Output options > Output file (since v2.7.0)</p></figcaption></figure>
 
 This setting will enable Exclude Object
 
@@ -28,7 +28,7 @@ This setting will enable Exclude Object
 
 Enable advanced or expert mode and change the options under `Printer Settings > General` as shown in the screenshot below. A “Physical Printer” must be configured in `Printer Settings > General`.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### Best practise G-codes
 

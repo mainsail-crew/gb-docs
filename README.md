@@ -16,15 +16,15 @@ coverY: 0
 
 ## Getting started
 
-{% content-ref url="setup/getting-started.md" %}
-[getting-started.md](setup/getting-started.md)
+{% content-ref url="setup/getting-started/" %}
+[getting-started](setup/getting-started/)
 {% endcontent-ref %}
 
 ## Screenshots
 
 <figure><img src=".gitbook/assets/screenshot.png" alt=""><figcaption><p>Screenshot Dashboard (Mobile &#x26; Desktop)</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Heightmap, G-code viewer, Farm mode</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Heightmap, G-code viewer, Farm mode</p></figcaption></figure>
 
 ## Features
 

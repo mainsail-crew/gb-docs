@@ -4,14 +4,14 @@
 
 ## Setup
 
-* [Installation](setup/getting-started.md)
+* [Installation](setup/getting-started/README.md)
   * [MainsailOS](https://docs-os.mainsail.xyz/)
-  * [KIAUH](setup/installation/kiauh.md)
-  * [Docker](setup/installation/docker.md)
-  * [Manual setup](setup/installation/manual-setup.md)
-  * [my.mainsail.xyz](setup/installation/my.mainsail.xyz.md)
-* [Updates](setup/updates.md)
-  * [Update Manager](overview/features/update-manager.md)
+  * [KIAUH](setup/getting-started/kiauh.md)
+  * [Docker](setup/getting-started/docker.md)
+  * [Manual setup](setup/getting-started/manual-setup.md)
+  * [my.mainsail.xyz](setup/getting-started/my.mainsail.xyz.md)
+* [Updates](setup/updates/README.md)
+  * [Update Manager](setup/updates/update-manager.md)
   * [Manual Update](setup/updates/manual-update.md)
 * [Configuration](setup/configuration.md)
 
@@ -53,7 +53,7 @@
   * [Ideamaker](overview/slicer/ideamaker.md)
   * [PrusaSlicer](overview/slicer/prusaslicer.md)
   * [SuperSlicer](overview/slicer/superslicer.md)
-* [Quicktips](overview/quicktips.md)
+* [Quicktips](overview/quicktips/README.md)
   * [Slicer upload](overview/quicktips/slicer-upload.md)
   * [Remote Access](overview/quicktips/remote-access.md)
   * [Printer power switch](overview/quicktips/printer-power-switch.md)
@@ -78,11 +78,11 @@
 ## About
 
 * [Data Privacy](about/data-privacy.md)
-* [Sponsors](about/sponsors/README.md)
-  * [Development](about/sponsors/development/README.md)
-    * [Code standards](about/sponsors/development/code-standards.md)
-    * [Environment](about/sponsors/development/environment.md)
-    * [Localization](about/sponsors/development/localization.md)
+* [Sponsors](about/sponsors.md)
+* [Development](about/development/README.md)
+  * [Code standards](about/development/code-standards.md)
+  * [Environment](about/development/environment.md)
+  * [Localization](about/development/localization.md)
 * [Credits](about/credits.md)
 
 ## 🔗 Links

@@ -4,7 +4,7 @@ description: With this config, you can switch the printer comfortably on and off
 
 # Printer power switch
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Printer is powered off panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Printer is powered off panel</p></figcaption></figure>
 
 You must configure your Moonraker power device with the following settings to get this panel instead of the Klipper error.
 

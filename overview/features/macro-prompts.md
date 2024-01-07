@@ -7,7 +7,7 @@ description: >-
 
 # Macro Prompts
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt="Example Filament Runout Prompt"><figcaption><p>Example: Filament runout prompt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt="Example Filament Runout Prompt"><figcaption><p>Example: Filament runout prompt</p></figcaption></figure>
 
 {% hint style="warning" %}
 This feature needs the `[respond]` module of Klipper. So please check if this is enabled in your Klipper config.
@@ -35,7 +35,7 @@ With this command, you can add a button in the prompt.
 * `<gcode?>`: This attribute is optional to add a different G-Code to this button. (Default is the label text)
 * `<color?>`: This attribute is optional and will change the color of the button. Possible options are `primary`, `secondary`, `info`, `warning`, `error`. (Default is dark gray)
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Example of all button colors</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>Example of all button colors</p></figcaption></figure>
 
 ### // action:prompt\_button\_group\_start
 
@@ -53,7 +53,7 @@ With this command, you can add a button in the footer of the prompt.
 * `<gcode?>`: This attribute is optional to add a different G-Code to this button. (Default is the label text)
 * `<color?>`: This attribute is optional and will change the color of the button. Possible options are `primary`, `secondary`, `info`, `warning`, `error`. (Default is white)
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Example of footer buttons</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p>Example of footer buttons</p></figcaption></figure>
 
 ### // action:prompt\_show
 

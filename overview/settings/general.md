@@ -2,7 +2,7 @@
 
 Go to the [settings](./) and select the General category.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>General settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>General settings</p></figcaption></figure>
 
 ## Printer Name
 

@@ -2,7 +2,7 @@
 
 Go to the [settings](./) and select the UI-Settings category.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>UI-Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>UI-Settings</p></figcaption></figure>
 
 ### Logo
 

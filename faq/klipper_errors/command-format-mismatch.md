@@ -2,7 +2,7 @@
 
 You have updated Klipper and now you get this cryptic error message?
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 This is an error and needs to be fixed to make Mainsail and Klipper work again.

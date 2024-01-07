@@ -9,11 +9,11 @@ description: >-
 
 Go to the [settings](./) and select the Webcam category. In this view, you can add new webcams, or edit and remove existing ones.
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Webcam Settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Webcam Settings</p></figcaption></figure>
 
 While adding or editing a webcam, you will see the following screen.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Add Webcam form</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Add Webcam form</p></figcaption></figure>
 
 ### Preview
 

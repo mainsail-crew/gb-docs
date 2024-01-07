@@ -81,8 +81,6 @@ Don't ask in multiple places at the same time. Getting help on multiple ends for
 
 ## Open your post
 
-If you read through all of this, you should be ready to join our [Discord](https://discord.gg/mainsail) and open a post for your issue inside the **support-forum**. If your issue is resolved, please close the post again. More information for this can be found inside the **readme** channel.
+If you read through all of this, you should be ready to join our Discord and open a post for your issue inside the **support-forum**. If your issue is resolved, please close the post again. More information for this can be found inside the **readme** channel.
 
-{% embed url="http://discord.mainsail.xyz/" %}
-Link to Discord
-{% endembed %}
+[**Mainsail Discord**](https://discord.gg/mainsail)

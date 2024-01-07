@@ -2,6 +2,6 @@
 
 Go to the [settings](./) and select the G-Code Viewer category.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>G-code viewer settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption><p>G-code viewer settings</p></figcaption></figure>
 
 Here you can change all colors of the G-code viewer and other Settings.

@@ -25,7 +25,7 @@ This is the behavior of mainsail when you use e.g. [my.mainsail.xyz](http://my.m
 
 To use this mode, open the `config.json` and change the value `instancesDB` to `browser`. If you now open Mainsail, you should see this dialog.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Mainsail Remote Mode select printer dialog</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Mainsail Remote Mode select printer dialog</p></figcaption></figure>
 
 In this mode, the socket settings are saved in the browser and you can add as many printers as you like to the Mainsail session using the "add printer" button.
 
@@ -49,7 +49,7 @@ To use this mode, you have to switch the `instancesDB` to `json`, and then you a
 
 In my example, 3 printers are added with the IP and with the default Moonraker port 7125. When I now open Mainsail, it looks like this:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 In my example, you can see that the first two printers are already connected and the third one has not been reached until now (it is currently switched off). For the first two printers, the name has also been loaded from the interface settings.
 

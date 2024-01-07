@@ -26,7 +26,7 @@ A separate webcam entry can be added to the navigation. This can be configured i
 
 In case of more than one webcam is configured on a printer, all cameras are displayed in an overview. However, it is also possible to switch to a single camera, using the drop-down menu in the panel header.
 
-![](<../../.gitbook/assets/grafik (2).png>)
+![](<../../.gitbook/assets/grafik (1).png>)
 
 ## Settings
 
