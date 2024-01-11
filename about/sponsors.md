@@ -8,13 +8,13 @@ description: >-
 
 ## Official Mainboard Partner
 
-<figure><img src="../.gitbook/assets/btt-logo.png" alt=""><figcaption><p>BigTreeTech</p></figcaption></figure>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>BigTreeTech</strong></td><td><a href="https://www.bigtree-tech.com">www.bigtree-tech.com</a></td><td><a href="../.gitbook/assets/BigTreeTech (1).png">BigTreeTech (1).png</a></td></tr></tbody></table>
 
-**BIGTREETECH** is the official mainboard partner of Mainsail. BIGTREETECH is committed to developing innovative and competitive products to better serve the 3D printing community. Follow them on [Facebook](https://www.facebook.com/BIGTREETECH) or [Twitter](https://twitter.com/BigTreeTech).
+**BIGTREETECH** is the official mainboard partner of Mainsail. BIGTREETECH is committed to developing innovative and competitive products to serve the 3D printing community better. Follow them on [Facebook](https://www.facebook.com/BIGTREETECH) or [Twitter](https://twitter.com/BigTreeTech).
 
 ## Vendor Partners
 
-These vendors support us financially to develop Mainsail. If you are also a vendor and use Mainsail on the 3D printers you sell, we would be happy if you also support us via [Patreon](https://www.patreon.com/meteyou/) or directly.
+These vendors support us financially in developing Mainsail. If you are also a vendor and use Mainsail on the 3D printers you sell, we would be happy if you also support us via [Patreon](https://www.patreon.com/meteyou/) or directly.
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Prusa Research</strong></td><td><a href="https://www.prusa3d.com/">https://www.prusa3d.com/</a></td><td><a href="../.gitbook/assets/PrusaResearch.png">PrusaResearch.png</a></td></tr><tr><td><strong>Multec GmbH</strong></td><td><a href="https://multec.de/">https://multec.de/</a></td><td><a href="../.gitbook/assets/Multec.png">Multec.png</a></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
