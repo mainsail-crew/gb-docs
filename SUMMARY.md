@@ -70,7 +70,7 @@
 * [Moonraker warnings](faq/moonraker\_warnings/README.md)
   * [PolicyKit Permissions](faq/moonraker\_warnings/policykit-permissions.md)
 * [Klipper errors](faq/klipper\_errors/README.md)
-  * [Command format mismatch](faq/klipper\_errors/command-format-mismatch.md)
+  * [MCU Protocol error](faq/klipper\_errors/command-format-mismatch.md)
 * [Getting Help](faq/getting-help/README.md)
   * [Discord](faq/getting-help/discord.md)
   * [GitHub Discussions](faq/getting-help/github-discussions.md)
