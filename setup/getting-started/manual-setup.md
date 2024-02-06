@@ -105,11 +105,9 @@ fill in these lines:
 Description=Klipper 3D Printer Firmware SV1
 Documentation=https://www.klipper3d.org/
 After=network-online.target
-Before=moonraker.service
 Wants=udev.target
 
 [Install]
-Alias=klippy
 WantedBy=multi-user.target
 
 [Service]
