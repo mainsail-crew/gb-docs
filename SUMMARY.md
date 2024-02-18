@@ -28,6 +28,7 @@
   * [Macro Prompts](overview/features/macro-prompts.md)
   * [Presets](overview/features/presets.md)
   * [Print History and Statistics](overview/features/print-history-and-statistics.md)
+  * [Query devices](overview/features/query-devices.md)
   * [Themes](overview/features/themes/README.md)
     * [Prepare](overview/features/themes/prepare.md)
     * [Backgrounds](overview/features/themes/backgrounds.md)
