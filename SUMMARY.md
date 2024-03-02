@@ -60,7 +60,7 @@
   * [Printer power switch](overview/quicktips/printer-power-switch.md)
   * [Additional Sensors](overview/quicktips/additional-sensors.md)
   * [Disable Octoprint LCD menu](overview/quicktips/disable-octoprint-lcd-menu.md)
-  * [config.json](overview/quicktips/config.json.md)
+  * [config.json](overview/quicktips/config-json.md)
 
 ## FAQ
 
