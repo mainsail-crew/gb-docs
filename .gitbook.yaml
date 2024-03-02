@@ -3,5 +3,5 @@ root: ./
 redirects:
   setup/mainsail-os: setup/getting-started.md
   theming/themes: overview/features/themes/themes.md
-  remotemode: overview/quicktips/config.json.md#remote-mode
+  remotemode: overview/quicktips/config.json#remote-mode
   configuration: setup/configuration.md
