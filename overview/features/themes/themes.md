@@ -8,7 +8,7 @@ description: A collection of community themes for Mainsail.
 
 Below is a list of community created themes.
 
-To install a theme, click on the repository link to get to the corresponding Github repository. There you can download the files as .zip and place them in your `.theme` folder according to [the instructions in the Preparing your theme section](prepare.md).
+To install a theme, click on the repository link to get to the corresponding Github repository. There you can download the files as .zip and place them in your `.theme` folder according to [the instructions in the Preparing your theme section](https://docs.mainsail.xyz/theming/prepare#directory-structure).
 
 {% hint style="info" %}
 [KIAUH](https://docs.mainsail.xyz/setup/kiauh) has an integrated theme installer.\
@@ -120,3 +120,12 @@ Author: [Xapu1337](https://www.github.com/Xapu1337/)\
 Repository: [Xapu1337/frosted-gray-mainsail-theme](https://www.github.com/Xapu1337/frosted-gray-mainsail-theme/)
 
 ![](https://raw.githubusercontent.com/Xapu1337/frosted-gray-mainsail-theme/master/screenshot.jpg)
+
+### Pink Pastel
+
+id: `14`\
+Author: [midikeyboard](https://www.github.com/midikeyboard/)\
+Repository: [midikeyboard/pink-acryl-fluidd-mainsail-theme](https://www.github.com/midikeyboard/pink-acryl-fluidd-mainsail-theme/)
+
+![](https://raw.githubusercontent.com/midikeyboard/pink-acryl-fluidd-mainsail-theme/master/screenshot.jpg)
+
