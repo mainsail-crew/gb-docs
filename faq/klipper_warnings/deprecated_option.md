@@ -91,4 +91,4 @@ The above description was provided by our community member [FHeilmann](https://g
 
 ### Removal of `max_accel_to_decel` <a href="#max_accel_to_decel" id="max_accel_to_decel"></a>
 
-The `max_accel_to_decel` option has been deprecated and superceded by the `minimum_cruise_ratio` option. Refer to the printer section documentation for details on how to update the configuration. The `max_accel_to_decel` can be deleted in most cases, as the default value of `minimum_cruise_ratio` should fit for most of the printers.
+The `max_accel_to_decel` option has been deprecated and superceded by the `minimum_cruise_ratio` option. Refer to the [printer section documentation](https://www.klipper3d.org/Config\_Reference.html#printer) for details on how to update the configuration. The `max_accel_to_decel` can be deleted in most cases, as the default value of `minimum_cruise_ratio` should fit for most of the printers.
