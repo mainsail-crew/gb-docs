@@ -89,6 +89,6 @@ mcu: mcu
 The above description was provided by our community member [FHeilmann](https://github.com/FHeilmann) and we have his permission to publish it here. Thanks a lot! [Source](https://gist.github.com/FHeilmann/a8097b3e908e85de7255bbe6246ddfd5)
 {% endhint %}
 
-{% hint style="info" %}
-The above description was provided by our community member [FHeilmann](https://github.com/FHeilmann) and we have his permission to publish it here. Thanks a lot! [Source](https://gist.github.com/FHeilmann/a8097b3e908e85de7255bbe6246ddfd5)
-{% endhint %}
+### Removal of `max_accel_to_decel` <a href="#max_accel_to_decel" id="max_accel_to_decel"></a>
+
+The `max_accel_to_decel` option has been deprecated and superceded by the `minimum_cruise_ratio` option. Refer to the printer section documentation for details on how to update the configuration. The `max_accel_to_decel` can be deleted in most cases, as the default value of `minimum_cruise_ratio` should fit for most of the printers.
