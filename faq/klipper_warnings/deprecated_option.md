@@ -89,10 +89,6 @@ mcu: mcu
 The above description was provided by our community member [FHeilmann](https://github.com/FHeilmann) and we have his permission to publish it here. Thanks a lot! [Source](https://gist.github.com/FHeilmann/a8097b3e908e85de7255bbe6246ddfd5)
 {% endhint %}
 
-### Removal of `pid_integral_max` <a href="#pid_integral_max" id="pid_integral_max"></a>
-
-Remove any instances of `pid_integral_max` from your config.
-
 {% hint style="info" %}
 The above description was provided by our community member [FHeilmann](https://github.com/FHeilmann) and we have his permission to publish it here. Thanks a lot! [Source](https://gist.github.com/FHeilmann/a8097b3e908e85de7255bbe6246ddfd5)
 {% endhint %}
