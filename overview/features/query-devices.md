@@ -1,7 +1,8 @@
 ---
 description: >-
   Mainsail can list different CAN / Serial / USB / Video devices to find the
-  right hardware path for your config.
+  right hardware path for your config. Open any config file in the editor and a
+  Devices button will be available at the top.
 ---
 
 # Query devices
