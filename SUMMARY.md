@@ -68,6 +68,7 @@
 * [Klipper warnings](faq/klipper\_warnings/README.md)
   * [Deprecated Values](faq/klipper\_warnings/deprecated\_value.md)
   * [Deprecated Options](faq/klipper\_warnings/deprecated\_option.md)
+  * [Runtime Warning](faq/klipper\_warnings/runtime-warning.md)
 * [Moonraker warnings](faq/moonraker\_warnings/README.md)
   * [PolicyKit Permissions](faq/moonraker\_warnings/policykit-permissions.md)
 * [Klipper errors](faq/klipper\_errors/README.md)
