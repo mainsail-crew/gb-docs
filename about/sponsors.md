@@ -22,7 +22,7 @@ These vendors support us financially in developing Mainsail. If you are also a v
 
 These companies support us with free licenses to develop open-source software.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>GitBook</strong></td><td><a href="../.gitbook/assets/Gitbook-white.png">Gitbook-white.png</a></td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td></tr><tr><td><strong>JetBrains</strong></td><td><a href="../.gitbook/assets/Jetbrains.png">Jetbrains.png</a></td><td><a href="https://www.jetbrains.com/">https://www.jetbrains.com/</a></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>BrowserStack</strong></td><td><a href="../.gitbook/assets/BrowserStack.png">BrowserStack.png</a></td><td><a href="https://www.browserstack.com/">https://www.browserstack.com/</a></td></tr><tr><td><strong>GitBook</strong></td><td><a href="../.gitbook/assets/Gitbook-white.png">Gitbook-white.png</a></td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td></tr><tr><td><strong>JetBrains</strong></td><td><a href="../.gitbook/assets/Jetbrains.png">Jetbrains.png</a></td><td><a href="https://www.jetbrains.com/">https://www.jetbrains.com/</a></td></tr></tbody></table>
 
 ## Support Mainsail
 
