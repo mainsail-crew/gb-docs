@@ -1,6 +1,6 @@
 # Cura
 
-### Thumbnail
+## Thumbnail
 
 {% hint style="info" %}
 If you're using the Moonraker Connection plugin for Cura, you can skip these steps. This plugin includes a feature for the generation of thumbnails. 
@@ -16,7 +16,7 @@ It is important for this size to be a square, with equal size on both length and
 
 <figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-### Direct G-code upload
+## Direct G-code upload
 
 Install the [Moonraker Connection](https://marketplace.ultimaker.com/app/cura/plugins/emtrax/MoonrakerConnection) plugin by [Emtrax](https://github.com/emtrax-ltd) using the Ultimaker Marketplace.
 
@@ -35,7 +35,7 @@ Next, configure the plugin's parameters in Cura:
 
 <figure><img src="../../.gitbook/assets/cura_moonraker-connection_configuration-window.jpg" alt="Moonraker Connection configuration window in Cura"><figcaption>Moonraker Connection configuration window in Cura</figcaption></figure>
 
-### Best practise G-codes
+## Best practise G-codes
 
 In Cura, there is a straightforward solution to add custom G-codes. Pedro Lamas has developed an excellent post-processing script for including the necessary custom G-codes.
 
