@@ -8,7 +8,7 @@ description: >-
 
 ## Official Mainboard Partner
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>BigTreeTech</strong></td><td><a href="https://www.bigtree-tech.com">www.bigtree-tech.com</a></td><td><a href="../.gitbook/assets/BigTreeTech (1).png">BigTreeTech (1).png</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>BigTreeTech</strong></td><td><a href="https://bigtree-tech.com">https://bigtree-tech.com</a></td><td><a href="../.gitbook/assets/BigTreeTech (1).png">BigTreeTech (1).png</a></td></tr></tbody></table>
 
 **BIGTREETECH** is the official mainboard partner of Mainsail. BIGTREETECH is committed to developing innovative and competitive products to serve the 3D printing community better. Follow them on [Facebook](https://www.facebook.com/BIGTREETECH) or [Twitter](https://twitter.com/BigTreeTech).
 
