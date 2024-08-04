@@ -19,6 +19,10 @@ For more information on creating and uploading to your `.theme` folder, please r
 
 ![](../../../.gitbook/assets/screenshot-sidebar-logo.png)
 
+{% hint style="info" %}
+If you use a SVG, you can use "var(--color-logo, #000000)" as fill color, to use the logo color from the interface settings.
+{% endhint %}
+
 ## Favicons <a href="#favicons" id="favicons"></a>
 
 Upload favicons into your .theme folder and name them `favicon-32x32.png` _(required)_ and `favicon-16x16.png` _(optional)_.
