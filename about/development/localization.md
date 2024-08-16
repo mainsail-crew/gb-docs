@@ -12,6 +12,12 @@ You can contribute in a couple of different ways:
 
 If you have a finished translation file, you can make a [PR (pull request)](https://github.com/mainsail-crew/mainsail/pulls) on Github or create an [issue](https://github.com/mainsail-crew/mainsail/issues) on Github and attach the translation.
 
+### Translate via Webtool - Weblate
+
+Weblate is a web based translation tool with tight version control integration. It features a simple and clean user interface, propagation of translations across components, quality checks and automatic linking to source files. [Click here to go to Weblate.](https://hosted.weblate.org/engage/mainsail/)
+
+<figure><img src="https://hosted.weblate.org/widget/Mainsail/horizontal-auto.svg" alt="" width="375"><figcaption><p>Current translation state</p></figcaption></figure>
+
 ## Testing <a href="#testing" id="testing"></a>
 
 #### Test your translations live <a href="#test-your-translations-live" id="test-your-translations-live"></a>
