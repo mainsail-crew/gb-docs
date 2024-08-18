@@ -85,6 +85,7 @@
 * [Sponsors](about/sponsors.md)
 * [Development](about/development/README.md)
   * [Code standards](about/development/code-standards.md)
+  * [Contribute](about/development/contribute.md)
   * [Environment](about/development/environment.md)
   * [Localization](about/development/localization.md)
 * [Credits](about/credits.md)
