@@ -31,12 +31,12 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/71041835?v=4" alt="CodingJustForRun" data-size="line"> **CodingJustForRun**|[https://github.com/CodingJustForRun](https://github.com/CodingJustForRun)|
 |<img src="https://avatars.githubusercontent.com/u/48555545?v=4" alt="chai-md" data-size="line"> **chai-md**|[https://github.com/chai-md](https://github.com/chai-md)|
 |<img src="https://avatars.githubusercontent.com/u/26986716?v=4" alt="translucentfocus" data-size="line"> **translucentfocus**|[https://github.com/translucentfocus](https://github.com/translucentfocus)|
-|<img src="https://avatars.githubusercontent.com/u/12812702?v=4" alt="Birkemosen" data-size="line"> **Birkemosen**|[https://github.com/Birkemosen](https://github.com/Birkemosen)|
-|<img src="https://avatars.githubusercontent.com/u/4425221?v=4" alt="mdziekon" data-size="line"> **mdziekon**|[https://github.com/mdziekon](https://github.com/mdziekon)|
 |<img src="https://avatars.githubusercontent.com/u/88626902?v=4" alt="cgrossi70" data-size="line"> **cgrossi70**|[https://github.com/cgrossi70](https://github.com/cgrossi70)|
-|<img src="https://avatars.githubusercontent.com/u/152501?v=4" alt="vajonam" data-size="line"> **vajonam**|[https://github.com/vajonam](https://github.com/vajonam)|
-|<img src="https://avatars.githubusercontent.com/u/45207681?v=4" alt="rackrick" data-size="line"> **rackrick**|[https://github.com/rackrick](https://github.com/rackrick)|
+|<img src="https://avatars.githubusercontent.com/u/4425221?v=4" alt="mdziekon" data-size="line"> **mdziekon**|[https://github.com/mdziekon](https://github.com/mdziekon)|
+|<img src="https://avatars.githubusercontent.com/u/12812702?v=4" alt="Birkemosen" data-size="line"> **Birkemosen**|[https://github.com/Birkemosen](https://github.com/Birkemosen)|
 |<img src="https://avatars.githubusercontent.com/u/39838619?v=4" alt="eliteSchwein" data-size="line"> **eliteSchwein**|[https://github.com/eliteSchwein](https://github.com/eliteSchwein)|
+|<img src="https://avatars.githubusercontent.com/u/45207681?v=4" alt="rackrick" data-size="line"> **rackrick**|[https://github.com/rackrick](https://github.com/rackrick)|
+|<img src="https://avatars.githubusercontent.com/u/152501?v=4" alt="vajonam" data-size="line"> **vajonam**|[https://github.com/vajonam](https://github.com/vajonam)|
 |<img src="https://avatars.githubusercontent.com/u/98190291?v=4" alt="Radiowski" data-size="line"> **Radiowski**|[https://github.com/Radiowski](https://github.com/Radiowski)|
 |<img src="https://avatars.githubusercontent.com/u/67276?v=4" alt="prcutler" data-size="line"> **prcutler**|[https://github.com/prcutler](https://github.com/prcutler)|
 |<img src="https://avatars.githubusercontent.com/u/10913183?v=4" alt="FrYakaTKoP" data-size="line"> **FrYakaTKoP**|[https://github.com/FrYakaTKoP](https://github.com/FrYakaTKoP)|
