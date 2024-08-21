@@ -80,7 +80,7 @@ Then we can initialize the python virtual environment and install the python dep
 
 ### &#x20;Configuration & startup service <a href="#configuration--startup-service" id="configuration--startup-service"></a>
 
-After Klipper is installed, you will need to create the file structure vor Klipper & Moonraker.
+After Klipper is installed, you will need to create the file structure for Klipper & Moonraker.
 
 ```bash
 mkdir ~/printer_data/
