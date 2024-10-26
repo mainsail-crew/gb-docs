@@ -9,7 +9,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/Mainsail-Unauthorized.png" alt=""><figcaption><p>Connection failed dialog with Error message Unauthorized</p></figcaption></figure>
 
-Moonraker uses the `trusted_clients` list in the `[authorization]` section of its configuration to specify IP addresses authorized to connect to the API. You need to identify the allowed IP range and add it to this list. To check which IP addresses are requesting access to Moonraker, you can review the `moonraker.log` file. Lock at the end of the `moonraker.log` file (this file should be located at `~/printer_data/logs/moonraker.log`) and you should find these lines:
+Moonraker uses the `trusted_clients` list in the `[authorization]` section of its configuration to specify IP addresses authorized to connect to the API. You need to identify the allowed IP range and add it to this list. To check which IP addresses are requesting access to Moonraker, you can review the `moonraker.log` file. Look at the end of the `moonraker.log` file (this file should be located at `~/printer_data/logs/moonraker.log`) and you should find these lines:
 
 ```
 2024-10-26 18:18:43,340 [application.py:log_request()] - 101 GET /websocket (192.168.0.31) [No User] 9.56ms
@@ -18,9 +18,9 @@ Moonraker uses the `trusted_clients` list in the `[authorization]` section of it
 2024-10-26 18:18:53,496 [websockets.py:on_close()] - Websocket Closed: ID: 281473655837840 Close Code: None, Close Reason: None, Pong Time Elapsed: 0.15
 ```
 
-In the first line, you can see the client IP that attempted to connect. In this case, the IP address is `192.168.0.31`. If you want to allow the entire IP range, you can add `192.168.0.0/24` to the `trusted_clients` list. This will permit all clients with IPs from `192.168.0.0` to `192.168.0.255` to connect to Moonraker.
+In the first line, you can see the client IP that attempted to connect. In this case, the IP address is `192.168.0.31`.
 
-Now you need to add the IP or IP range to the `moonraker.conf` file. You can do this via SSH or using an SFTP program (such as FileZilla). The `[authorization]` section should now look like this:
+Next, you need to add the IP address or IP range to the `moonraker.conf` file. To allow an entire network, use [CIDR notation](https://cidr.xyz/) in the configuration file. For the example IP range above, enter `192.168.0.0/24`, which will permit all clients with IPs from `192.168.0.1` to `192.168.0.254` to connect to Moonraker. You can make these changes via SSH or by using an SFTP program like FileZilla. The `[authorization]` section should now look like this:
 
 ```yaml
 [authorization]
@@ -35,7 +35,5 @@ trusted_clients:
 cors_domains:
     *.lan
     *.local
-    *://localhost
-    *://localhost:*
     *://my.mainsail.xyz
 ```
