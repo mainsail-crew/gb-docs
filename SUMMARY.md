@@ -75,6 +75,8 @@
   * [PolicyKit Permissions](faq/moonraker\_warnings/policykit-permissions.md)
 * [Klipper errors](faq/klipper\_errors/README.md)
   * [MCU Protocol error](faq/klipper\_errors/command-format-mismatch.md)
+* [Mainsail errors](faq/mainsail\_errors/README.md)
+  * [Unauthorized](faq/mainsail\_errors/unauthorized.md)
 * [Getting Help](faq/getting-help/README.md)
   * [Discord](faq/getting-help/discord.md)
   * [GitHub Discussions](faq/getting-help/github-discussions.md)
