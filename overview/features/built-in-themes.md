@@ -1,16 +1,16 @@
 ---
 description: >-
-  Build-in themes are pre-designed themes. They provide users with a quick and
+  Built-in themes are pre-designed themes. They provide users with a quick and
   easy way to customize the look and feel of their interface without having to
   create a design from scratch.
 ---
 
-# Build-in Themes
+# Built-in Themes
 
-In Mainsail, there are two groups that are permitted to have build-in themes. The first group consists of all vendor sponsors, who receive exclusive themes as a recognition of their support. The second group includes large open source communities.&#x20;
+In Mainsail, there are two groups that are permitted to have built-in themes. The first group consists of all vendor sponsors, who receive exclusive themes as a recognition of their support. The second group includes large open source communities.&#x20;
 
 {% hint style="info" %}
-If you are a maintainer of a large open-source 3d printing project, please contact the Mainsail crew on the Discord server for a build-in theme.
+If you are a maintainer of a large open-source 3d printing project, please contact the Mainsail crew on the Discord server for a built-in theme.
 {% endhint %}
 
 ### Change theme in Mainsail
@@ -31,7 +31,7 @@ The following themes are currently available in Mainsail:
 * Prusa Research (Sponsor)
 * YUMI (Sponsor)
 
-### Possible options in Build-in themes
+### Possible options in Built-in themes
 
 * Sidebar Logo (colorizeable in the UI-Settings)
 * Primary Color

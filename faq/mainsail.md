@@ -4,10 +4,10 @@
 
 * **Estimate**\
   The remaining time is calculated based on configurable factors, from which the average is derived.\
-  Available factors_: File, Filament (see below)_
+  Available factor&#x73;_: File, Filament (see below)_
 * **Slicer**\
   The remaining time is determined taking into account the total printing time of the slicer.\
-  _(see below: factor slicer)_
+  &#xNAN;_(see below: factor slicer)_
 * **Print**\
   Print time is the elapsed time since the first G-code movement. This usually does not include heating time or other preparations.
 * **Total**\
@@ -15,7 +15,7 @@
 *   **ETA (estimated time of arrival)**\
     The expected time of print completion. Based on configurable factors, from which the average is derived.
 
-    Available factors_: File, Slicer, Filament (see below)_
+    Available factor&#x73;_: File, Slicer, Filament (see below)_
 
 ### Calculation Factors <a href="#faktoren" id="faktoren"></a>
 
