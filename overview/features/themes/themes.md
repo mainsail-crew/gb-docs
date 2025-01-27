@@ -129,3 +129,11 @@ Repository: [midikeyboard/pink-acryl-fluidd-mainsail-theme](https://www.github.c
 
 ![](https://raw.githubusercontent.com/midikeyboard/pink-acryl-fluidd-mainsail-theme/master/screenshot.jpg)
 
+### Green Acryl
+
+id: `15`\
+Author: [tui2019](https://www.github.com/tui2019/)\
+Repository: [tui2019/Mainsail-Green-Acryl](https://www.github.com/tui2019/Mainsail-Green-Acryl/)
+
+![](https://raw.githubusercontent.com/tui2019/Mainsail-Green-Acryl/master/screenshot.jpg)
+
