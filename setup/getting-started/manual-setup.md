@@ -555,6 +555,13 @@ cd ~/mainsail
 wget -q -O mainsail.zip https://github.com/mainsail-crew/mainsail/releases/latest/download/mainsail.zip && unzip mainsail.zip && rm mainsail.zip
 ```
 
+### &#x20;Set file permissions for nginx <a href="#nginx-permissions" id="nginx-permissions"></a>
+We need to grant nginx access to the mainsail files
+```bash
+sudo chmod o+x /home/pi
+```
+
+
 Now it should be possible to open the interface: `http://<printer-ip>/`.
 
 ### &#x20;Important macros <a href="#important-macros" id="important-macros"></a>
