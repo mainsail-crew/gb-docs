@@ -14,17 +14,24 @@ _Please check and modify the username, if you do not use the user pi, you have t
 Don’t forget to enable SSH and configure a network if using Wi-Fi.
 {% endhint %}
 
-It is recommended to use a clean [Raspberry Pi OS 32-bit Lite](https://downloads.raspberrypi.org/raspios\_lite\_armhf\_latest) image. If you don't use a Raspberry Pi as SBC, every default Debian Buster / Bullseye (recommended) should also fit with this guide.
+It is recommended to use a clean [Raspberry Pi OS 64-bit Lite](https://downloads.raspberrypi.org/raspios_lite_arm64_latest) image. If you don't use a Raspberry Pi as SBC, every default Debian Bullseye / Bookworm (recommended) should also fit with this guide.
 
 We recommend you follow the Raspberry Pi OS official [documentation](https://www.raspberrypi.org/documentation/installation/installing-images/) to flash and install the operating system to your SD card.
 
 Once you have finished the installation and are connected via SSH, you can continue.
 
-### &#x20;Requirements <a href="#requirements" id="requirements"></a>
+### Requirements <a href="#requirements" id="requirements"></a>
 
 Install the required packages and update the system:
 
 {% tabs %}
+{% tab title="Debian 12 (Bookworm)" %}
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install git unzip
+```
+{% endtab %}
+
 {% tab title="Debian 11 (Bullseye)" %}
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -42,11 +49,19 @@ sudo apt install git unzip
 
 ## Klipper <a href="#klipper" id="klipper"></a>
 
-### &#x20;Installation <a href="#installation" id="installation"></a>
+### Installation <a href="#installation" id="installation"></a>
 
 At first we have to install some OS dependencies:
 
 {% tabs %}
+{% tab title="Debian 12 (Bookworm)" %}
+{% code overflow="wrap" %}
+```bash
+sudo apt install python3-virtualenv python3-dev python3-dev libffi-dev build-essential libncurses-dev avrdude gcc-avr binutils-avr avr-libc stm32flash dfu-util libnewlib-arm-none-eabi gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0-0 libusb-1.0-0-dev
+```
+{% endcode %}
+{% endtab %}
+
 {% tab title="Debian 11 (Bullseye)" %}
 {% code overflow="wrap" %}
 ```bash
@@ -68,7 +83,7 @@ The following commands will clone Klipper to an appropriate directory in HOME.
 
 ```bash
 cd ~
-git clone https://github.com/KevinOConnor/klipper
+git clone https://github.com/Klipper3d/klipper
 ```
 
 Then we can initialize the python virtual environment and install the python dependencies:
@@ -78,7 +93,7 @@ Then we can initialize the python virtual environment and install the python dep
 </strong>./klippy-env/bin/pip install -r ./klipper/scripts/klippy-requirements.txt
 </code></pre>
 
-### &#x20;Configuration & startup service <a href="#configuration--startup-service" id="configuration--startup-service"></a>
+### Configuration & startup service <a href="#configuration--startup-service" id="configuration--startup-service"></a>
 
 After Klipper is installed, you will need to create the file structure for Klipper & Moonraker.
 
@@ -156,11 +171,19 @@ After your config is in place, restart Klipper with `sudo systemctl start klippe
 
 Moonraker is a web server that exposes APIs which lets Mainsail interact with Klipper.
 
-### &#x20;Installation <a href="#installation" id="installation"></a>
+### Installation <a href="#installation" id="installation"></a>
 
 At first we have to install some OS dependencies:
 
 {% tabs %}
+{% tab title="Debian 12 (Bookworm)" %}
+{% code overflow="wrap" %}
+```bash
+sudo apt install python3-virtualenv python3-dev libopenjp2-7 python3-libgpiod curl libcurl4-openssl-dev libssl-dev liblmdb-dev libsodium-dev zlib1g-dev libjpeg-dev packagekit wireless-tools
+```
+{% endcode %}
+{% endtab %}
+
 {% tab title="Debian 11 (Bullseye)" %}
 {% code overflow="wrap" %}
 ```bash
@@ -193,7 +216,7 @@ virtualenv -p python3 ./moonraker-env
 ./moonraker-env/bin/pip install -r ./moonraker/scripts/moonraker-requirements.txt
 ```
 
-### &#x20;Configuration <a href="#configuration" id="configuration"></a>
+### Configuration <a href="#configuration" id="configuration"></a>
 
 {% hint style="warning" %}
 **Please pay attention to the following steps!**\
@@ -202,7 +225,9 @@ A very common source of errors are improperly configured `trusted_clients`.
 
 For Moonraker you’ll need to create a separate config file.
 
-`nano ~/printer_data/config/moonraker.conf`
+```bash
+nano ~/printer_data/config/moonraker.conf
+```
 
 Insert the following part:
 
@@ -269,7 +294,7 @@ For example, an entry of 192.168.1.0/24 will authorize IP addresses in the range
 
 Save the file with `CTRL+O` and close the editor with `CTRL+X`.
 
-### &#x20;Startup service <a href="#startup-service" id="startup-service"></a>
+### Startup service <a href="#startup-service" id="startup-service"></a>
 
 To edit this file type:
 
@@ -353,7 +378,7 @@ If everything has been set up successfully, a message like this should appear:
 
 ## Mainsail <a href="#mainsail" id="mainsail"></a>
 
-### &#x20;Install web server & reverse proxy (NGINX) <a href="#install-web-server--reverse-proxy-nginx" id="install-web-server--reverse-proxy-nginx"></a>
+### Install web server & reverse proxy (NGINX) <a href="#install-web-server--reverse-proxy-nginx" id="install-web-server--reverse-proxy-nginx"></a>
 
 NGINX is important to mount all components on port 80 and host the static files from Mainsail. To install NGINX you only need to execute:
 
@@ -546,7 +571,7 @@ Now you can recheck the API to see if it works with the reverse proxy. Open the 
 
 Now we can install Mainsail.
 
-### &#x20;Install `httpdocs` <a href="#install-httpdocs" id="install-httpdocs"></a>
+### Install `httpdocs` <a href="#install-httpdocs" id="install-httpdocs"></a>
 
 Now you can download the current Mainsail static data.
 
@@ -557,13 +582,24 @@ wget -q -O mainsail.zip https://github.com/mainsail-crew/mainsail/releases/lates
 
 Now it should be possible to open the interface: `http://<printer-ip>/`.
 
-### &#x20;Important macros <a href="#important-macros" id="important-macros"></a>
+{% hint style="warning" %}
+With **Debian 12 (Bookworm)** you have to add the correct user rights. Execute these lines to add the www-data user to the pi group and set executeable rights to the home directory:
+
+```bash
+sudo gpasswd -a www-data pi
+sudo chmod g+x /home/pi
+```
+
+Change the username `pi`, if you changed it or use a different default username.
+{% endhint %}
+
+## Important macros
 
 If you want the whole experience with Mainsail and Klipper `virtual_sdcard` print, you should use these macros or use them as templates for your own.
 
 [Macro Link](https://docs.mainsail.xyz/setup/configuration)
 
-### &#x20;Use hostname instead of IP to open Mainsail (optional) <a href="#change-the-hostname-optional" id="change-the-hostname-optional"></a>
+## Use hostname instead of IP to open Mainsail (optional) <a href="#change-the-hostname-optional" id="change-the-hostname-optional"></a>
 
 To use the hostname instate of the IP, you can install the avahi-daemon:
 
