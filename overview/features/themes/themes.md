@@ -137,3 +137,11 @@ Repository: [tui2019/Mainsail-Green-Acryl](https://www.github.com/tui2019/Mainsa
 
 ![](https://raw.githubusercontent.com/tui2019/Mainsail-Green-Acryl/master/screenshot.jpg)
 
+### Printables
+
+id: `16`\
+Author: [8bitmcu](https://www.github.com/8bitmcu/)\
+Repository: [8bitmcu/mainsail-printables](https://www.github.com/8bitmcu/mainsail-printables/)
+
+![](https://raw.githubusercontent.com/8bitmcu/mainsail-printables/master/screenshot.jpg)
+
