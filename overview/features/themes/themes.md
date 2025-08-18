@@ -145,3 +145,8 @@ Repository: [8bitmcu/mainsail-printables](https://www.github.com/8bitmcu/mainsai
 
 ![](https://raw.githubusercontent.com/8bitmcu/mainsail-printables/master/screenshot.jpg)
 
+### Catppuccin
+
+id: `17`\
+Author: [hahagu](https://www.github.com/hahagu)\
+Repository: [hahagu/catppuccin-mocha-mainsail-theme](https://github.com/hahagu/catppuccin-mocha-mainsail-theme)
