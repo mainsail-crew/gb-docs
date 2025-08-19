@@ -144,4 +144,3 @@ Author: [8bitmcu](https://www.github.com/8bitmcu/)\
 Repository: [8bitmcu/mainsail-printables](https://www.github.com/8bitmcu/mainsail-printables/)
 
 ![](https://raw.githubusercontent.com/8bitmcu/mainsail-printables/master/screenshot.jpg)
-
