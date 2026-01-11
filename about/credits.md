@@ -19,11 +19,12 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/3403851?v=4" alt="pataar" data-size="line"> **pataar**|[https://github.com/pataar](https://github.com/pataar)|
 |<img src="https://avatars.githubusercontent.com/u/5130466?v=4" alt="lixxbox" data-size="line"> **lixxbox**|[https://github.com/lixxbox](https://github.com/lixxbox)|
 |<img src="https://avatars.githubusercontent.com/u/12520045?v=4" alt="Sindarius" data-size="line"> **Sindarius**|[https://github.com/Sindarius](https://github.com/Sindarius)|
+|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
 |<img src="https://avatars.githubusercontent.com/u/9819264?v=4" alt="winbin" data-size="line"> **winbin**|[https://github.com/winbin](https://github.com/winbin)|
 |<img src="https://avatars.githubusercontent.com/u/21110785?v=4" alt="le3tspeak" data-size="line"> **le3tspeak**|[https://github.com/le3tspeak](https://github.com/le3tspeak)|
-|<img src="https://avatars.githubusercontent.com/in/15368?v=4" alt="github-actions[bot]" data-size="line"> **github-actions[bot]**|[https://github.com/apps/github-actions](https://github.com/apps/github-actions)|
 |<img src="https://avatars.githubusercontent.com/u/23371663?v=4" alt="Samuel-0-0" data-size="line"> **Samuel-0-0**|[https://github.com/Samuel-0-0](https://github.com/Samuel-0-0)|
 |<img src="https://avatars.githubusercontent.com/u/36079537?v=4" alt="steadyjaw" data-size="line"> **steadyjaw**|[https://github.com/steadyjaw](https://github.com/steadyjaw)|
+|<img src="https://avatars.githubusercontent.com/u/32878385?v=4" alt="moggieuk" data-size="line"> **moggieuk**|[https://github.com/moggieuk](https://github.com/moggieuk)|
 |<img src="https://avatars.githubusercontent.com/u/92088582?v=4" alt="srbjessen" data-size="line"> **srbjessen**|[https://github.com/srbjessen](https://github.com/srbjessen)|
 |<img src="https://avatars.githubusercontent.com/u/11527277?v=4" alt="juliazero" data-size="line"> **juliazero**|[https://github.com/juliazero](https://github.com/juliazero)|
 |<img src="https://avatars.githubusercontent.com/u/50421769?v=4" alt="ZISQO" data-size="line"> **ZISQO**|[https://github.com/ZISQO](https://github.com/ZISQO)|
@@ -41,7 +42,6 @@ We would like to thank the projects Mainsail is built on, especially [Klipper](h
 |<img src="https://avatars.githubusercontent.com/u/10913183?v=4" alt="FrYakaTKoP" data-size="line"> **FrYakaTKoP**|[https://github.com/FrYakaTKoP](https://github.com/FrYakaTKoP)|
 |<img src="https://avatars.githubusercontent.com/u/19880109?v=4" alt="ded-doggo" data-size="line"> **ded-doggo**|[https://github.com/ded-doggo](https://github.com/ded-doggo)|
 |<img src="https://avatars.githubusercontent.com/u/67276?v=4" alt="prcutler" data-size="line"> **prcutler**|[https://github.com/prcutler](https://github.com/prcutler)|
-|<img src="https://avatars.githubusercontent.com/u/98190291?v=4" alt="Radiowski" data-size="line"> **Radiowski**|[https://github.com/Radiowski](https://github.com/Radiowski)|
 
 
 ## Licenses
